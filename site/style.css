@@ -1,0 +1,346 @@
+:root {
+  color-scheme: dark;
+  --bg: #121212;
+  --panel: #1a1a1a;
+  --line: #343434;
+  --text: #ededed;
+  --muted: #a6a6a6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.55 system-ui,sans-serif;
+}
+
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  max-width: 840px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px;
+}
+
+h1 {
+  font-size: 21px;
+  font-weight: 650;
+  margin: 0;
+  letter-spacing: -.5px;
+}
+
+button, select {
+  font: inherit;
+  color: inherit;
+  background: #222;
+  border: 1px solid #444;
+  border-radius: 6px;
+  padding: 9px 11px;
+}
+
+button, summary, select {
+  cursor: pointer;
+}
+
+button:focus-visible, summary:focus-visible, select:focus-visible, a:focus-visible {
+  outline: 2px solid #b7c9e9;
+  outline-offset: 3px;
+}
+
+.icon-button {
+  background: transparent;
+  border: 0;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  flex: none;
+}
+
+.icon-button:hover {
+  background: #252525;
+}
+
+.icon-button svg {
+  width: 23px;
+  height: 23px;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  fill: none;
+  stroke-linecap: round;
+}
+
+main, .page-meta, footer {
+  max-width: 840px;
+  margin: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.page-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  justify-content: space-between;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+#active-filters {
+  overflow-wrap: anywhere;
+}
+
+.religion-group {
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  overflow: hidden;
+  margin: 0 0 24px;
+}
+
+.religion-title {
+  background: #242424;
+  padding: 14px 16px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+h2 {
+  font-size: 20px;
+  margin: 0;
+  font-weight: 650;
+}
+
+.collection-group {
+  padding: 16px;
+}
+
+.collection-group + .collection-group {
+  border-top: 1px solid var(--line);
+}
+
+h3 {
+  margin: 0 0 13px;
+  font-size: 17px;
+  font-weight: 650;
+}
+
+.book-group + .book-group {
+  margin-top: 22px;
+}
+
+h4 {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+details.entry {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  margin: 0 0 8px;
+  overflow: hidden;
+}
+
+details.entry:last-child {
+  margin-bottom: 0;
+}
+
+.entry summary {
+  list-style: none;
+  position: relative;
+  padding: 12px 35px 12px 13px;
+  overflow-wrap: anywhere;
+}
+
+.entry summary::-webkit-details-marker {
+  display: none;
+}
+
+.entry summary:after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-right: 1.5px solid #aaa;
+  border-bottom: 1.5px solid #aaa;
+  transform: rotate(-45deg);
+  position: absolute;
+  right: 16px;
+  top: 21px;
+}
+
+.entry[open] summary:after {
+  transform: rotate(45deg);
+}
+
+.entry summary:hover {
+  background: #222;
+}
+
+.entry summary strong {
+  display: block;
+  font-size: 15px;
+  color: #f2f2f2;
+}
+
+.description {
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 4px;
+}
+
+.expanded {
+  border-top: 1px solid var(--line);
+  padding: 13px;
+}
+
+.verse {
+  white-space: pre-wrap;
+  margin: 8px 0 14px;
+  overflow-wrap: anywhere;
+  font-size: 15px;
+}
+
+a {
+  color: #b3c9eb;
+  overflow-wrap: anywhere;
+}
+
+.sources {
+  padding-left: 20px;
+  margin: 5px 0 10px;
+  font-size: 14px;
+}
+
+.sources li {
+  padding: 3px 0;
+}
+
+footer {
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+
+footer summary {
+  cursor: pointer;
+}
+
+dialog {
+  background: var(--panel);
+  color: var(--text);
+  border: 0;
+  border-right: 1px solid var(--line);
+  margin: 0 auto 0 0;
+  padding: 0;
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: min(330px, 90vw);
+  max-width: none;
+  height: 100%;
+  height: 100dvh;
+  max-height: none;
+  overflow-y: auto;
+}
+
+dialog:not([open]) {
+  display: none;
+}
+
+dialog[open] {
+  animation: slide-in 180ms ease-out;
+}
+
+dialog::backdrop {
+  background: rgba(0,0,0,.6);
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion:reduce) {
+  dialog[open] {
+    animation: none;
+  }
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.drawer-header h2 {
+  font-size: 18px;
+}
+
+.drawer-content {
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+}
+
+select {
+  display: block;
+  width: 100%;
+  margin-top: 7px;
+  min-height: 44px;
+}
+
+@media (max-width:520px) {
+  .header-inner {
+    padding: 8px 12px;
+  }
+  main,.page-meta,footer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .collection-group {
+    padding: 12px;
+  }
+  .religion-title {
+    padding: 12px;
+  }
+}

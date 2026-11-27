@@ -1,0 +1,14 @@
+# Generated website data and deployment output
+/generated/
+/dist/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.venv/
+
+# Optional development tooling
+node_modules/
+.DS_Store
+Thumbs.db
