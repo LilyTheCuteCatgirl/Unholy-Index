@@ -124,7 +124,10 @@ function formatBibleVerses(verses, chapter, start, end) {
       verses.some((v, i) => v.chapter !== chapter || v.verse !== start + i ||
         typeof v.text !== 'string' || !v.text.trim()))
     throw Error('Incomplete or mismatched verse range');
-  return verses.map(v => `${v.chapter}:${v.verse}  ${v.text.trim()}`).join('\n\n');
+  return verses.map(v => ({
+    number: `${v.chapter}:${v.verse}`,
+    text: v.text.trim(),
+  }));
 }
 
 async function readBible(e, language) {
@@ -142,14 +145,14 @@ async function readBible(e, language) {
     return {
       edition: 'Louis Segond (1910) - GetBible',
       language: 'fr',
-      text: formatBibleVerses(verses, chapter, start, end),
+      verses: formatBibleVerses(verses, chapter, start, end),
     };
   }
   const data = await getJSON('https://bible-api.com/' + encodeURIComponent(e.reference) + '?translation=web');
   return {
     edition: data.translation_name || 'World English Bible',
     language: 'en',
-    text: formatBibleVerses(data.verses, chapter, start, end),
+    verses: formatBibleVerses(data.verses, chapter, start, end),
   };
 }
 
@@ -179,12 +182,15 @@ async function read(e, language = LANG) {
           !verses || verses.length !== b - a + 1 ||
           verses.some((v, i) => v.numberInSurah !== a + i || typeof v.text !== 'string' || !v.text.trim()))
         throw Error('Incomplete or mismatched verse range');
-      parts.push(...verses.map(v => c + ':' + v.numberInSurah + '  ' + v.text));
+      parts.push(...verses.map(v => ({
+        number: `${c}:${v.numberInSurah}`,
+        text: v.text.trim(),
+      })));
     }
     return {
       edition: language === 'fr' ? 'Muhammad Hamidullah - Al Quran Cloud' : 'Pickthall - Al Quran Cloud',
       language,
-      text: parts.join('\n\n'),
+      verses: parts,
     };
   }
   if (e.hadithAPI) {
@@ -203,6 +209,21 @@ async function read(e, language = LANG) {
   }
   return null;
 }
+function displayPassage(target, result) {
+  if (!Array.isArray(result.verses)) {
+    target.textContent = result.text;
+    return;
+  }
+  target.replaceChildren(...result.verses.map(verse => {
+    const line = el('div', 'verse-line');
+    line.append(
+      el('span', 'verse-number', verse.number),
+      el('span', 'verse-text', verse.text),
+    );
+    return line;
+  }));
+}
+
 function entry(e) {
   const d = el('details', 'entry');
   const s = el('summary');
@@ -237,7 +258,7 @@ function entry(e) {
       if (result) {
         edition.textContent = (LANG === 'fr' && result.language === 'en' ? tr('French unavailable; English text shown') + ' - ' : '') + result.edition;
         verse.lang = result.language;
-        verse.textContent = result.text;
+        displayPassage(verse, result);
       }
       else {
         verse.textContent = e.sources.length ? tr('Full text is available at the linked source. Inline text is not configured for this reference.') : tr('Full text and source links have not been added for this reference.');
@@ -255,8 +276,50 @@ function entry(e) {
   });
   return d;
 }
+// Match both languages, ignoring case, accents and typographic punctuation.
+function normalizeSearch(value) {
+  return String(value ?? '')
+    .normalize('NFD')
+    .replace(/\p{M}/gu, '')
+    .replace(/[’‘]/g, "'")
+    .replace(/[‐‑‒–—−]/g, '-')
+    .toLowerCase();
+}
+
+function matchesSearch(entry, terms) {
+  if (!terms.length)
+    return true;
+  const categories = [entry.religion, entry.collection, entry.book, ...entry.themes];
+  const frenchReference = entry.kind === 'bible'
+    ? entry.reference.replace(/^(.+?)(?= \d+:)/, book => FR[book] ?? book)
+    : entry.reference;
+  const fields = [
+    entry.reference,
+    frenchReference,
+    entry.summary,
+    ...Object.values(entry.translations ?? {}),
+    ...categories,
+    ...categories.map(value => FR[value] ?? value),
+  ];
+  const haystack = normalizeSearch(fields.join(' '));
+  return terms.every(term => {
+    // A single verse reference also matches a passage containing that verse.
+    const match = /^(\d+):(\d+)$/.exec(term);
+    if (match && entry.ranges?.length) {
+      const chapter = Number(match[1]);
+      const verse = Number(match[2]);
+      return entry.ranges.some(([c, start, end]) => c === chapter && verse >= start && verse <= end);
+    }
+    return haystack.includes(term);
+  });
+}
+
 function render() {
-  const theme = $('theme').value, items = bookBase().filter(e => !theme || e.themes.includes(theme));
+  const theme = $('theme').value;
+  const terms = normalizeSearch($('search').value).trim().split(/\s+/).filter(Boolean);
+  const items = bookBase().filter(e =>
+    (!theme || e.themes.includes(theme)) && matchesSearch(e, terms),
+  );
   $('count').textContent = items.length + ' ' + tr(items.length === 1 ? 'entry' : 'entries');
   $('active-filters').textContent = ['religion', 'book', 'theme'].filter(id => $(id).value).map(id => $(id).selectedOptions[0].textContent).join(' / ');
   const target = $('results');
@@ -304,10 +367,13 @@ $('book').onchange = () => {
   render();
 };
 $('theme').onchange = render;
+$('search').addEventListener('input', render);
 function localize() {
   document.documentElement.lang = LANG;
   document.querySelectorAll('[data-i18n]').forEach(n => n.textContent = tr(n.dataset.i18n));
   $('menu').setAttribute('aria-label', tr('Open filters'));
+  $('search').setAttribute('aria-label', tr('Search passages'));
+  $('search').placeholder = tr('Search references or keywords...');
   $('close-menu').setAttribute('aria-label', tr('Close filters'));
   $('footnote').textContent = LANG === 'fr' ? footFR : footEN;
   $('language').value = LANG;

@@ -39,6 +39,21 @@ header {
   padding: 12px 18px;
 }
 
+.search-bar {
+  max-width: 840px;
+  margin: auto;
+  padding: 0 18px 12px;
+}
+
+.search-bar input {
+  width: 100%;
+  min-height: 44px;
+}
+
+.search-bar input::placeholder {
+  color: var(--muted);
+}
+
 h1 {
   font-size: 21px;
   font-weight: 650;
@@ -46,7 +61,7 @@ h1 {
   letter-spacing: -.5px;
 }
 
-button, select {
+button, select, input[type="search"] {
   font: inherit;
   color: inherit;
   background: #222;
@@ -59,7 +74,7 @@ button, summary, select {
   cursor: pointer;
 }
 
-button:focus-visible, summary:focus-visible, select:focus-visible, a:focus-visible {
+button:focus-visible, summary:focus-visible, select:focus-visible, a:focus-visible, input:focus-visible {
   outline: 2px solid #b7c9e9;
   outline-offset: 3px;
 }
@@ -230,6 +245,26 @@ details.entry:last-child {
   font-size: 15px;
 }
 
+.verse-line {
+  display: grid;
+  grid-template-columns: minmax(3.5em, max-content) minmax(0, 1fr);
+  column-gap: 0.6em;
+  align-items: baseline;
+  white-space: normal;
+  line-height: 1.5;
+}
+
+.verse-line + .verse-line {
+  margin-top: 2px;
+}
+
+.verse-number {
+  color: var(--muted);
+  font-size: 0.8em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
 a {
   color: #b3c9eb;
   overflow-wrap: anywhere;
@@ -333,7 +368,7 @@ select {
   .header-inner {
     padding: 8px 12px;
   }
-  main,.page-meta,footer {
+  main, .page-meta, footer, .search-bar {
     padding-left: 12px;
     padding-right: 12px;
   }

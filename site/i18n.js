@@ -92,6 +92,8 @@ const FR = {
   'Jude': 'Jude',
   'Revelation': 'Apocalypse',
   'Filters': 'Filtres',
+  'Search passages': 'Rechercher des passages',
+  'Search references or keywords...': 'Rechercher une référence ou un mot-clé...',
   'Open filters': 'Ouvrir les filtres',
   'Close filters': 'Fermer les filtres',
   'Religion': 'Religion',
