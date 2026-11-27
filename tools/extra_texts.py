@@ -87,18 +87,18 @@ class FirstCells(HTMLParser):
         elif tag == 'sup' and self.active:
             self.skip += 1
         elif tag in ('br', 'p') and self.active:
-            self.parts.append(' ')
+            self.parts.append('\n')
 
     def handle_endtag(self, tag):
         if tag == 'sup' and self.skip:
             self.skip -= 1
         elif tag == 'td' and self.active:
-            self.cells.append(' '.join(''.join(self.parts).split()))
+            self.cells.append('\n'.join(' '.join(line.split()) for line in ''.join(self.parts).splitlines() if line.strip()))
             self.active = False
 
     def handle_data(self, data):
         if self.active and not self.skip:
-            self.parts.append(data)
+            self.parts.append(re.sub(r'\s+', ' ', data))
 
 
 def contiguous(blocks, trailing=False):
@@ -144,7 +144,8 @@ def record(index, chapter, start, end, edition, source, language='en'):
 
 
 ROMAN = {5: 'v', 8: 'viii', 9: 'ix', 10: 'x'}
-GUTENBERG = 'https://www.gutenberg.org/files/17/17-h/17-h.htm'
+GUTENBERG = 'https://www.gutenberg.org/cache/epub/17/pg17-images.html'
+GUTENBERG_MIRRORS = (GUTENBERG, 'https://www.gutenberg.org/files/17/17-h/17-h.htm', 'https://www.gutenberg.org/cache/epub/17/pg17.txt')
 VINAYA = 'https://obo.genaud.net/dhamma-vinaya/sbe/vp/02.mv/vp.02.mv.01.rdho.sbe.htm'
 BILARA = 'https://raw.githubusercontent.com/suttacentral/bilara-data/published/translation/en/sujato/sutta/'
 # Only these exact historical translations / chapter sources are enabled.
@@ -168,7 +169,77 @@ def chapter_source(collection, chapter):
     return None
 
 
+def decode_html(raw):
+    """Historical pages may be Windows-1252 rather than UTF-8."""
+    match = re.search(rb'charset\s*=\s*["\']?([a-zA-Z0-9_-]+)', raw[:8192], re.I)
+    if match:
+        encoding = match.group(1).decode('ascii')
+        try:
+            return raw.decode(encoding)
+        except (LookupError, UnicodeDecodeError):
+            pass
+    try:
+        return raw.decode('utf-8-sig')
+    except UnicodeDecodeError:
+        return raw.decode('cp1252')
+
+
+def parse_vendidad(html, chapter):
+    # First-column cells may contain several verses, continuation paragraphs,
+    # and alternate manuscript numbers (e.g. 27 (77).). Ignore note column.
+    blocks = Blocks(html).blocks
+    if not re.search(rf'\bFargard\s+{chapter}\b', ' '.join(t for _, t in blocks), re.I):
+        return {}
+    cells = FirstCells(html).cells
+    index = {}
+    for cell in cells:
+        # Continuations must stay in the same source cell; a later cell may
+        # be a navigation row or a heading, not part of the preceding verse.
+        current = None
+        for line in cell.splitlines():
+            line = line.strip()
+            if not line:
+                continue
+            # Some editions label an additional paragraph as n (bis). It
+            # belongs to the same numbered verse, not to the next verse.
+            bis = re.match(r'^(\d+)\s*\(bis\)\.\s*(.*)$', line, re.I)
+            if bis and int(bis.group(1)) in index:
+                current = int(bis.group(1))
+                index[current] += ' (bis) ' + bis.group(2)
+                continue
+            match = re.match(r'^(\d+)\s*\.?\s*(?:\(\d+\))?\s*\.\s*(.*)$', line)
+            if match:
+                n, content = int(match.group(1)), match.group(2).strip()
+                if n != len(index) + 1:
+                    if index:
+                        return {k: v for k, v in index.items() if v.strip()}
+                    continue
+                current = n
+                index[n] = content
+            elif current is not None:
+                # Do not append titles or editorial apparatus to text.
+                if re.fullmatch(r'[IVXLCDM]+[a-z]?\.?', line, re.I):
+                    continue
+                if re.match(r'^(?:FARGARD|NOTES?|FOOTNOTES)\b', line, re.I):
+                    return {k: v for k, v in index.items() if v.strip()}
+                index[current] += ' ' + line
+    return {k: v.strip() for k, v in index.items() if v.strip()}
+
+
+def french_manu(html, chapter):
+    blocks = Blocks(html).blocks
+    page = ' '.join(t for _, t in blocks)
+    if not re.search(r'\bSTREHLY\b', page, re.I) or not re.search(rf'\bLIVRE\s+{ROMAN[chapter]}\b', page, re.I):
+        return {}
+    # Remacle reproduces Strehly's numbered 1893 translation. Notes come
+    # after the numbered text; contiguous() stops at a numbering reset.
+    lines = [line for tag, text in blocks if tag == 'p' for line in text.splitlines()]
+    return contiguous(lines)
+
+
 def parse_numbered(html, collection, chapter=None):
+    if collection == 'Vendidad':
+        return parse_vendidad(html, chapter)
     blocks = Blocks(html).blocks
     if chapter is not None:
         headings = ' '.join(text for tag, text in blocks if tag.startswith('h'))
@@ -176,14 +247,8 @@ def parse_numbered(html, collection, chapter=None):
             roman = {4: 'IV', 9: 'IX', 10: 'X', 12: 'XII', 18: 'XVIII', 23: 'XXIII'}[chapter]
             if not re.search(rf'\bChapter\s+{roman}\b', headings, re.I):
                 return {}
-        elif collection == 'Vendidad':
-            if not re.search(rf'\bFargard\s+{chapter}\b', headings, re.I):
-                return {}
         elif not re.search(rf'\bChapter\s+(?:{chapter}|{ROMAN.get(chapter, chapter)})\b', headings, re.I):
             return {}
-    if collection == 'Vendidad':
-        # Source column only. No modern notes or commentary are republished.
-        return contiguous(FirstCells(html).cells)
     # Only verse paragraphs, never navigation, chapter introductions or notes.
     text = [line for tag, s in blocks if tag == 'p' or re.match(r'^footnotes\b', s, re.I) for line in s.splitlines()]
     if collection == 'Uttaradhyayana Sutra':
@@ -226,6 +291,49 @@ def parse_mormon(raw, book, chapter):
     return index
 
 
+def parse_mormon_plain(raw, book, chapter):
+    # Gutenberg's plain-text export uses the same explicit chapter headings
+    # and verse IDs as the HTML edition. Never infer verse numbering.
+    target = f'{book} Chapter {chapter}'
+    found = False
+    index = {}
+    for line in raw.splitlines():
+        line = line.strip()
+        if line.casefold() == target.casefold():
+            found = True
+            continue
+        if not found or not line:
+            continue
+        if re.fullmatch(r'(?:[1-4] )?[A-Za-z]+ Chapter \d+', line, re.I) or line.startswith('*** END OF'):
+            break
+        if re.match(r'^(?:THE |FIRST |SECOND |THIRD |FOURTH )?[A-Z ]*BOOK OF ', line):
+            break
+        match = re.match(rf'^{chapter}:(\d+)\s+(.+)', line)
+        if match:
+            n = int(match.group(1))
+            if n != len(index) + 1:
+                break
+            index[n] = match.group(2)
+        elif index:
+            if re.match(r'^\d+:\d+\b', line):
+                break
+            index[len(index)] += ' ' + line
+    return index
+
+
+def mormon_record(fetch, book, chapter, start, end):
+    for url in GUTENBERG_MIRRORS:
+        try:
+            raw = decode_html(fetch(url))
+            index = parse_mormon_plain(raw, book, chapter) if url.endswith('.txt') else parse_mormon(raw, book, chapter)
+            data = record(index, chapter, start, end, 'Book of Mormon - historical English text (Project Gutenberg #17)', 'https://www.gutenberg.org/ebooks/17')
+            if data:
+                return data
+        except (OSError, ValueError, UnicodeError):
+            continue
+    return None
+
+
 def sefaria(download, entry, lang):
     match = re.fullmatch(r'(Mishnah .+?|Mishneh Torah, .+?) (\d+)(?::(\d+)(?:-(\d+))?)?', entry['reference'])
     if not match:
@@ -233,37 +341,42 @@ def sefaria(download, entry, lang):
     title, chapter, start, end = match.groups()
     tref = f'{title} {chapter}'
     versions = ['english', 'english|Sefaria Community Translation', 'english|Mishnah Yomit by Dr. Joshua Kulp', 'english|Laws of Kings and Wars. trans. Reuven Brauner, 2012'] if lang == 'en' else ['french']
-    query = urlencode({'version': versions, 'fill_in_missing_segments': '0', 'return_format': 'text_only'}, doseq=True)
-    url = 'https://www.sefaria.org/api/v3/texts/' + quote(tref, safe='') + '?' + query
-    data = json.loads(download(url))
-    normalize = lambda s: re.sub(r'[_.:\s]+', ' ', s).strip().casefold()
-    if normalize(data.get('ref', '')) != normalize(tref):
-        return None
-    for v in data.get('versions', []):
-        license = v.get('license', '')
-        # Avoid restrictive/unknown licenses and mixed translations.
-        if license not in {'Public Domain', 'CC0', 'CC-BY', 'CC BY 4.0'}:
+    # Preserve the previously working request, then try all editions separately.
+    for requested in (versions, ['all']):
+        query = urlencode({'version': requested, 'fill_in_missing_segments': '0', 'return_format': 'text_only'}, doseq=True)
+        url = 'https://www.sefaria.org/api/v3/texts/' + quote(tref, safe='') + '?' + query
+        try:
+            data = json.loads(download(url))
+        except (OSError, ValueError):
             continue
-        if v.get('actualLanguage') != lang or not v.get('versionTitle'):
+        normalize = lambda s: re.sub(r'[_.:\s]+', ' ', s).strip().casefold()
+        if normalize(data.get('ref', '')) != normalize(tref):
             continue
-        text = v.get('text')
-        if not isinstance(text, list) or not text or not all(isinstance(x, str) for x in text):
-            continue
-        source = 'https://www.sefaria.org/' + quote(tref.replace(' ', '_'), safe=',_') + '?' + urlencode({'ven' if lang == 'en' else 'vside': ('english|' if lang == 'en' else 'french|') + v['versionTitle']})
-        edition = f"{v['versionTitle']} - Sefaria ({license})"
-        result = record(dict(enumerate(text, 1)), int(chapter), int(start or 1),
-                        int(end or start or len(text)), edition, source, lang)
-        if result:
-            # Preserve version and license metadata for attribution.
-            result['license'] = license
-            result['versionSource'] = v.get('versionSource', '')
-            if license == 'CC BY 4.0':
-                result['licenseURL'] = 'https://creativecommons.org/licenses/by/4.0/'
-            elif license == 'CC-BY':
-                result['licenseURL'] = 'https://help.sefaria.org/hc/en-us/articles/18490043237148-How-to-Find-and-Understand-Licensing-or-Copyright-Information'
-            elif license == 'CC0':
-                result['licenseURL'] = 'https://creativecommons.org/publicdomain/zero/1.0/'
-            return result
+        for v in data.get('versions', []):
+            license = v.get('license', '')
+            # Avoid restrictive/unknown licenses and mixed translations.
+            if license not in {'Public Domain', 'CC0', 'CC-BY', 'CC BY 4.0'}:
+                continue
+            if v.get('actualLanguage') != lang or not v.get('versionTitle'):
+                continue
+            text = v.get('text')
+            if not isinstance(text, list) or not text or not all(isinstance(x, str) for x in text):
+                continue
+            source = 'https://www.sefaria.org/' + quote(tref.replace(' ', '_'), safe=',_') + '?' + urlencode({'ven' if lang == 'en' else 'vside': ('english|' if lang == 'en' else 'french|') + v['versionTitle']})
+            edition = f"{v['versionTitle']} - Sefaria ({license})"
+            result = record(dict(enumerate(text, 1)), int(chapter), int(start or 1),
+                            int(end or start or len(text)), edition, source, lang)
+            if result:
+                # Preserve version and license metadata for attribution.
+                result['license'] = license
+                result['versionSource'] = v.get('versionSource', '')
+                if license == 'CC BY 4.0':
+                    result['licenseURL'] = 'https://creativecommons.org/licenses/by/4.0/'
+                elif license == 'CC-BY':
+                    result['licenseURL'] = 'https://help.sefaria.org/hc/en-us/articles/18490043237148-How-to-Find-and-Understand-Licensing-or-Copyright-Information'
+                elif license == 'CC0':
+                    result['licenseURL'] = 'https://creativecommons.org/publicdomain/zero/1.0/'
+                return result
     return None
 
 
@@ -389,7 +502,11 @@ def import_extra(entries, download, key):
 
     @lru_cache(maxsize=32)
     def chapter_index(collection, chapter, url):
-        return parse_numbered(fetch(url).decode('utf-8', errors='replace'), collection, chapter)
+        return parse_numbered(decode_html(fetch(url)), collection, chapter)
+
+    @lru_cache(maxsize=8)
+    def french_index(chapter, url):
+        return french_manu(decode_html(fetch(url)), chapter)
 
     result = {}
     counts = {}
@@ -399,7 +516,7 @@ def import_extra(entries, download, key):
         collection, ref = entry['collection'], entry['reference']
         if collection not in NUMBERED and collection not in {'Mishnah', 'Mishneh Torah', 'Sutta Pitaka', 'Book Of Mormon', 'Vinaya Pitaka', 'Doctrine And Covenants'}:
             continue
-        langs = ('fr', 'en') if collection in {'Mishnah', 'Mishneh Torah'} else ('en',)
+        langs = ('fr', 'en') if collection in {'Mishnah', 'Mishneh Torah', 'Manusmriti'} else ('en',)
         for lang in langs:
             if (collection, lang) not in counts:
                 print(f'Importing {collection} ({lang})...', flush=True)
@@ -412,9 +529,14 @@ def import_extra(entries, download, key):
                     if match:
                         chapter, start, end = match.groups()
                         chapter, start, end = int(chapter), int(start), int(end or start)
-                        url = chapter_source(collection, chapter)
-                        if url:
-                            data = record(chapter_index(collection, chapter, url), chapter, start, end, edition, url)
+                        if lang == 'fr' and collection == 'Manusmriti' and chapter in ROMAN:
+                            url = f'https://remacle.org/bloodwolf/philosophes/manou/livre{chapter}.htm'
+                            index = french_index(chapter, url)
+                            data = record(index, chapter, start, end, 'Georges Strehly (1893) - Lois de Manou', url, 'fr')
+                        else:
+                            url = chapter_source(collection, chapter)
+                            if url:
+                                data = record(chapter_index(collection, chapter, url), chapter, start, end, edition, url)
                 elif collection in {'Mishnah', 'Mishneh Torah'}:
                     data = sefaria(fetch, entry, lang)
                 elif collection == 'Sutta Pitaka':
@@ -428,8 +550,7 @@ def import_extra(entries, download, key):
                     if match:
                         book, chapter, start, end = match.groups()
                         chapter, start, end = int(chapter), int(start), int(end or start)
-                        index = parse_mormon(fetch(GUTENBERG).decode('utf-8-sig'), book, chapter)
-                        data = record(index, chapter, start, end, 'Book of Mormon - historical English text (Project Gutenberg #17)', 'https://www.gutenberg.org/ebooks/17')
+                        data = mormon_record(fetch, book, chapter, start, end)
                 if data:
                     result.setdefault(key(entry), {})[lang] = data
                     counts[(collection, lang)][0] += 1

@@ -28,6 +28,12 @@ BIBLE_BOOKS = dict(zip(
     strict=True,
 ))
 BIBLE_BOOKS["Psalm"] = "PSA"
+# eBible VPL uses BibleWorks abbreviations; normalize to the internal USFM IDs.
+VPL_ALIASES = {
+    "EZE": "EZK", "JOE": "JOL", "MAR": "MRK", "JOH": "JHN",
+    "1JO": "1JN", "2JO": "2JN", "3JO": "3JN", "NAH": "NAM",
+    "SOL": "SNG", "PHI": "PHP", "JAM": "JAS",
+}
 
 # Public-domain Bible editions; Quran provider permits republication with translator credit.
 # Hadith editions are deliberately excluded until redistribution rights are established.
@@ -68,7 +74,7 @@ def parse_bible(raw):
                 match = re.fullmatch(r"([A-Za-z0-9]{3})\s+(\d+):(\d+)\s+(.+)", line)
                 if match:
                     book, chapter, verse, text = match.groups()
-                    key = (book.upper(), int(chapter), int(verse))
+                    key = (VPL_ALIASES.get(book.upper(), book.upper()), int(chapter), int(verse))
                     if key in index:
                         raise ValueError(f"Duplicate Bible verse: {key}")
                     index[key] = text
@@ -167,7 +173,7 @@ def generate(entries):
             }
             count += 1
         print(f"Imported {count}/{len(relevant)} entries from {edition}", flush=True)
-    records.update(import_extra(entries, lambda url: download(url, timeout=12, attempts=1), passage_key))
+    records.update(import_extra(entries, lambda url: download(url, timeout=20, attempts=2), passage_key))
     return records
 
 
@@ -190,6 +196,17 @@ def main():
     temp.write_text(json.dumps(records, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
     temp.replace(OUTPUT)
     print(f"Saved local texts for {len(records)} distinct references to {OUTPUT}", flush=True)
+    # Count usable cached records after merging, not just fresh downloads.
+    print("Local text coverage (including previous imports; hadith excluded):", flush=True)
+    for collection in sorted({entry["collection"] for entry in entries if entry["kind"] != "hadith"}):
+        relevant = [entry for entry in entries if entry["collection"] == collection and entry["kind"] != "hadith"]
+        counts = {}
+        for language in ("en", "fr"):
+            counts[language] = sum(
+                isinstance(records.get(passage_key(entry), {}).get(language), dict)
+                for entry in relevant
+            )
+        print(f"  {collection}: EN {counts['en']}/{len(relevant)}, FR {counts['fr']}/{len(relevant)}", flush=True)
 
 
 if __name__ == "__main__":
