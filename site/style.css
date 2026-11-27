@@ -498,7 +498,9 @@ details.entry {
 .theme-bar {
   display: block;
   height: 100%;
-  background: #9cabc1;
+  background: linear-gradient(90deg, #f4d03f, #f29b38 50%, #e34b45);
+  background-repeat: no-repeat;
+  background-position: left center;
   border-radius: 3px;
 }
 
@@ -552,4 +554,95 @@ details.entry {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+/* Overall theme distribution, above the individual religion cards. */
+.all-religions-card {
+  grid-column: 1 / -1;
+}
+
+.distribution-layout {
+  display: grid;
+  grid-template-columns: minmax(150px, 0.8fr) minmax(0, 1.4fr);
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  margin: 18px 0 12px;
+}
+
+.theme-donut {
+  display: grid;
+  place-items: center;
+  width: min(100%, 220px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  justify-self: center;
+}
+
+.donut-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--panel);
+}
+
+.donut-total {
+  font-size: 25px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.theme-legend {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.legend-row {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.legend-swatch {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+
+.legend-label {
+  overflow-wrap: anywhere;
+}
+
+.legend-value {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.distribution-note {
+  display: block;
+  margin: 0 0 12px;
+}
+
+.bar-scale-note {
+  margin-top: -8px;
+}
+
+@media (max-width: 620px) {
+  .distribution-layout {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+  }
+
+  .theme-donut {
+    width: min(72%, 190px);
+  }
 }

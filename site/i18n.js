@@ -1,4 +1,7 @@
 const FR = {
+  'Themes': 'Thèmes',
+  'Percentages are shares of all theme assignments. A passage can belong to multiple themes.': 'Les pourcentages représentent les parts de toutes les attributions de thèmes. Un passage peut appartenir à plusieurs thèmes.',
+  'Bars use a shared count scale across religions.': 'Les barres utilisent une échelle commune de comptage pour toutes les religions.',
   'Home': 'Accueil',
   'Explore religions': 'Explorer les religions',
   'Select a religion to browse its indexed passages.': 'Sélectionnez une religion pour consulter ses passages indexés.',

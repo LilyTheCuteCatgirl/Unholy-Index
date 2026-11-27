@@ -565,21 +565,87 @@ function matchesSearch(entry, terms) {
   });
 }
 
-function religionStats(entries) {
-  const stats = new Map();
+function themeStats(entries) {
+  const counts = new Map();
   for (const entry of entries) {
-    if (!stats.has(entry.religion))
-      stats.set(entry.religion, { count: 0, themes: new Map() });
-    const group = stats.get(entry.religion);
-    group.count++;
-    for (const theme of new Set(entry.themes))
-      group.themes.set(theme, (group.themes.get(theme) ?? 0) + 1);
+    for (const theme of new Set(entry.themes)) {
+      counts.set(theme, (counts.get(theme) ?? 0) + 1);
+    }
   }
-  return [...stats].map(([religion, group]) => ({
+  return [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+}
+
+function religionStats(entries) {
+  const groups = new Map();
+  for (const entry of entries) {
+    if (!groups.has(entry.religion)) {
+      groups.set(entry.religion, []);
+    }
+    groups.get(entry.religion).push(entry);
+  }
+  return [...groups].map(([religion, group]) => ({
     religion,
-    count: group.count,
-    top: [...group.themes].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 3),
+    count: group.length,
+    top: themeStats(group).slice(0, 3),
   }));
+}
+
+function themeColor(index) {
+  // A varied palette with an unlimited fallback for newly added themes.
+  const colors = [
+    '#e5b947', '#f18149', '#d75b69', '#a78bdc', '#729cdc',
+    '#58b9b3', '#85b765', '#c9a579', '#d98ab9', '#8795be',
+    '#e4db83', '#b39a62', '#a5c8dc',
+  ];
+  return colors[index] ?? `hsl(${(index * 137.508) % 360} 65% 65%)`;
+}
+
+function allReligionsCard(entries) {
+  const themes = themeStats(entries);
+  const total = themes.reduce((sum, [, count]) => sum + count, 0);
+  const card = el('button', 'religion-card all-religions-card');
+  card.type = 'button';
+  card.append(
+    el('span', 'overview-title', tr('All religions')),
+    el('span', 'overview-count', `${entries.length} ${tr(entries.length === 1 ? 'indexed passage' : 'indexed passages')}`),
+  );
+  if (total) {
+    const layout = el('span', 'distribution-layout');
+    const donut = el('span', 'theme-donut');
+    donut.setAttribute('aria-hidden', 'true');
+    const center = el('span', 'donut-center');
+    center.append(el('span', 'donut-total', String(themes.length)), el('span', 'muted', tr('Themes')));
+    donut.append(center);
+    const legend = el('span', 'theme-legend');
+    const formatter = new Intl.NumberFormat(LANG === 'fr' ? 'fr-FR' : 'en', {
+      maximumFractionDigits: 1,
+      minimumFractionDigits: 1,
+    });
+    const stops = [];
+    let position = 0;
+    for (const [index, [theme, count]] of themes.entries()) {
+      const color = themeColor(index);
+      const end = index === themes.length - 1 ? 100 : position + 100 * count / total;
+      stops.push(`${color} ${position}% ${end}%`);
+      position = end;
+      const row = el('span', 'legend-row');
+      const swatch = el('span', 'legend-swatch');
+      swatch.style.backgroundColor = color;
+      swatch.setAttribute('aria-hidden', 'true');
+      row.append(
+        swatch,
+        el('span', 'legend-label', tr(theme)),
+        el('span', 'legend-value', `${count} (${formatter.format(100 * count / total)}%)`),
+      );
+      legend.append(row);
+    }
+    donut.style.background = `conic-gradient(${stops.join(', ')})`;
+    layout.append(donut, legend);
+    card.append(layout, el('span', 'muted distribution-note', tr('Percentages are shares of all theme assignments. A passage can belong to multiple themes.')));
+  }
+  card.append(el('span', 'overview-open', tr('Browse passages')));
+  card.onclick = () => openReligion('');
+  return card;
 }
 
 function openReligion(religion) {
@@ -621,7 +687,10 @@ function renderHome(target) {
   intro.append(el('h2', '', tr('Explore religions')), el('p', 'muted', tr('Select a religion to browse its indexed passages.')));
   target.append(intro);
   const grid = el('div', 'overview-grid');
-  for (const { religion, count, top } of religionStats(DATA)) {
+  grid.append(allReligionsCard(DATA));
+  const stats = religionStats(DATA);
+  const maximum = Math.max(1, ...stats.flatMap(group => group.top.map(([, amount]) => amount)));
+  for (const { religion, count, top } of stats) {
     const card = el('button', 'religion-card');
     card.type = 'button';
     const heading = el('span', 'overview-title', tr(religion));
@@ -635,16 +704,19 @@ function renderHome(target) {
       const track = el('span', 'theme-track');
       track.setAttribute('aria-hidden', 'true');
       const bar = el('span', 'theme-bar');
-      bar.style.width = `${100 * amount / count}%`;
+      // All religion cards share one absolute count scale. The gradient is
+      // anchored to the track, not stretched to fit each individual bar.
+      bar.style.width = `${100 * amount / maximum}%`;
+      bar.style.backgroundSize = `${100 * maximum / amount}% 100%`;
       track.append(bar);
       row.append(label, track);
       chart.append(row);
     }
-    card.append(chart, el('span', 'overview-open', tr('Browse passages') + ' '));
+    card.append(chart, el('span', 'overview-open', tr('Browse passages')));
     card.onclick = () => openReligion(religion);
     grid.append(card);
   }
-  target.append(grid, el('p', 'muted overview-note', tr('Counts describe this index, not entire religions. Entries can belong to multiple themes.')));
+  target.append(grid, el('p', 'muted overview-note', tr('Counts describe this index, not entire religions. Entries can belong to multiple themes.')), el('p', 'muted bar-scale-note', tr('Bars use a shared count scale across religions.') + ` (0-${maximum})`));
 }
 
 function render() {
