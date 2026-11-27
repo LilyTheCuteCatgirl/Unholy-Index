@@ -651,3 +651,79 @@ details.entry {
 .sources-heading {
   display: block;
 }
+
+/* Section navigation shares the existing dark, minimal design. */
+.section-nav {
+  max-width: 840px;
+  margin: 16px auto 0;
+  padding: 0 18px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.section-tab {
+  min-width: 0;
+  min-height: 44px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+  background: var(--panel);
+  border-color: var(--line);
+}
+
+.section-tab[aria-pressed="true"] {
+  background: #303030;
+  border-color: #8b8b8b;
+  font-weight: 650;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-bottom: 12px;
+  align-items: start;
+}
+
+.comparison-grid > .entry {
+  min-width: 0;
+  margin: 0;
+}
+
+@media (max-width: 620px) {
+  .comparison-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 520px) {
+  .section-nav {
+    padding: 0 12px;
+    gap: 6px;
+  }
+
+  .section-tab {
+    padding: 8px 4px;
+    font-size: 13px;
+  }
+}
+
+/* Editorial explanations remain distinct from the source passages. */
+.section-explanation {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--bg);
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.section-explanation p {
+  margin: 4px 0 0;
+  color: #ccc;
+}
+
+.entry[open]:has(> .explanation-uses-summary) > summary > .description {
+  display: none;
+}

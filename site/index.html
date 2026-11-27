@@ -45,6 +45,10 @@
       <div class="drawer-content">
         <button id="home" class="home-button" data-i18n="Home">Home</button>
         <label>
+          <span data-i18n="Section">Section</span>
+          <select id="section-select"></select>
+        </label>
+        <label>
           <span data-i18n="Religion">Religion</span>
           <select id="religion">
             <option value="">All religions</option>
@@ -57,7 +61,7 @@
           </select>
         </label>
         <label>
-          <span data-i18n="Theme">Theme</span>
+          <span id="theme-label" data-i18n="Theme">Theme</span>
           <select id="theme">
             <option value="">All themes</option>
           </select>
@@ -71,6 +75,7 @@
         </label>
       </div>
     </dialog>
+    <nav id="section-nav" class="section-nav" aria-label="Sections"></nav>
     <div class="page-meta muted">
       <span id="count" aria-live="polite">Loading…</span>
       <span id="active-filters"></span>

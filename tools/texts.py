@@ -184,7 +184,12 @@ def generate(entries):
 
 
 def main():
-    entries = build()
+    indexed = build()
+    # Comparison rows are not verses: import their component passages, sharing
+    # the same cache keys as ordinary passages and removing duplicate requests.
+    entries = list({passage_key(passage): passage
+                    for entry in indexed
+                    for passage in entry.get("passages", [entry])}.values())
     records = generate(entries)
     # Preserve previously imported records if a provider is temporarily unavailable.
     if OUTPUT.exists():

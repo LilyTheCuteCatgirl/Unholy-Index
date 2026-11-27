@@ -134,6 +134,7 @@ PROVIDERS = {"bible": enrich_bible, "quran": enrich_quran, "hadith": enrich_hadi
 def translations_for(rel, warnings):
     """Match translations by original heading and reference, never line number."""
     result = {}
+    explanations = {}
     for directory in sorted((ROOT / "translations").glob("*")):
         path = directory / rel
         if not path.is_file():
@@ -150,9 +151,30 @@ def translations_for(rel, warnings):
                 key = (theme, ref.strip())
                 if key in result and language in result[key]:
                     warnings.append(f"{path}:{lineno}: duplicate translation for {key!r}")
+                if rel.parts[0] in {"contradictions", "absurdities"}:
+                    summary, explanation, _ = split_description(summary)
+                    if explanation:
+                        explanations.setdefault(key, {})[language] = explanation
                 if summary.strip():
                     result.setdefault(key, {})[language] = summary.strip()
-    return result
+    return result, explanations
+
+
+def split_description(description):
+    """Separate the preview, optional explanation and manual source links."""
+    summary, *fields = (part.strip() for part in description.split(" | "))
+    explanation = ""
+    sources = []
+    for field in fields:
+        if field.startswith("Explanation: "):
+            if explanation:
+                raise ValueError("Duplicate Explanation field")
+            explanation = field.removeprefix("Explanation: ").strip()
+            if not explanation:
+                raise ValueError("Empty Explanation field")
+        else:
+            sources.append(field)
+    return summary, explanation, sources
 
 
 def add_manual_sources(entry, manual, location, warnings):
@@ -169,10 +191,11 @@ def add_manual_sources(entry, manual, location, warnings):
             entry["sources"].append([parsed.hostname, url])
 
 
-def read_collection(path, warnings):
-    rel = path.relative_to(BOOKS)
+def read_collection(path, warnings, base=BOOKS, section="ethical"):
+    rel = path.relative_to(base)
     religion = display_name(rel.parts[0])
-    translations = translations_for(rel, warnings)
+    translation_path = rel if section == "ethical" else Path(section) / rel
+    translations, explanation_translations = translations_for(translation_path, warnings)
     kind = path.stem.lower()
     collection = {"bible": "Bible", "quran": "Quran", "hadith": "Hadith"}.get(
         kind, display_name(path.stem)
@@ -192,7 +215,11 @@ def read_collection(path, warnings):
             continue
         ref, description = line[2:].split(" - ", 1)
         ref = ref.strip()
-        summary, *manual = (part.strip() for part in description.split(" | "))
+        explanation = ""
+        if section == "ethical":
+            summary, *manual = (part.strip() for part in description.split(" | "))
+        else:
+            summary, explanation, manual = split_description(description)
         if not ref or not summary:
             warnings.append(f"{location}: skipped empty reference or summary")
             continue
@@ -200,32 +227,51 @@ def read_collection(path, warnings):
         if kind == "hadith" and " - " in theme:
             tradition, category = theme.split(" - ", 1)
         entry = {
-            "id": f"{rel.as_posix()}:{lineno}",
+            "id": f"{rel.as_posix()}:{lineno}" if section == "ethical" else f"{section}/{rel.as_posix()}:{lineno}",
+            "section": section,
             "kind": "generic",
             "religion": religion,
             "collection": collection,
             "book": collection,
             "reference": ref,
             "summary": summary,
-            "themes": ALIASES.get(category, [category]),
+            "themes": ALIASES.get(category, [category]) if section == "ethical" else [category],
             "originalTheme": theme,
             "tradition": tradition,
             "sources": [],
         }
-        if kind in PROVIDERS:
+        if section == "contradictions":
+            references = ref.split(" + ")
+            if len(references) < 2 or len(set(references)) != len(references) or kind not in PROVIDERS:
+                raise ValueError(f"{location}: comparisons require two or more distinct supported references separated by ' + '")
+            passages = []
+            for reference in references:
+                passage = {**entry, "reference": reference, "kind": "generic", "summary": "", "sources": []}
+                PROVIDERS[kind](passage)
+                if not passage.get("ranges") or not passage["sources"]:
+                    raise ValueError(f"{location}: invalid comparison reference {reference!r}")
+                passages.append(passage)
+            entry.update(kind="comparison", book="Passage comparisons", passages=passages)
+        elif kind in PROVIDERS:
             PROVIDERS[kind](entry)
+            if section != "ethical" and not entry.get("ranges"):
+                raise ValueError(f"{location}: invalid reference {ref!r}")
         if (theme, ref) in translations:
             entry["translations"] = translations[(theme, ref)]
+        if explanation:
+            entry["explanation"] = explanation
+        if (theme, ref) in explanation_translations:
+            entry["explanationTranslations"] = explanation_translations[(theme, ref)]
         add_manual_sources(entry, manual, location, warnings)
-        if not entry["sources"] and kind in PROVIDERS:
+        if not entry["sources"] and kind in PROVIDERS and section != "contradictions":
             warnings.append(f"{location}: no automatic source for {ref!r}; add an explicit URL")
         yield entry
 
 
-def collection_order(path):
+def collection_order(path, base=BOOKS):
     """Keep Bible/Quran before Hadith; discover all other collections automatically."""
     return (
-        path.relative_to(BOOKS).parts[0],
+        path.relative_to(base).parts[0],
         {"bible": 0, "quran": 0, "hadith": 1}.get(path.stem.lower(), 2),
         path.as_posix(),
     )
@@ -235,6 +281,11 @@ def build():
     warnings = []
     paths = sorted(BOOKS.glob("*/**/*.md"), key=collection_order)
     entries = [entry for path in paths for entry in read_collection(path, warnings)]
+    for section in ("contradictions", "absurdities"):
+        base = ROOT / section
+        extra_paths = sorted(base.glob("*/**/*.md"), key=lambda path: collection_order(path, base))
+        entries.extend(entry for path in extra_paths for entry in read_collection(path, warnings, base, section))
+        paths.extend(extra_paths)
     if not entries:
         raise SystemExit("No entries found. Add Markdown files inside books/<religion>/.")
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
@@ -243,6 +294,7 @@ def build():
     temp.replace(OUTPUT)
     counts = dict(collections.Counter(entry["religion"] for entry in entries))
     print(f"Built {len(entries)} entries from {len(paths)} Markdown files: {counts}", flush=True)
+    print("Sections:", dict(collections.Counter(entry["section"] for entry in entries)), flush=True)
     for warning in warnings:
         print("Warning:", warning, flush=True)
     return entries

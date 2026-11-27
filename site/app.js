@@ -1,4 +1,14 @@
 let DATA = [];
+let ALL_DATA = [];
+let SECTION = 'ethical';
+const SECTIONS = [
+  ['ethical', 'Ethical concerns'],
+  ['contradictions', 'Contradictions'],
+  ['absurdities', 'Absurdities'],
+];
+const sectionLabel = () => SECTIONS.find(([key]) => key === SECTION)[1];
+const sectionEntries = () => ALL_DATA.filter(e => (e.section ?? 'ethical') === SECTION);
+const passageParts = e => e.passages ?? [e];
 let VIEW = 'home';
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => {
@@ -19,7 +29,7 @@ function option(value, label) {
 const religionBase = () => DATA.filter(e => !$('religion').value || e.religion === $('religion').value);
 const collectionKey = e => JSON.stringify([e.religion, e.collection]);
 const bookKey = e => JSON.stringify([e.religion, e.collection, e.book]);
-const bookBase = () => religionBase().filter(e => !$('book').value || collectionKey(e) === $('book').value || bookKey(e) === $('book').value);
+const bookBase = () => religionBase().filter(e => !$('book').value || collectionKey(e) === $('book').value || passageParts(e).some(p => bookKey(p) === $('book').value));
 function updateBooks() {
   const previous = $('book').value, select = $('book');
   select.replaceChildren(option('', tr('All books')));
@@ -34,7 +44,7 @@ function updateBooks() {
     const e = entries[0], group = el('optgroup');
     group.label = ($('religion').value ? '' : tr(e.religion) + ' - ') + tr(e.collection);
     group.append(option(key, tr('All ' + e.collection)));
-    for (const b of sorted(entries.map(x => x.book)))
+    for (const b of sorted(entries.flatMap(x => passageParts(x).map(p => p.book))))
       group.append(option(JSON.stringify([e.religion, e.collection, b]), tr(b)));
     select.append(group);
   }
@@ -42,7 +52,7 @@ function updateBooks() {
 }
 function updateThemes() {
   const previous = $('theme').value, select = $('theme');
-  select.replaceChildren(option('', tr('All themes')), ...sorted(bookBase().flatMap(e => e.themes)).map(t => option(t, tr(t))));
+  select.replaceChildren(option('', tr(SECTION === 'ethical' ? 'All themes' : 'All types')), ...sorted(bookBase().flatMap(e => e.themes)).map(t => option(t, tr(t))));
   select.value = [...select.options].some(o => o.value === previous) ? previous : '';
 }
 const drawer = $('drawer');
@@ -313,6 +323,8 @@ function passageURL(e) {
     ref: e.reference,
     lang: LANG,
   }).toString();
+  if ((e.section ?? 'ethical') !== 'ethical')
+    url.searchParams.set('section', e.section);
   url.hash = '';
   return url.href;
 }
@@ -348,11 +360,11 @@ async function copyText(text) {
   return copied;
 }
 
-function passageText(e, result) {
+function passageText(e, result, shareEntry = e) {
   const text = Array.isArray(result.verses)
     ? result.verses.map(verse => verse.text.trim()).join('\n')
     : result.text.trim();
-  return [trRef(e), text, passageURL(e)].join('\n');
+  return [trRef(e), text, passageURL(shareEntry)].join('\n');
 }
 
 function displayPassage(target, result) {
@@ -482,12 +494,33 @@ function displayContext(target, e, result) {
   }
 }
 
-function entry(e) {
+function appendExplanation(panel, e) {
+  if (!['contradictions', 'absurdities'].includes(e.section))
+    return;
+  const localized = LANG === 'fr' ? e.explanationTranslations?.fr : e.explanation;
+  const fallback = LANG === 'fr' ? (e.translations?.fr || e.summary) : e.summary;
+  const content = localized || fallback;
+  if (!content)
+    return;
+  const explanation = el('div', 'section-explanation');
+  const paragraph = el('p', '', content);
+  paragraph.lang = LANG === 'fr' && !(localized || e.translations?.fr) ? 'en' : LANG;
+  explanation.append(el('strong', '', tr(e.section === 'contradictions' ? 'What is the contradiction?' : 'Why is this included?')), paragraph);
+  if (paragraph.lang !== LANG)
+    explanation.append(el('span', 'muted', tr('English summary (translation pending)')));
+  if (!localized || localized === fallback)
+    panel.classList.add('explanation-uses-summary');
+  panel.append(explanation);
+}
+
+function entry(e, parent = null) {
   const d = el('details', 'entry');
   d.dataset.passageKey = passageKey(e);
   const s = el('summary');
-  s.append(el('strong', '', trRef(e)), el('span', 'description', LANG === 'fr' ? (e.translations?.fr || e.summary) : e.summary));
-  if (LANG === 'fr' && !e.translations?.fr)
+  s.append(el('strong', '', trRef(e)));
+  if (e.summary)
+    s.append(el('span', 'description', LANG === 'fr' ? (e.translations?.fr || e.summary) : e.summary));
+  if (e.summary && LANG === 'fr' && !e.translations?.fr)
     s.append(el('span', 'muted', tr('English summary (translation pending)')));
   d.append(s);
   const panel = el('div', 'expanded');
@@ -549,14 +582,16 @@ function entry(e) {
     }
   };
   shareButton.onclick = async () => {
-    status.textContent = await copyText(passageURL(e)) ? tr('Link copied') : '';
+    status.textContent = await copyText(passageURL(parent ?? e)) ? tr('Link copied') : '';
   };
   copyButton.onclick = async () => {
     if (!currentResult)
       return;
-    const copied = await copyText(passageText(e, currentResult));
+    const copied = await copyText(passageText(e, currentResult, parent ?? e));
     status.textContent = copied ? tr('Passage copied') : '';
   };
+  if (!parent)
+    appendExplanation(panel, e);
   panel.append(edition, verse, contextButton, contextPanel, el('strong', 'sources-heading', tr('Sources')), sources, retry, actions);
   d.append(panel);
   let loaded = false;
@@ -612,6 +647,50 @@ function entry(e) {
   return d;
 }
 // Match both languages, ignoring case, accents and typographic punctuation.
+function comparisonEntry(e) {
+  const card = el('details', 'entry comparison-entry');
+  card.dataset.passageKey = passageKey(e);
+  const summary = el('summary');
+  summary.append(el('strong', '', e.passages.map(trRef).join(' + ')),
+    el('span', 'description', LANG === 'fr' ? (e.translations?.fr ?? e.summary) : e.summary));
+  if (LANG === 'fr' && !e.translations?.fr)
+    summary.append(el('span', 'muted', tr('English summary (translation pending)')));
+  card.append(summary);
+  const panel = el('div', 'expanded');
+  const grid = el('div', 'comparison-grid');
+  const children = e.passages.map(p => entry(p, e));
+  grid.append(...children);
+  appendExplanation(panel, e);
+  panel.append(grid);
+  if (e.sources.length) {
+    const sources = el('ul', 'sources');
+    for (const [label, url] of localizedSources(e)) {
+      const li = el('li');
+      li.append(link(label, url));
+      sources.append(li);
+    }
+    panel.append(el('strong', 'sources-heading', tr('Further reading')), sources);
+  }
+  const actions = el('div', 'passage-actions');
+  const share = el('button', '', tr('Copy link'));
+  const status = el('span', 'muted');
+  status.setAttribute('role', 'status');
+  share.onclick = async () => {
+    status.textContent = await copyText(passageURL(e)) ? tr('Link copied') : '';
+  };
+  actions.append(share, status);
+  panel.append(actions);
+  card.append(panel);
+  let opened = false;
+  card.addEventListener('toggle', () => {
+    if (card.open && !opened) {
+      opened = true;
+      children.forEach(child => child.open = true);
+    }
+  });
+  return card;
+}
+
 function normalizeSearch(value) {
   return String(value ?? '')
     .normalize('NFD')
@@ -624,29 +703,34 @@ function normalizeSearch(value) {
 function matchesSearch(entry, terms) {
   if (!terms.length)
     return true;
-  const categories = [entry.religion, entry.collection, entry.book, ...entry.themes];
+  const parts = passageParts(entry);
+  const categories = [entry.religion, entry.collection, entry.book, ...parts.map(p => p.book), ...entry.themes];
   const frenchReference = entry.kind === 'bible'
     ? entry.reference.replace(/^(.+?)(?= \d+:)/, book => FR[book] ?? book)
     : entry.reference;
   const fields = [
     entry.reference,
     frenchReference,
+    ...parts.map(trRef),
+    ...parts.map(p => p.kind === 'bible' ? p.reference.replace(/^(.+?)(?= \d+:)/, book => FR[book] ?? book) : p.reference),
     entry.summary,
+    entry.explanation,
     ...Object.values(entry.translations ?? {}),
+    ...Object.values(entry.explanationTranslations ?? {}),
     ...categories,
     ...categories.map(value => FR[value] ?? value),
-    ...Object.values(localSearchData[passageKey(entry)] ?? {}).flatMap(result =>
+    ...parts.flatMap(p => Object.values(localSearchData[passageKey(p)] ?? {}).flatMap(result =>
       result.verses?.map(verse => verse.text) ?? [],
-    ),
+    )), 
   ];
   const haystack = normalizeSearch(fields.join(' '));
   return terms.every(term => {
     // A single verse reference also matches a passage containing that verse.
     const match = /^(\d+):(\d+)$/.exec(term);
-    if (match && entry.ranges?.length) {
+    if (match && parts.some(p => p.ranges?.length)) {
       const chapter = Number(match[1]);
       const verse = Number(match[2]);
-      return entry.ranges.some(([c, start, end]) => c === chapter && verse >= start && verse <= end);
+      return parts.some(p => p.ranges?.some(([c, start, end]) => c === chapter && verse >= start && verse <= end));
     }
     return haystack.includes(term);
   });
@@ -687,6 +771,10 @@ function themeColor(index) {
   return colors[index] ?? `hsl(${(index * 137.508) % 360} 65% 65%)`;
 }
 
+function countLabel(count) {
+  return tr(SECTION === 'ethical' ? (count === 1 ? 'indexed passage' : 'indexed passages') : (count === 1 ? 'entry' : 'entries'));
+}
+
 function allReligionsCard(entries) {
   const themes = themeStats(entries);
   const total = themes.reduce((sum, [, count]) => sum + count, 0);
@@ -694,14 +782,14 @@ function allReligionsCard(entries) {
   card.type = 'button';
   card.append(
     el('span', 'overview-title', tr('All religions')),
-    el('span', 'overview-count', `${entries.length} ${tr(entries.length === 1 ? 'indexed passage' : 'indexed passages')}`),
+    el('span', 'overview-count', `${entries.length} ${countLabel(entries.length)}`),
   );
   if (total) {
     const layout = el('span', 'distribution-layout');
     const donut = el('span', 'theme-donut');
     donut.setAttribute('aria-hidden', 'true');
     const center = el('span', 'donut-center');
-    center.append(el('span', 'donut-total', String(themes.length)), el('span', 'muted', tr('Themes')));
+    center.append(el('span', 'donut-total', String(themes.length)), el('span', 'muted', tr(SECTION === 'ethical' ? 'Themes' : 'Types')));
     donut.append(center);
     const legend = el('span', 'theme-legend');
     const formatter = new Intl.NumberFormat(LANG === 'fr' ? 'fr-FR' : 'en', {
@@ -728,7 +816,7 @@ function allReligionsCard(entries) {
     }
     donut.style.background = `conic-gradient(${stops.join(', ')})`;
     layout.append(donut, legend);
-    card.append(layout, el('span', 'muted distribution-note', tr('Percentages are shares of all theme assignments. A passage can belong to multiple themes.')));
+    card.append(layout, el('span', 'muted distribution-note', tr(SECTION === 'ethical' ? 'Percentages are shares of all theme assignments. A passage can belong to multiple themes.' : 'Percentages are shares of entries in this section.')));
   }
   card.append(el('span', 'overview-open', tr('Browse passages')));
   card.onclick = () => openReligion('');
@@ -747,6 +835,29 @@ function openReligion(religion) {
   window.scrollTo(0, 0);
 }
 
+function switchSection(section) {
+  if (!SECTIONS.some(([key]) => key === section))
+    return;
+  SECTION = section;
+  DATA = sectionEntries();
+  goHome();
+  localize();
+}
+
+function renderSectionNav() {
+  const nav = $('section-nav');
+  nav.setAttribute('aria-label', tr('Sections'));
+  nav.replaceChildren(...SECTIONS.map(([key, label]) => {
+    const button = el('button', 'section-tab', tr(label));
+    button.type = 'button';
+    button.setAttribute('aria-pressed', String(key === SECTION));
+    button.onclick = () => switchSection(key);
+    return button;
+  }));
+  $('section-select').replaceChildren(...SECTIONS.map(([key, label]) => option(key, tr(label))));
+  $('section-select').value = SECTION;
+}
+
 function goHome() {
   VIEW = 'home';
   $('search').value = '';
@@ -761,6 +872,10 @@ function goHome() {
   const url = new URL(window.location.href);
   for (const key of ['religion', 'book', 'ref'])
     url.searchParams.delete(key);
+  if (SECTION === 'ethical')
+    url.searchParams.delete('section');
+  else
+    url.searchParams.set('section', SECTION);
   window.history.replaceState(null, '', url);
   render();
   window.scrollTo(0, 0);
@@ -768,10 +883,10 @@ function goHome() {
 
 function renderHome(target) {
   target.replaceChildren();
-  $('count').textContent = DATA.length + ' ' + tr('indexed passages');
+  $('count').textContent = DATA.length + ' ' + countLabel(DATA.length);
   $('active-filters').textContent = '';
   const intro = el('div', 'overview-intro');
-  intro.append(el('h2', '', tr('Explore religions')), el('p', 'muted', tr('Select a religion to browse its indexed passages.')));
+  intro.append(el('h2', '', tr(sectionLabel())), el('p', 'muted', tr(SECTION === 'ethical' ? 'Select a religion to browse its indexed passages.' : SECTION === 'contradictions' ? 'Compare differing accounts and apparent tensions, with relevant context.' : 'Explore extraordinary claims and tensions with scientific knowledge.')));
   target.append(intro);
   const grid = el('div', 'overview-grid');
   grid.append(allReligionsCard(DATA));
@@ -781,9 +896,9 @@ function renderHome(target) {
     const card = el('button', 'religion-card');
     card.type = 'button';
     const heading = el('span', 'overview-title', tr(religion));
-    card.append(heading, el('span', 'overview-count', `${count} ${tr(count === 1 ? 'indexed passage' : 'indexed passages')}`));
+    card.append(heading, el('span', 'overview-count', `${count} ${countLabel(count)}`));
     const chart = el('span', 'overview-chart');
-    chart.append(el('span', 'muted', tr('Top themes')));
+    chart.append(el('span', 'muted', tr(SECTION === 'ethical' ? 'Top themes' : 'Top types')));
     for (const [theme, amount] of top) {
       const row = el('span', 'theme-stat');
       const label = el('span', 'theme-stat-label');
@@ -803,7 +918,7 @@ function renderHome(target) {
     card.onclick = () => openReligion(religion);
     grid.append(card);
   }
-  target.append(grid, el('p', 'muted overview-note', tr('Counts describe this index, not entire religions. Entries can belong to multiple themes.')), el('p', 'muted bar-scale-note', tr('Bars use a shared count scale across religions.') + ` (0-${maximum})`));
+  target.append(grid, el('p', 'muted overview-note', tr(SECTION === 'ethical' ? 'Counts describe this index, not entire religions. Entries can belong to multiple themes.' : 'Counts describe this index. Apparent contradictions and extraordinary claims are not automatically proven errors.')), el('p', 'muted bar-scale-note', tr('Bars use a shared count scale across religions.') + ` (0-${maximum})`));
 }
 
 function render() {
@@ -845,7 +960,7 @@ function render() {
       collection.append(el('h3', '', tr(name)));
       for (const [book, entries] of books) {
         const group = el('section', 'book-group');
-        group.append(el('h4', '', tr(book)), ...entries.map(entry));
+        group.append(el('h4', '', tr(book)), ...entries.map(e => e.kind === 'comparison' ? comparisonEntry(e) : entry(e)));
         collection.append(group);
       }
       section.append(collection);
@@ -854,6 +969,7 @@ function render() {
   }
 }
 $('home').onclick = goHome;
+$('section-select').onchange = () => switchSection($('section-select').value);
 $('religion').onchange = () => {
   VIEW = 'browse';
   updateBooks();
@@ -876,7 +992,9 @@ $('search').addEventListener('input', () => {
 });
 function localize() {
   document.documentElement.lang = LANG;
+  renderSectionNav();
   document.querySelectorAll('[data-i18n]').forEach(n => n.textContent = tr(n.dataset.i18n));
+  $('theme-label').textContent = tr(SECTION === 'ethical' ? 'Theme' : 'Type');
   $('menu').setAttribute('aria-label', tr('Open filters'));
   $('search').setAttribute('aria-label', tr('Search passages'));
   $('search').placeholder = tr('Search references or keywords...');
@@ -905,8 +1023,12 @@ async function init() {
     const response = await fetch('./generated/entries.json', { cache: 'no-store' });
     if (!response.ok)
       throw Error('HTTP ' + response.status);
-    DATA = await response.json();
+    ALL_DATA = await response.json();
     const params = new URLSearchParams(window.location.search);
+    const requestedSection = params.get('section');
+    if (SECTIONS.some(([key]) => key === requestedSection))
+      SECTION = requestedSection;
+    DATA = sectionEntries();
     const requestedLanguage = params.get('lang');
     if (requestedLanguage === 'en' || requestedLanguage === 'fr')
       LANG = requestedLanguage;

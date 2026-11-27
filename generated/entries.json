@@ -1,6 +1,7 @@
 [
   {
     "id": "buddhism/sutta-pitaka.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Sutta Pitaka",
@@ -24,6 +25,7 @@
   },
   {
     "id": "buddhism/sutta-pitaka.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Sutta Pitaka",
@@ -47,6 +49,7 @@
   },
   {
     "id": "buddhism/sutta-pitaka.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Sutta Pitaka",
@@ -74,6 +77,7 @@
   },
   {
     "id": "buddhism/sutta-pitaka.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Sutta Pitaka",
@@ -97,6 +101,7 @@
   },
   {
     "id": "buddhism/vinaya-pitaka.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Vinaya Pitaka",
@@ -120,6 +125,7 @@
   },
   {
     "id": "buddhism/vinaya-pitaka.md:7",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Vinaya Pitaka",
@@ -143,6 +149,7 @@
   },
   {
     "id": "buddhism/vinaya-pitaka.md:8",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Vinaya Pitaka",
@@ -166,6 +173,7 @@
   },
   {
     "id": "buddhism/vinaya-pitaka.md:12",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Vinaya Pitaka",
@@ -193,6 +201,7 @@
   },
   {
     "id": "buddhism/vinaya-pitaka.md:13",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Vinaya Pitaka",
@@ -216,6 +225,7 @@
   },
   {
     "id": "buddhism/vinaya-pitaka.md:17",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Buddhism",
     "collection": "Vinaya Pitaka",
@@ -239,6 +249,7 @@
   },
   {
     "id": "christianity/bible.md:3",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -277,6 +288,7 @@
   },
   {
     "id": "christianity/bible.md:4",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -315,6 +327,7 @@
   },
   {
     "id": "christianity/bible.md:5",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -353,6 +366,7 @@
   },
   {
     "id": "christianity/bible.md:6",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -391,6 +405,7 @@
   },
   {
     "id": "christianity/bible.md:7",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -429,6 +444,7 @@
   },
   {
     "id": "christianity/bible.md:8",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -467,6 +483,7 @@
   },
   {
     "id": "christianity/bible.md:9",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -505,6 +522,7 @@
   },
   {
     "id": "christianity/bible.md:10",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -543,6 +561,7 @@
   },
   {
     "id": "christianity/bible.md:11",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -581,6 +600,7 @@
   },
   {
     "id": "christianity/bible.md:12",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -619,6 +639,7 @@
   },
   {
     "id": "christianity/bible.md:13",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -657,6 +678,7 @@
   },
   {
     "id": "christianity/bible.md:14",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -695,6 +717,7 @@
   },
   {
     "id": "christianity/bible.md:15",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -733,6 +756,7 @@
   },
   {
     "id": "christianity/bible.md:16",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -771,6 +795,7 @@
   },
   {
     "id": "christianity/bible.md:17",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -809,6 +834,7 @@
   },
   {
     "id": "christianity/bible.md:18",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -847,6 +873,7 @@
   },
   {
     "id": "christianity/bible.md:19",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -885,6 +912,7 @@
   },
   {
     "id": "christianity/bible.md:20",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -923,6 +951,7 @@
   },
   {
     "id": "christianity/bible.md:21",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -961,6 +990,7 @@
   },
   {
     "id": "christianity/bible.md:22",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -999,6 +1029,7 @@
   },
   {
     "id": "christianity/bible.md:23",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1037,6 +1068,7 @@
   },
   {
     "id": "christianity/bible.md:24",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1075,6 +1107,7 @@
   },
   {
     "id": "christianity/bible.md:25",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1113,6 +1146,7 @@
   },
   {
     "id": "christianity/bible.md:26",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1151,6 +1185,7 @@
   },
   {
     "id": "christianity/bible.md:30",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1189,6 +1224,7 @@
   },
   {
     "id": "christianity/bible.md:32",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1236,6 +1272,7 @@
   },
   {
     "id": "christianity/bible.md:33",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1274,6 +1311,7 @@
   },
   {
     "id": "christianity/bible.md:34",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1312,6 +1350,7 @@
   },
   {
     "id": "christianity/bible.md:35",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1350,6 +1389,7 @@
   },
   {
     "id": "christianity/bible.md:36",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1388,6 +1428,7 @@
   },
   {
     "id": "christianity/bible.md:37",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1426,6 +1467,7 @@
   },
   {
     "id": "christianity/bible.md:38",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1464,6 +1506,7 @@
   },
   {
     "id": "christianity/bible.md:39",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1502,6 +1545,7 @@
   },
   {
     "id": "christianity/bible.md:40",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1540,6 +1584,7 @@
   },
   {
     "id": "christianity/bible.md:41",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1578,6 +1623,7 @@
   },
   {
     "id": "christianity/bible.md:42",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1616,6 +1662,7 @@
   },
   {
     "id": "christianity/bible.md:43",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1654,6 +1701,7 @@
   },
   {
     "id": "christianity/bible.md:44",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1692,6 +1740,7 @@
   },
   {
     "id": "christianity/bible.md:45",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1730,6 +1779,7 @@
   },
   {
     "id": "christianity/bible.md:46",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1768,6 +1818,7 @@
   },
   {
     "id": "christianity/bible.md:47",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1806,6 +1857,7 @@
   },
   {
     "id": "christianity/bible.md:48",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1844,6 +1896,7 @@
   },
   {
     "id": "christianity/bible.md:49",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1882,6 +1935,7 @@
   },
   {
     "id": "christianity/bible.md:50",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1920,6 +1974,7 @@
   },
   {
     "id": "christianity/bible.md:51",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1958,6 +2013,7 @@
   },
   {
     "id": "christianity/bible.md:52",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -1996,6 +2052,7 @@
   },
   {
     "id": "christianity/bible.md:53",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2034,6 +2091,7 @@
   },
   {
     "id": "christianity/bible.md:54",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2072,6 +2130,7 @@
   },
   {
     "id": "christianity/bible.md:55",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2110,6 +2169,7 @@
   },
   {
     "id": "christianity/bible.md:56",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2148,6 +2208,7 @@
   },
   {
     "id": "christianity/bible.md:57",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2186,6 +2247,7 @@
   },
   {
     "id": "christianity/bible.md:58",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2224,6 +2286,7 @@
   },
   {
     "id": "christianity/bible.md:59",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2262,6 +2325,7 @@
   },
   {
     "id": "christianity/bible.md:60",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2300,6 +2364,7 @@
   },
   {
     "id": "christianity/bible.md:61",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2338,6 +2403,7 @@
   },
   {
     "id": "christianity/bible.md:62",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2376,6 +2442,7 @@
   },
   {
     "id": "christianity/bible.md:66",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2414,6 +2481,7 @@
   },
   {
     "id": "christianity/bible.md:67",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2452,6 +2520,7 @@
   },
   {
     "id": "christianity/bible.md:68",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2490,6 +2559,7 @@
   },
   {
     "id": "christianity/bible.md:69",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2528,6 +2598,7 @@
   },
   {
     "id": "christianity/bible.md:70",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2566,6 +2637,7 @@
   },
   {
     "id": "christianity/bible.md:71",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2604,6 +2676,7 @@
   },
   {
     "id": "christianity/bible.md:72",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2642,6 +2715,7 @@
   },
   {
     "id": "christianity/bible.md:73",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2680,6 +2754,7 @@
   },
   {
     "id": "christianity/bible.md:74",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2718,6 +2793,7 @@
   },
   {
     "id": "christianity/bible.md:75",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2756,6 +2832,7 @@
   },
   {
     "id": "christianity/bible.md:76",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2794,6 +2871,7 @@
   },
   {
     "id": "christianity/bible.md:77",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2832,6 +2910,7 @@
   },
   {
     "id": "christianity/bible.md:78",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2870,6 +2949,7 @@
   },
   {
     "id": "christianity/bible.md:79",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2908,6 +2988,7 @@
   },
   {
     "id": "christianity/bible.md:83",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2946,6 +3027,7 @@
   },
   {
     "id": "christianity/bible.md:84",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -2984,6 +3066,7 @@
   },
   {
     "id": "christianity/bible.md:85",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3022,6 +3105,7 @@
   },
   {
     "id": "christianity/bible.md:86",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3060,6 +3144,7 @@
   },
   {
     "id": "christianity/bible.md:87",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3098,6 +3183,7 @@
   },
   {
     "id": "christianity/bible.md:88",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3136,6 +3222,7 @@
   },
   {
     "id": "christianity/bible.md:89",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3174,6 +3261,7 @@
   },
   {
     "id": "christianity/bible.md:90",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3212,6 +3300,7 @@
   },
   {
     "id": "christianity/bible.md:91",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3250,6 +3339,7 @@
   },
   {
     "id": "christianity/bible.md:92",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3288,6 +3378,7 @@
   },
   {
     "id": "christianity/bible.md:93",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3326,6 +3417,7 @@
   },
   {
     "id": "christianity/bible.md:94",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3364,6 +3456,7 @@
   },
   {
     "id": "christianity/bible.md:95",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3402,6 +3495,7 @@
   },
   {
     "id": "christianity/bible.md:96",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3440,6 +3534,7 @@
   },
   {
     "id": "christianity/bible.md:97",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3478,6 +3573,7 @@
   },
   {
     "id": "christianity/bible.md:98",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3516,6 +3612,7 @@
   },
   {
     "id": "christianity/bible.md:99",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3554,6 +3651,7 @@
   },
   {
     "id": "christianity/bible.md:100",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3592,6 +3690,7 @@
   },
   {
     "id": "christianity/bible.md:101",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3630,6 +3729,7 @@
   },
   {
     "id": "christianity/bible.md:102",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3668,6 +3768,7 @@
   },
   {
     "id": "christianity/bible.md:103",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3706,6 +3807,7 @@
   },
   {
     "id": "christianity/bible.md:104",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3744,6 +3846,7 @@
   },
   {
     "id": "christianity/bible.md:105",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3782,6 +3885,7 @@
   },
   {
     "id": "christianity/bible.md:109",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3820,6 +3924,7 @@
   },
   {
     "id": "christianity/bible.md:110",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3858,6 +3963,7 @@
   },
   {
     "id": "christianity/bible.md:111",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3896,6 +4002,7 @@
   },
   {
     "id": "christianity/bible.md:112",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3934,6 +4041,7 @@
   },
   {
     "id": "christianity/bible.md:113",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -3972,6 +4080,7 @@
   },
   {
     "id": "christianity/bible.md:114",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4010,6 +4119,7 @@
   },
   {
     "id": "christianity/bible.md:115",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4048,6 +4158,7 @@
   },
   {
     "id": "christianity/bible.md:116",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4086,6 +4197,7 @@
   },
   {
     "id": "christianity/bible.md:117",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4124,6 +4236,7 @@
   },
   {
     "id": "christianity/bible.md:118",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4162,6 +4275,7 @@
   },
   {
     "id": "christianity/bible.md:119",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4200,6 +4314,7 @@
   },
   {
     "id": "christianity/bible.md:120",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4238,6 +4353,7 @@
   },
   {
     "id": "christianity/bible.md:121",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4276,6 +4392,7 @@
   },
   {
     "id": "christianity/bible.md:125",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4314,6 +4431,7 @@
   },
   {
     "id": "christianity/bible.md:126",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4352,6 +4470,7 @@
   },
   {
     "id": "christianity/bible.md:127",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4390,6 +4509,7 @@
   },
   {
     "id": "christianity/bible.md:128",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4428,6 +4548,7 @@
   },
   {
     "id": "christianity/bible.md:129",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4466,6 +4587,7 @@
   },
   {
     "id": "christianity/bible.md:130",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4504,6 +4626,7 @@
   },
   {
     "id": "christianity/bible.md:131",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4542,6 +4665,7 @@
   },
   {
     "id": "christianity/bible.md:135",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4580,6 +4704,7 @@
   },
   {
     "id": "christianity/bible.md:136",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4618,6 +4743,7 @@
   },
   {
     "id": "christianity/bible.md:137",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4656,6 +4782,7 @@
   },
   {
     "id": "christianity/bible.md:138",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4694,6 +4821,7 @@
   },
   {
     "id": "christianity/bible.md:139",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4732,6 +4860,7 @@
   },
   {
     "id": "christianity/bible.md:140",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4770,6 +4899,7 @@
   },
   {
     "id": "christianity/bible.md:141",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4808,6 +4938,7 @@
   },
   {
     "id": "christianity/bible.md:142",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4846,6 +4977,7 @@
   },
   {
     "id": "christianity/bible.md:143",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4884,6 +5016,7 @@
   },
   {
     "id": "christianity/bible.md:144",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4922,6 +5055,7 @@
   },
   {
     "id": "christianity/bible.md:145",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4960,6 +5094,7 @@
   },
   {
     "id": "christianity/bible.md:146",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -4998,6 +5133,7 @@
   },
   {
     "id": "christianity/bible.md:147",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5036,6 +5172,7 @@
   },
   {
     "id": "christianity/bible.md:148",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5074,6 +5211,7 @@
   },
   {
     "id": "christianity/bible.md:149",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5112,6 +5250,7 @@
   },
   {
     "id": "christianity/bible.md:150",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5150,6 +5289,7 @@
   },
   {
     "id": "christianity/bible.md:151",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5188,6 +5328,7 @@
   },
   {
     "id": "christianity/bible.md:152",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5226,6 +5367,7 @@
   },
   {
     "id": "christianity/bible.md:153",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5264,6 +5406,7 @@
   },
   {
     "id": "christianity/bible.md:154",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5302,6 +5445,7 @@
   },
   {
     "id": "christianity/bible.md:155",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5340,6 +5484,7 @@
   },
   {
     "id": "christianity/bible.md:159",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5378,6 +5523,7 @@
   },
   {
     "id": "christianity/bible.md:160",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5416,6 +5562,7 @@
   },
   {
     "id": "christianity/bible.md:161",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5454,6 +5601,7 @@
   },
   {
     "id": "christianity/bible.md:162",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5492,6 +5640,7 @@
   },
   {
     "id": "christianity/bible.md:163",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5530,6 +5679,7 @@
   },
   {
     "id": "christianity/bible.md:164",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5568,6 +5718,7 @@
   },
   {
     "id": "christianity/bible.md:165",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5606,6 +5757,7 @@
   },
   {
     "id": "christianity/bible.md:166",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5644,6 +5796,7 @@
   },
   {
     "id": "christianity/bible.md:167",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5682,6 +5835,7 @@
   },
   {
     "id": "christianity/bible.md:168",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5720,6 +5874,7 @@
   },
   {
     "id": "christianity/bible.md:169",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5758,6 +5913,7 @@
   },
   {
     "id": "christianity/bible.md:170",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5796,6 +5952,7 @@
   },
   {
     "id": "christianity/bible.md:171",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5834,6 +5991,7 @@
   },
   {
     "id": "christianity/bible.md:172",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5872,6 +6030,7 @@
   },
   {
     "id": "christianity/bible.md:173",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5910,6 +6069,7 @@
   },
   {
     "id": "christianity/bible.md:174",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5948,6 +6108,7 @@
   },
   {
     "id": "christianity/bible.md:175",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -5986,6 +6147,7 @@
   },
   {
     "id": "christianity/bible.md:176",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6024,6 +6186,7 @@
   },
   {
     "id": "christianity/bible.md:177",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6062,6 +6225,7 @@
   },
   {
     "id": "christianity/bible.md:178",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6100,6 +6264,7 @@
   },
   {
     "id": "christianity/bible.md:179",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6138,6 +6303,7 @@
   },
   {
     "id": "christianity/bible.md:180",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6176,6 +6342,7 @@
   },
   {
     "id": "christianity/bible.md:184",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6214,6 +6381,7 @@
   },
   {
     "id": "christianity/bible.md:186",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6252,6 +6420,7 @@
   },
   {
     "id": "christianity/bible.md:187",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6290,6 +6459,7 @@
   },
   {
     "id": "christianity/bible.md:188",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6328,6 +6498,7 @@
   },
   {
     "id": "christianity/bible.md:189",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6366,6 +6537,7 @@
   },
   {
     "id": "christianity/bible.md:190",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6404,6 +6576,7 @@
   },
   {
     "id": "christianity/bible.md:191",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6442,6 +6615,7 @@
   },
   {
     "id": "christianity/bible.md:192",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6480,6 +6654,7 @@
   },
   {
     "id": "christianity/bible.md:193",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6518,6 +6693,7 @@
   },
   {
     "id": "christianity/bible.md:194",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6556,6 +6732,7 @@
   },
   {
     "id": "christianity/bible.md:195",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6594,6 +6771,7 @@
   },
   {
     "id": "christianity/bible.md:196",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6632,6 +6810,7 @@
   },
   {
     "id": "christianity/bible.md:197",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6670,6 +6849,7 @@
   },
   {
     "id": "christianity/bible.md:198",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6708,6 +6888,7 @@
   },
   {
     "id": "christianity/bible.md:199",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6746,6 +6927,7 @@
   },
   {
     "id": "christianity/bible.md:200",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6784,6 +6966,7 @@
   },
   {
     "id": "christianity/bible.md:201",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6822,6 +7005,7 @@
   },
   {
     "id": "christianity/bible.md:202",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6860,6 +7044,7 @@
   },
   {
     "id": "christianity/bible.md:203",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6898,6 +7083,7 @@
   },
   {
     "id": "christianity/bible.md:204",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6936,6 +7122,7 @@
   },
   {
     "id": "christianity/bible.md:205",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -6974,6 +7161,7 @@
   },
   {
     "id": "christianity/bible.md:206",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7012,6 +7200,7 @@
   },
   {
     "id": "christianity/bible.md:207",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7050,6 +7239,7 @@
   },
   {
     "id": "christianity/bible.md:208",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7088,6 +7278,7 @@
   },
   {
     "id": "christianity/bible.md:209",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7126,6 +7317,7 @@
   },
   {
     "id": "christianity/bible.md:210",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7164,6 +7356,7 @@
   },
   {
     "id": "christianity/bible.md:211",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7202,6 +7395,7 @@
   },
   {
     "id": "christianity/bible.md:212",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7240,6 +7434,7 @@
   },
   {
     "id": "christianity/bible.md:213",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7278,6 +7473,7 @@
   },
   {
     "id": "christianity/bible.md:217",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7316,6 +7512,7 @@
   },
   {
     "id": "christianity/bible.md:218",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7354,6 +7551,7 @@
   },
   {
     "id": "christianity/bible.md:219",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7392,6 +7590,7 @@
   },
   {
     "id": "christianity/bible.md:220",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7430,6 +7629,7 @@
   },
   {
     "id": "christianity/bible.md:221",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7468,6 +7668,7 @@
   },
   {
     "id": "christianity/bible.md:222",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7506,6 +7707,7 @@
   },
   {
     "id": "christianity/bible.md:223",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7544,6 +7746,7 @@
   },
   {
     "id": "christianity/bible.md:224",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7582,6 +7785,7 @@
   },
   {
     "id": "christianity/bible.md:225",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7620,6 +7824,7 @@
   },
   {
     "id": "christianity/bible.md:226",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7658,6 +7863,7 @@
   },
   {
     "id": "christianity/bible.md:227",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7696,6 +7902,7 @@
   },
   {
     "id": "christianity/bible.md:228",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7734,6 +7941,7 @@
   },
   {
     "id": "christianity/bible.md:229",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7772,6 +7980,7 @@
   },
   {
     "id": "christianity/bible.md:230",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7810,6 +8019,7 @@
   },
   {
     "id": "christianity/bible.md:231",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7848,6 +8058,7 @@
   },
   {
     "id": "christianity/bible.md:232",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7886,6 +8097,7 @@
   },
   {
     "id": "christianity/bible.md:233",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7924,6 +8136,7 @@
   },
   {
     "id": "christianity/bible.md:234",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -7962,6 +8175,7 @@
   },
   {
     "id": "christianity/bible.md:238",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8000,6 +8214,7 @@
   },
   {
     "id": "christianity/bible.md:239",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8038,6 +8253,7 @@
   },
   {
     "id": "christianity/bible.md:240",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8076,6 +8292,7 @@
   },
   {
     "id": "christianity/bible.md:241",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8114,6 +8331,7 @@
   },
   {
     "id": "christianity/bible.md:242",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8152,6 +8370,7 @@
   },
   {
     "id": "christianity/bible.md:246",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8190,6 +8409,7 @@
   },
   {
     "id": "christianity/bible.md:247",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8228,6 +8448,7 @@
   },
   {
     "id": "christianity/bible.md:248",
+    "section": "ethical",
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
@@ -8266,6 +8487,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8289,6 +8511,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8312,6 +8535,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8335,6 +8559,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8362,6 +8587,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8389,6 +8615,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:11",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8416,6 +8643,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:15",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8439,6 +8667,7 @@
   },
   {
     "id": "christianity/book-of-mormon.md:19",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Book Of Mormon",
@@ -8462,6 +8691,7 @@
   },
   {
     "id": "christianity/doctrine-and-covenants.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Doctrine And Covenants",
@@ -8489,6 +8719,7 @@
   },
   {
     "id": "christianity/doctrine-and-covenants.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Doctrine And Covenants",
@@ -8516,6 +8747,7 @@
   },
   {
     "id": "christianity/doctrine-and-covenants.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Doctrine And Covenants",
@@ -8543,6 +8775,7 @@
   },
   {
     "id": "christianity/doctrine-and-covenants.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Doctrine And Covenants",
@@ -8566,6 +8799,7 @@
   },
   {
     "id": "christianity/doctrine-and-covenants.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Doctrine And Covenants",
@@ -8589,6 +8823,7 @@
   },
   {
     "id": "christianity/doctrine-and-covenants.md:14",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Christianity",
     "collection": "Doctrine And Covenants",
@@ -8612,6 +8847,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8635,6 +8871,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8658,6 +8895,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8681,6 +8919,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:6",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8704,6 +8943,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:7",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8727,6 +8967,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:8",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8750,6 +8991,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8773,6 +9015,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8796,6 +9039,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:11",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8819,6 +9063,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:12",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8842,6 +9087,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:16",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8865,6 +9111,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:17",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8888,6 +9135,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:18",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8911,6 +9159,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:19",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8934,6 +9183,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:20",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8957,6 +9207,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:21",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -8980,6 +9231,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:22",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -9003,6 +9255,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:26",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -9026,6 +9279,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:27",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -9049,6 +9303,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:28",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -9072,6 +9327,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:32",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -9095,6 +9351,7 @@
   },
   {
     "id": "hinduism/gautama-dharmasutra.md:36",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Gautama Dharmasutra",
@@ -9118,6 +9375,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9145,6 +9403,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9168,6 +9427,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9191,6 +9451,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9214,6 +9475,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9237,6 +9499,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:11",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9260,6 +9523,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:12",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9283,6 +9547,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:13",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9306,6 +9571,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:14",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9329,6 +9595,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:15",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9352,6 +9619,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:16",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9375,6 +9643,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:17",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9398,6 +9667,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:18",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9421,6 +9691,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:19",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9444,6 +9715,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:20",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9467,6 +9739,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:21",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9490,6 +9763,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:22",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9513,6 +9787,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:26",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9536,6 +9811,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:27",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9563,6 +9839,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:31",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9586,6 +9863,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:32",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9609,6 +9887,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:33",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9632,6 +9911,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:34",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9655,6 +9935,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:35",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9678,6 +9959,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:36",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9701,6 +9983,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:37",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9724,6 +10007,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:38",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9747,6 +10031,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:42",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9774,6 +10059,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:43",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9797,6 +10083,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:44",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9820,6 +10107,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:45",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9843,6 +10131,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:46",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9866,6 +10155,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:47",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9889,6 +10179,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:51",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9912,6 +10203,7 @@
   },
   {
     "id": "hinduism/manusmriti.md:55",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Hinduism",
     "collection": "Manusmriti",
@@ -9935,6 +10227,7 @@
   },
   {
     "id": "islam/quran.md:3",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -9969,6 +10262,7 @@
   },
   {
     "id": "islam/quran.md:4",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10003,6 +10297,7 @@
   },
   {
     "id": "islam/quran.md:5",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10037,6 +10332,7 @@
   },
   {
     "id": "islam/quran.md:6",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10071,6 +10367,7 @@
   },
   {
     "id": "islam/quran.md:7",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10105,6 +10402,7 @@
   },
   {
     "id": "islam/quran.md:8",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10139,6 +10437,7 @@
   },
   {
     "id": "islam/quran.md:9",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10173,6 +10472,7 @@
   },
   {
     "id": "islam/quran.md:13",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10207,6 +10507,7 @@
   },
   {
     "id": "islam/quran.md:14",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10241,6 +10542,7 @@
   },
   {
     "id": "islam/quran.md:15",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10275,6 +10577,7 @@
   },
   {
     "id": "islam/quran.md:16",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10309,6 +10612,7 @@
   },
   {
     "id": "islam/quran.md:17",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10343,6 +10647,7 @@
   },
   {
     "id": "islam/quran.md:18",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10377,6 +10682,7 @@
   },
   {
     "id": "islam/quran.md:22",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10411,6 +10717,7 @@
   },
   {
     "id": "islam/quran.md:23",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10445,6 +10752,7 @@
   },
   {
     "id": "islam/quran.md:24",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10479,6 +10787,7 @@
   },
   {
     "id": "islam/quran.md:25",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10513,6 +10822,7 @@
   },
   {
     "id": "islam/quran.md:26",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10547,6 +10857,7 @@
   },
   {
     "id": "islam/quran.md:27",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10581,6 +10892,7 @@
   },
   {
     "id": "islam/quran.md:28",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10615,6 +10927,7 @@
   },
   {
     "id": "islam/quran.md:29",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10649,6 +10962,7 @@
   },
   {
     "id": "islam/quran.md:30",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10683,6 +10997,7 @@
   },
   {
     "id": "islam/quran.md:31",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10717,6 +11032,7 @@
   },
   {
     "id": "islam/quran.md:32",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10751,6 +11067,7 @@
   },
   {
     "id": "islam/quran.md:33",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10785,6 +11102,7 @@
   },
   {
     "id": "islam/quran.md:34",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10819,6 +11137,7 @@
   },
   {
     "id": "islam/quran.md:35",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10853,6 +11172,7 @@
   },
   {
     "id": "islam/quran.md:36",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10887,6 +11207,7 @@
   },
   {
     "id": "islam/quran.md:37",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10921,6 +11242,7 @@
   },
   {
     "id": "islam/quran.md:38",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10955,6 +11277,7 @@
   },
   {
     "id": "islam/quran.md:39",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -10989,6 +11312,7 @@
   },
   {
     "id": "islam/quran.md:40",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11023,6 +11347,7 @@
   },
   {
     "id": "islam/quran.md:41",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11057,6 +11382,7 @@
   },
   {
     "id": "islam/quran.md:42",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11091,6 +11417,7 @@
   },
   {
     "id": "islam/quran.md:43",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11125,6 +11452,7 @@
   },
   {
     "id": "islam/quran.md:47",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11159,6 +11487,7 @@
   },
   {
     "id": "islam/quran.md:48",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11193,6 +11522,7 @@
   },
   {
     "id": "islam/quran.md:49",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11240,6 +11570,7 @@
   },
   {
     "id": "islam/quran.md:53",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11274,6 +11605,7 @@
   },
   {
     "id": "islam/quran.md:54",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11308,6 +11640,7 @@
   },
   {
     "id": "islam/quran.md:55",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11342,6 +11675,7 @@
   },
   {
     "id": "islam/quran.md:56",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11376,6 +11710,7 @@
   },
   {
     "id": "islam/quran.md:57",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11410,6 +11745,7 @@
   },
   {
     "id": "islam/quran.md:58",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11444,6 +11780,7 @@
   },
   {
     "id": "islam/quran.md:62",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11478,6 +11815,7 @@
   },
   {
     "id": "islam/quran.md:63",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11512,6 +11850,7 @@
   },
   {
     "id": "islam/quran.md:64",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11546,6 +11885,7 @@
   },
   {
     "id": "islam/quran.md:65",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11580,6 +11920,7 @@
   },
   {
     "id": "islam/quran.md:66",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11614,6 +11955,7 @@
   },
   {
     "id": "islam/quran.md:67",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11648,6 +11990,7 @@
   },
   {
     "id": "islam/quran.md:68",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11682,6 +12025,7 @@
   },
   {
     "id": "islam/quran.md:69",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11716,6 +12060,7 @@
   },
   {
     "id": "islam/quran.md:70",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11750,6 +12095,7 @@
   },
   {
     "id": "islam/quran.md:71",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11784,6 +12130,7 @@
   },
   {
     "id": "islam/quran.md:72",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11818,6 +12165,7 @@
   },
   {
     "id": "islam/quran.md:73",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11852,6 +12200,7 @@
   },
   {
     "id": "islam/quran.md:74",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11886,6 +12235,7 @@
   },
   {
     "id": "islam/quran.md:75",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11920,6 +12270,7 @@
   },
   {
     "id": "islam/quran.md:76",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11954,6 +12305,7 @@
   },
   {
     "id": "islam/quran.md:77",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -11988,6 +12340,7 @@
   },
   {
     "id": "islam/quran.md:78",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12022,6 +12375,7 @@
   },
   {
     "id": "islam/quran.md:79",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12056,6 +12410,7 @@
   },
   {
     "id": "islam/quran.md:80",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12090,6 +12445,7 @@
   },
   {
     "id": "islam/quran.md:81",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12124,6 +12480,7 @@
   },
   {
     "id": "islam/quran.md:82",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12158,6 +12515,7 @@
   },
   {
     "id": "islam/quran.md:83",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12192,6 +12550,7 @@
   },
   {
     "id": "islam/quran.md:84",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12226,6 +12585,7 @@
   },
   {
     "id": "islam/quran.md:85",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12260,6 +12620,7 @@
   },
   {
     "id": "islam/quran.md:86",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12294,6 +12655,7 @@
   },
   {
     "id": "islam/quran.md:87",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12328,6 +12690,7 @@
   },
   {
     "id": "islam/quran.md:88",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12362,6 +12725,7 @@
   },
   {
     "id": "islam/quran.md:89",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12396,6 +12760,7 @@
   },
   {
     "id": "islam/quran.md:93",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12430,6 +12795,7 @@
   },
   {
     "id": "islam/quran.md:94",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12464,6 +12830,7 @@
   },
   {
     "id": "islam/quran.md:95",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12498,6 +12865,7 @@
   },
   {
     "id": "islam/quran.md:96",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12532,6 +12900,7 @@
   },
   {
     "id": "islam/quran.md:97",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12566,6 +12935,7 @@
   },
   {
     "id": "islam/quran.md:98",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12600,6 +12970,7 @@
   },
   {
     "id": "islam/quran.md:99",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12634,6 +13005,7 @@
   },
   {
     "id": "islam/quran.md:100",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12668,6 +13040,7 @@
   },
   {
     "id": "islam/quran.md:101",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12702,6 +13075,7 @@
   },
   {
     "id": "islam/quran.md:102",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12736,6 +13110,7 @@
   },
   {
     "id": "islam/quran.md:103",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12770,6 +13145,7 @@
   },
   {
     "id": "islam/quran.md:104",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12804,6 +13180,7 @@
   },
   {
     "id": "islam/quran.md:105",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12838,6 +13215,7 @@
   },
   {
     "id": "islam/quran.md:106",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12872,6 +13250,7 @@
   },
   {
     "id": "islam/quran.md:107",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12906,6 +13285,7 @@
   },
   {
     "id": "islam/quran.md:108",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12940,6 +13320,7 @@
   },
   {
     "id": "islam/quran.md:109",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -12974,6 +13355,7 @@
   },
   {
     "id": "islam/quran.md:110",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13008,6 +13390,7 @@
   },
   {
     "id": "islam/quran.md:111",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13042,6 +13425,7 @@
   },
   {
     "id": "islam/quran.md:112",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13076,6 +13460,7 @@
   },
   {
     "id": "islam/quran.md:113",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13110,6 +13495,7 @@
   },
   {
     "id": "islam/quran.md:114",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13144,6 +13530,7 @@
   },
   {
     "id": "islam/quran.md:115",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13178,6 +13565,7 @@
   },
   {
     "id": "islam/quran.md:116",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13212,6 +13600,7 @@
   },
   {
     "id": "islam/quran.md:117",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13246,6 +13635,7 @@
   },
   {
     "id": "islam/quran.md:118",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13280,6 +13670,7 @@
   },
   {
     "id": "islam/quran.md:119",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13314,6 +13705,7 @@
   },
   {
     "id": "islam/quran.md:120",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13348,6 +13740,7 @@
   },
   {
     "id": "islam/quran.md:121",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13382,6 +13775,7 @@
   },
   {
     "id": "islam/quran.md:122",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13416,6 +13810,7 @@
   },
   {
     "id": "islam/quran.md:123",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13450,6 +13845,7 @@
   },
   {
     "id": "islam/quran.md:124",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13484,6 +13880,7 @@
   },
   {
     "id": "islam/quran.md:128",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13518,6 +13915,7 @@
   },
   {
     "id": "islam/quran.md:129",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13552,6 +13950,7 @@
   },
   {
     "id": "islam/quran.md:130",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13586,6 +13985,7 @@
   },
   {
     "id": "islam/quran.md:131",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13620,6 +14020,7 @@
   },
   {
     "id": "islam/quran.md:132",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13654,6 +14055,7 @@
   },
   {
     "id": "islam/quran.md:133",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13688,6 +14090,7 @@
   },
   {
     "id": "islam/quran.md:134",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13722,6 +14125,7 @@
   },
   {
     "id": "islam/quran.md:135",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13756,6 +14160,7 @@
   },
   {
     "id": "islam/quran.md:136",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13790,6 +14195,7 @@
   },
   {
     "id": "islam/quran.md:140",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13824,6 +14230,7 @@
   },
   {
     "id": "islam/quran.md:141",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13858,6 +14265,7 @@
   },
   {
     "id": "islam/quran.md:142",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13892,6 +14300,7 @@
   },
   {
     "id": "islam/quran.md:143",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13926,6 +14335,7 @@
   },
   {
     "id": "islam/quran.md:144",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13960,6 +14370,7 @@
   },
   {
     "id": "islam/quran.md:145",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -13994,6 +14405,7 @@
   },
   {
     "id": "islam/quran.md:146",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14028,6 +14440,7 @@
   },
   {
     "id": "islam/quran.md:147",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14062,6 +14475,7 @@
   },
   {
     "id": "islam/quran.md:148",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14096,6 +14510,7 @@
   },
   {
     "id": "islam/quran.md:149",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14130,6 +14545,7 @@
   },
   {
     "id": "islam/quran.md:150",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14164,6 +14580,7 @@
   },
   {
     "id": "islam/quran.md:151",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14198,6 +14615,7 @@
   },
   {
     "id": "islam/quran.md:152",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14232,6 +14650,7 @@
   },
   {
     "id": "islam/quran.md:153",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14266,6 +14685,7 @@
   },
   {
     "id": "islam/quran.md:154",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14300,6 +14720,7 @@
   },
   {
     "id": "islam/quran.md:155",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14334,6 +14755,7 @@
   },
   {
     "id": "islam/quran.md:156",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14368,6 +14790,7 @@
   },
   {
     "id": "islam/quran.md:157",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14402,6 +14825,7 @@
   },
   {
     "id": "islam/quran.md:158",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14436,6 +14860,7 @@
   },
   {
     "id": "islam/quran.md:159",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14470,6 +14895,7 @@
   },
   {
     "id": "islam/quran.md:160",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14504,6 +14930,7 @@
   },
   {
     "id": "islam/quran.md:161",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14538,6 +14965,7 @@
   },
   {
     "id": "islam/quran.md:162",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14572,6 +15000,7 @@
   },
   {
     "id": "islam/quran.md:163",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14606,6 +15035,7 @@
   },
   {
     "id": "islam/quran.md:164",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14640,6 +15070,7 @@
   },
   {
     "id": "islam/quran.md:165",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14674,6 +15105,7 @@
   },
   {
     "id": "islam/quran.md:166",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14708,6 +15140,7 @@
   },
   {
     "id": "islam/quran.md:167",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14742,6 +15175,7 @@
   },
   {
     "id": "islam/quran.md:168",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14776,6 +15210,7 @@
   },
   {
     "id": "islam/quran.md:169",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14810,6 +15245,7 @@
   },
   {
     "id": "islam/quran.md:170",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14844,6 +15280,7 @@
   },
   {
     "id": "islam/quran.md:171",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14878,6 +15315,7 @@
   },
   {
     "id": "islam/quran.md:172",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14912,6 +15350,7 @@
   },
   {
     "id": "islam/quran.md:176",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14946,6 +15385,7 @@
   },
   {
     "id": "islam/quran.md:177",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -14980,6 +15420,7 @@
   },
   {
     "id": "islam/quran.md:178",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15014,6 +15455,7 @@
   },
   {
     "id": "islam/quran.md:179",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15048,6 +15490,7 @@
   },
   {
     "id": "islam/quran.md:180",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15082,6 +15525,7 @@
   },
   {
     "id": "islam/quran.md:181",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15116,6 +15560,7 @@
   },
   {
     "id": "islam/quran.md:182",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15150,6 +15595,7 @@
   },
   {
     "id": "islam/quran.md:183",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15184,6 +15630,7 @@
   },
   {
     "id": "islam/quran.md:184",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15218,6 +15665,7 @@
   },
   {
     "id": "islam/quran.md:185",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15252,6 +15700,7 @@
   },
   {
     "id": "islam/quran.md:186",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15286,6 +15735,7 @@
   },
   {
     "id": "islam/quran.md:187",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15320,6 +15770,7 @@
   },
   {
     "id": "islam/quran.md:188",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15354,6 +15805,7 @@
   },
   {
     "id": "islam/quran.md:189",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15388,6 +15840,7 @@
   },
   {
     "id": "islam/quran.md:190",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15422,6 +15875,7 @@
   },
   {
     "id": "islam/quran.md:191",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15456,6 +15910,7 @@
   },
   {
     "id": "islam/quran.md:192",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15490,6 +15945,7 @@
   },
   {
     "id": "islam/quran.md:193",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15524,6 +15980,7 @@
   },
   {
     "id": "islam/quran.md:194",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15558,6 +16015,7 @@
   },
   {
     "id": "islam/quran.md:195",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15592,6 +16050,7 @@
   },
   {
     "id": "islam/quran.md:196",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15626,6 +16085,7 @@
   },
   {
     "id": "islam/quran.md:197",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15660,6 +16120,7 @@
   },
   {
     "id": "islam/quran.md:198",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15694,6 +16155,7 @@
   },
   {
     "id": "islam/quran.md:199",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15728,6 +16190,7 @@
   },
   {
     "id": "islam/quran.md:200",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15762,6 +16225,7 @@
   },
   {
     "id": "islam/quran.md:201",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15796,6 +16260,7 @@
   },
   {
     "id": "islam/quran.md:202",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15830,6 +16295,7 @@
   },
   {
     "id": "islam/quran.md:203",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15864,6 +16330,7 @@
   },
   {
     "id": "islam/quran.md:204",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15898,6 +16365,7 @@
   },
   {
     "id": "islam/quran.md:205",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15932,6 +16400,7 @@
   },
   {
     "id": "islam/quran.md:206",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -15966,6 +16435,7 @@
   },
   {
     "id": "islam/quran.md:207",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16000,6 +16470,7 @@
   },
   {
     "id": "islam/quran.md:208",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16034,6 +16505,7 @@
   },
   {
     "id": "islam/quran.md:209",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16068,6 +16540,7 @@
   },
   {
     "id": "islam/quran.md:210",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16102,6 +16575,7 @@
   },
   {
     "id": "islam/quran.md:211",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16136,6 +16610,7 @@
   },
   {
     "id": "islam/quran.md:212",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16170,6 +16645,7 @@
   },
   {
     "id": "islam/quran.md:213",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16204,6 +16680,7 @@
   },
   {
     "id": "islam/quran.md:214",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16238,6 +16715,7 @@
   },
   {
     "id": "islam/quran.md:215",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16272,6 +16750,7 @@
   },
   {
     "id": "islam/quran.md:216",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16306,6 +16785,7 @@
   },
   {
     "id": "islam/quran.md:217",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16340,6 +16820,7 @@
   },
   {
     "id": "islam/quran.md:218",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16374,6 +16855,7 @@
   },
   {
     "id": "islam/quran.md:219",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16408,6 +16890,7 @@
   },
   {
     "id": "islam/quran.md:220",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16442,6 +16925,7 @@
   },
   {
     "id": "islam/quran.md:221",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16476,6 +16960,7 @@
   },
   {
     "id": "islam/quran.md:222",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16510,6 +16995,7 @@
   },
   {
     "id": "islam/quran.md:223",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16544,6 +17030,7 @@
   },
   {
     "id": "islam/quran.md:224",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16578,6 +17065,7 @@
   },
   {
     "id": "islam/quran.md:225",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16612,6 +17100,7 @@
   },
   {
     "id": "islam/quran.md:226",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16646,6 +17135,7 @@
   },
   {
     "id": "islam/quran.md:227",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16680,6 +17170,7 @@
   },
   {
     "id": "islam/quran.md:228",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16714,6 +17205,7 @@
   },
   {
     "id": "islam/quran.md:229",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16748,6 +17240,7 @@
   },
   {
     "id": "islam/quran.md:230",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16782,6 +17275,7 @@
   },
   {
     "id": "islam/quran.md:231",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16816,6 +17310,7 @@
   },
   {
     "id": "islam/quran.md:232",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16850,6 +17345,7 @@
   },
   {
     "id": "islam/quran.md:233",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16884,6 +17380,7 @@
   },
   {
     "id": "islam/quran.md:234",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16918,6 +17415,7 @@
   },
   {
     "id": "islam/quran.md:235",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16952,6 +17450,7 @@
   },
   {
     "id": "islam/quran.md:236",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -16986,6 +17485,7 @@
   },
   {
     "id": "islam/quran.md:237",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17020,6 +17520,7 @@
   },
   {
     "id": "islam/quran.md:238",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17054,6 +17555,7 @@
   },
   {
     "id": "islam/quran.md:239",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17088,6 +17590,7 @@
   },
   {
     "id": "islam/quran.md:240",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17122,6 +17625,7 @@
   },
   {
     "id": "islam/quran.md:241",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17156,6 +17660,7 @@
   },
   {
     "id": "islam/quran.md:242",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17190,6 +17695,7 @@
   },
   {
     "id": "islam/quran.md:243",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17224,6 +17730,7 @@
   },
   {
     "id": "islam/quran.md:244",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17258,6 +17765,7 @@
   },
   {
     "id": "islam/quran.md:245",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17292,6 +17800,7 @@
   },
   {
     "id": "islam/quran.md:246",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17326,6 +17835,7 @@
   },
   {
     "id": "islam/quran.md:247",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17360,6 +17870,7 @@
   },
   {
     "id": "islam/quran.md:248",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17394,6 +17905,7 @@
   },
   {
     "id": "islam/quran.md:249",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17428,6 +17940,7 @@
   },
   {
     "id": "islam/quran.md:250",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17462,6 +17975,7 @@
   },
   {
     "id": "islam/quran.md:251",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17496,6 +18010,7 @@
   },
   {
     "id": "islam/quran.md:252",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17530,6 +18045,7 @@
   },
   {
     "id": "islam/quran.md:253",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17564,6 +18080,7 @@
   },
   {
     "id": "islam/quran.md:254",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17598,6 +18115,7 @@
   },
   {
     "id": "islam/quran.md:255",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17632,6 +18150,7 @@
   },
   {
     "id": "islam/quran.md:256",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17666,6 +18185,7 @@
   },
   {
     "id": "islam/quran.md:257",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17700,6 +18220,7 @@
   },
   {
     "id": "islam/quran.md:258",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17734,6 +18255,7 @@
   },
   {
     "id": "islam/quran.md:259",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17768,6 +18290,7 @@
   },
   {
     "id": "islam/quran.md:260",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17802,6 +18325,7 @@
   },
   {
     "id": "islam/quran.md:261",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17836,6 +18360,7 @@
   },
   {
     "id": "islam/quran.md:262",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17870,6 +18395,7 @@
   },
   {
     "id": "islam/quran.md:263",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17904,6 +18430,7 @@
   },
   {
     "id": "islam/quran.md:264",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17938,6 +18465,7 @@
   },
   {
     "id": "islam/quran.md:265",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -17972,6 +18500,7 @@
   },
   {
     "id": "islam/quran.md:266",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18006,6 +18535,7 @@
   },
   {
     "id": "islam/quran.md:267",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18040,6 +18570,7 @@
   },
   {
     "id": "islam/quran.md:268",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18074,6 +18605,7 @@
   },
   {
     "id": "islam/quran.md:269",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18108,6 +18640,7 @@
   },
   {
     "id": "islam/quran.md:270",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18142,6 +18675,7 @@
   },
   {
     "id": "islam/quran.md:271",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18176,6 +18710,7 @@
   },
   {
     "id": "islam/quran.md:272",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18210,6 +18745,7 @@
   },
   {
     "id": "islam/quran.md:273",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18244,6 +18780,7 @@
   },
   {
     "id": "islam/quran.md:277",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18278,6 +18815,7 @@
   },
   {
     "id": "islam/quran.md:278",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18312,6 +18850,7 @@
   },
   {
     "id": "islam/quran.md:279",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18346,6 +18885,7 @@
   },
   {
     "id": "islam/quran.md:280",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18380,6 +18920,7 @@
   },
   {
     "id": "islam/quran.md:281",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18414,6 +18955,7 @@
   },
   {
     "id": "islam/quran.md:282",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18448,6 +18990,7 @@
   },
   {
     "id": "islam/quran.md:283",
+    "section": "ethical",
     "kind": "quran",
     "religion": "Islam",
     "collection": "Quran",
@@ -18482,6 +19025,7 @@
   },
   {
     "id": "islam/hadith.md:3",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18513,6 +19057,7 @@
   },
   {
     "id": "islam/hadith.md:4",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18544,6 +19089,7 @@
   },
   {
     "id": "islam/hadith.md:8",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18574,6 +19120,7 @@
   },
   {
     "id": "islam/hadith.md:9",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18604,6 +19151,7 @@
   },
   {
     "id": "islam/hadith.md:10",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18634,6 +19182,7 @@
   },
   {
     "id": "islam/hadith.md:11",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18664,6 +19213,7 @@
   },
   {
     "id": "islam/hadith.md:12",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18694,6 +19244,7 @@
   },
   {
     "id": "islam/hadith.md:13",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18724,6 +19275,7 @@
   },
   {
     "id": "islam/hadith.md:14",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18749,6 +19301,7 @@
   },
   {
     "id": "islam/hadith.md:15",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18774,6 +19327,7 @@
   },
   {
     "id": "islam/hadith.md:19",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18800,6 +19354,7 @@
   },
   {
     "id": "islam/hadith.md:20",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18826,6 +19381,7 @@
   },
   {
     "id": "islam/hadith.md:21",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18857,6 +19413,7 @@
   },
   {
     "id": "islam/hadith.md:22",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18888,6 +19445,7 @@
   },
   {
     "id": "islam/hadith.md:26",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18918,6 +19476,7 @@
   },
   {
     "id": "islam/hadith.md:27",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18948,6 +19507,7 @@
   },
   {
     "id": "islam/hadith.md:28",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18973,6 +19533,7 @@
   },
   {
     "id": "islam/hadith.md:29",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -18998,6 +19559,7 @@
   },
   {
     "id": "islam/hadith.md:30",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19023,6 +19585,7 @@
   },
   {
     "id": "islam/hadith.md:34",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19053,6 +19616,7 @@
   },
   {
     "id": "islam/hadith.md:35",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19083,6 +19647,7 @@
   },
   {
     "id": "islam/hadith.md:39",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19108,6 +19673,7 @@
   },
   {
     "id": "islam/hadith.md:40",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19138,6 +19704,7 @@
   },
   {
     "id": "islam/hadith.md:41",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19163,6 +19730,7 @@
   },
   {
     "id": "islam/hadith.md:42",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19188,6 +19756,7 @@
   },
   {
     "id": "islam/hadith.md:46",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19218,6 +19787,7 @@
   },
   {
     "id": "islam/hadith.md:50",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19243,6 +19813,7 @@
   },
   {
     "id": "islam/hadith.md:51",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19268,6 +19839,7 @@
   },
   {
     "id": "islam/hadith.md:55",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19291,6 +19863,7 @@
   },
   {
     "id": "islam/hadith.md:59",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19314,6 +19887,7 @@
   },
   {
     "id": "islam/hadith.md:60",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19337,6 +19911,7 @@
   },
   {
     "id": "islam/hadith.md:64",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19361,6 +19936,7 @@
   },
   {
     "id": "islam/hadith.md:65",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19385,6 +19961,7 @@
   },
   {
     "id": "islam/hadith.md:66",
+    "section": "ethical",
     "kind": "hadith",
     "religion": "Islam",
     "collection": "Hadith",
@@ -19409,6 +19986,7 @@
   },
   {
     "id": "jainism/uttaradhyayana-sutra.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Jainism",
     "collection": "Uttaradhyayana Sutra",
@@ -19432,6 +20010,7 @@
   },
   {
     "id": "jainism/uttaradhyayana-sutra.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Jainism",
     "collection": "Uttaradhyayana Sutra",
@@ -19455,6 +20034,7 @@
   },
   {
     "id": "jainism/uttaradhyayana-sutra.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Jainism",
     "collection": "Uttaradhyayana Sutra",
@@ -19478,6 +20058,7 @@
   },
   {
     "id": "judaism/mishnah.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19501,6 +20082,7 @@
   },
   {
     "id": "judaism/mishnah.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19524,6 +20106,7 @@
   },
   {
     "id": "judaism/mishnah.md:8",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19547,6 +20130,7 @@
   },
   {
     "id": "judaism/mishnah.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19570,6 +20154,7 @@
   },
   {
     "id": "judaism/mishnah.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19593,6 +20178,7 @@
   },
   {
     "id": "judaism/mishnah.md:11",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19616,6 +20202,7 @@
   },
   {
     "id": "judaism/mishnah.md:15",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19643,6 +20230,7 @@
   },
   {
     "id": "judaism/mishnah.md:16",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19670,6 +20258,7 @@
   },
   {
     "id": "judaism/mishnah.md:20",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19693,6 +20282,7 @@
   },
   {
     "id": "judaism/mishnah.md:24",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19716,6 +20306,7 @@
   },
   {
     "id": "judaism/mishnah.md:25",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19739,6 +20330,7 @@
   },
   {
     "id": "judaism/mishnah.md:26",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19762,6 +20354,7 @@
   },
   {
     "id": "judaism/mishnah.md:30",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19789,6 +20382,7 @@
   },
   {
     "id": "judaism/mishnah.md:34",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishnah",
@@ -19816,6 +20410,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19839,6 +20434,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:4",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19862,6 +20458,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:5",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19885,6 +20482,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19908,6 +20506,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19931,6 +20530,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:14",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19958,6 +20558,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:18",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -19985,6 +20586,7 @@
   },
   {
     "id": "judaism/mishneh-torah.md:22",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Judaism",
     "collection": "Mishneh Torah",
@@ -20008,6 +20610,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:3",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20031,6 +20634,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:7",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20054,6 +20658,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:8",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20077,6 +20682,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:9",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20100,6 +20706,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:10",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20123,6 +20730,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:14",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20146,6 +20754,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:15",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20169,6 +20778,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:16",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20192,6 +20802,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:20",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20215,6 +20826,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:21",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20238,6 +20850,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:22",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20261,6 +20874,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:23",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20284,6 +20898,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:24",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20307,6 +20922,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:25",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20330,6 +20946,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:29",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20353,6 +20970,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:30",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20376,6 +20994,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:34",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20399,6 +21018,7 @@
   },
   {
     "id": "zoroastrianism/vendidad.md:35",
+    "section": "ethical",
     "kind": "generic",
     "religion": "Zoroastrianism",
     "collection": "Vendidad",
@@ -20418,6 +21038,782 @@
     ],
     "translations": {
       "fr": "Exige de nombreux abattages d'animaux et des offrandes pour expier des rapports pendant les règles."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:3",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "2 Samuel 24:9 + 1 Chronicles 21:5",
+    "summary": "David’s census gives different troop totals for Israel and Judah. The counting scope may differ.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:3",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Samuel",
+        "reference": "2 Samuel 24:9",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2024%3A9&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2024%3A9&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Samuel%2024%3A9?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            24,
+            9,
+            9
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:3",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "1 Chronicles",
+        "reference": "1 Chronicles 21:5",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2021%3A5&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2021%3A5&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/1%20Chronicles%2021%3A5?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            21,
+            5,
+            5
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Le recensement de David donne des effectifs différents pour Israël et Juda. Le périmètre du comptage peut différer."
+    },
+    "explanation": "Samuel gives 800,000 for Israel and 500,000 for Judah; Chronicles gives 1,100,000 and 470,000 respectively. The totals differ, although the two accounts may count different groups.",
+    "explanationTranslations": {
+      "fr": "Samuel indique 800 000 hommes pour Israël et 500 000 pour Juda ; les Chroniques en indiquent respectivement 1 100 000 et 470 000. Les totaux divergent, mais les groupes comptabilisés peuvent différer."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:4",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "2 Samuel 10:18 + 1 Chronicles 19:18",
+    "summary": "The parallel accounts give 700 versus 7,000 chariot-related casualties; manuscript and translation differences matter.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:4",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Samuel",
+        "reference": "2 Samuel 10:18",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2010%3A18&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2010%3A18&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Samuel%2010%3A18?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            10,
+            18,
+            18
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:4",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "1 Chronicles",
+        "reference": "1 Chronicles 19:18",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2019%3A18&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2019%3A18&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/1%20Chronicles%2019%3A18?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            19,
+            18,
+            18
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Les récits parallèles indiquent 700 contre 7 000 pertes liées aux chars ; les manuscrits et traductions peuvent différer."
+    },
+    "explanation": "The parallel battle accounts report 700 versus 7,000 chariot-related losses. The distinction between chariots and their crews, and possible copying or translation differences, should be considered.",
+    "explanationTranslations": {
+      "fr": "Les récits parallèles de la bataille indiquent 700 contre 7 000 pertes liées aux chars. Il faut tenir compte de la distinction entre les chars et leurs équipages, ainsi que des éventuelles différences de copie ou de traduction."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:7",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Matthew 27:3-10 + Acts 1:18-19",
+    "summary": "The accounts differ on Judas’s death and field purchase; a combined sequence is a possible harmonization.",
+    "themes": [
+      "Conflicting accounts"
+    ],
+    "originalTheme": "Conflicting accounts",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:7",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Matthew",
+        "reference": "Matthew 27:3-10",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Matthew%2027%3A3-10&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Matthew%2027%3A3-10&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Matthew%2027%3A3-10?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            27,
+            3,
+            10
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:7",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Acts",
+        "reference": "Acts 1:18-19",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Acts%201%3A18-19&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Acts%201%3A18-19&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Acts%201%3A18-19?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            1,
+            18,
+            19
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Les récits divergent sur la mort de Judas et l’achat du champ ; une chronologie combinée constitue une harmonisation possible."
+    },
+    "explanation": "Matthew describes Judas hanging himself and the priests buying the field. Acts attributes the field to Judas and describes his fatal fall. A sequence combining both accounts is possible but is not stated in either passage.",
+    "explanationTranslations": {
+      "fr": "Matthieu décrit la pendaison de Judas et l’achat du champ par les prêtres. Les Actes attribuent le champ à Judas et décrivent sa chute mortelle. Une chronologie combinant les deux récits est possible, mais aucun passage ne l’énonce."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:3",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-A'raf (7:54) + Fussilat (41:9-12)",
+    "summary": "Creation takes six days versus eight if durations are added; classical exegesis counts the four days inclusively.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [
+      [
+        "quran.com",
+        "https://quran.com/en/fussilat/9/tafsirs"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:3",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-A'raf",
+        "reference": "Al-A'raf (7:54)",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 7:54",
+            "https://quran.com/7/54"
+          ],
+          [
+            "Arabic Corpus - 7:54 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=7&verse=54"
+          ]
+        ],
+        "ranges": [
+          [
+            7,
+            54,
+            54
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:3",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Fussilat",
+        "reference": "Fussilat (41:9-12)",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 41:9–12",
+            "https://quran.com/41/9-12"
+          ],
+          [
+            "Arabic Corpus - 41:9 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=41&verse=9"
+          ]
+        ],
+        "ranges": [
+          [
+            41,
+            9,
+            12
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "La création dure six jours contre huit si les durées sont additionnées ; l’exégèse classique compte les quatre jours inclusivement."
+    },
+    "explanation": "The first passage gives six days for creation. Adding the two, four and two days in the second gives eight; classical commentary reads the four days as including the first two, yielding six instead.",
+    "explanationTranslations": {
+      "fr": "Le premier passage indique six jours pour la création. En additionnant les deux, quatre et deux jours du second, on obtient huit ; l’exégèse classique inclut les deux premiers jours dans les quatre, ce qui donne six jours."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:6",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-Baqarah (2:62) + Ali 'Imran (3:85)",
+    "summary": "Promises reward to righteous believers of several communities, but rejects other religion; interpretations of Islam and chronology differ.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "quran.com",
+        "https://quran.com/3/85"
+      ],
+      [
+        "previous.quran.com",
+        "https://previous.quran.com/2%3A62/tafsirs/en-tafsir-maarif-ul-quran"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:6",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Baqarah",
+        "reference": "Al-Baqarah (2:62)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 2:62",
+            "https://quran.com/2/62"
+          ],
+          [
+            "Arabic Corpus - 2:62 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=2&verse=62"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            62,
+            62
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:6",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Ali 'Imran",
+        "reference": "Ali 'Imran (3:85)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 3:85",
+            "https://quran.com/3/85"
+          ],
+          [
+            "Arabic Corpus - 3:85 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=3&verse=85"
+          ]
+        ],
+        "ranges": [
+          [
+            3,
+            85,
+            85
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Promet une récompense aux croyants vertueux de plusieurs communautés, mais rejette les autres religions ; interprétations et chronologie divergent."
+    },
+    "explanation": "The first passage promises reward to righteous believers from several religious communities. The second rejects religion other than Islam. Whether these statements conflict depends on the meaning of Islam and the scope and chronology of the promises.",
+    "explanationTranslations": {
+      "fr": "Le premier passage promet une récompense aux croyants vertueux de plusieurs communautés religieuses. Le second rejette toute religion autre que l’islam. La tension dépend du sens donné à l’islam, de la portée des promesses et de leur chronologie."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:3",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Joshua",
+    "reference": "Joshua 10:12-14",
+    "summary": "Reports the sun and moon standing still during a battle, presented as divine intervention.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Joshua%2010%3A12-14&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Joshua%2010%3A12-14&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Joshua%2010%3A12-14?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        10,
+        12,
+        14
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte l’immobilisation du soleil et de la lune durant une bataille, présentée comme une intervention divine."
+    },
+    "explanation": "The narrative describes the sun and moon stopping during a battle. A literal reading involves an extraordinary astronomical event outside ordinary celestial motion; the passage presents it as a miracle, not a scientific account.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit l’arrêt du soleil et de la lune pendant une bataille. Une lecture littérale implique un événement astronomique extraordinaire, en dehors des mouvements célestes ordinaires ; le passage le présente comme un miracle, non comme un exposé scientifique."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:4",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "John",
+    "reference": "John 11:43-44",
+    "summary": "Reports Jesus raising Lazarus from death and calling him out of his tomb.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=John%2011%3A43-44&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=John%2011%3A43-44&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/John%2011%3A43-44?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        11,
+        43,
+        44
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Jésus ressuscite Lazare et l’appelle à sortir de son tombeau."
+    },
+    "explanation": "The narrative presents Jesus bringing a dead man back to life. The extraordinary claim is the reversal of death, understood in the text as a miracle rather than an ordinary biological event.",
+    "explanationTranslations": {
+      "fr": "Le récit présente Jésus ramenant un mort à la vie. L’affirmation extraordinaire est la réversibilité de la mort, présentée comme un miracle plutôt que comme un événement biologique ordinaire."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:5",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Numbers",
+    "reference": "Numbers 22:28-30",
+    "summary": "Reports God enabling Balaam’s donkey to speak and converse with him.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Numbers%2022%3A28-30&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Numbers%2022%3A28-30&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Numbers%2022%3A28-30?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        22,
+        28,
+        30
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Dieu permet à l’ânesse de Balaam de parler et de converser avec lui."
+    },
+    "explanation": "The donkey speaks in human language and converses with Balaam, beyond the normal linguistic abilities of donkeys. The narrative explicitly attributes this ability to divine intervention.",
+    "explanationTranslations": {
+      "fr": "L’ânesse parle dans un langage humain et converse avec Balaam, au-delà des capacités linguistiques ordinaires des ânes. Le récit attribue explicitement cette faculté à une intervention divine."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:8",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Genesis",
+    "reference": "Genesis 1:11-19",
+    "summary": "Places vegetation before the creation of the sun; a literal chronological reading conflicts with natural history.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Genesis%201%3A11-19&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Genesis%201%3A11-19&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Genesis%201%3A11-19?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        1,
+        11,
+        19
+      ]
+    ],
+    "translations": {
+      "fr": "Place la végétation avant la création du soleil ; une lecture chronologique littérale contredit l’histoire naturelle."
+    },
+    "explanation": "Vegetation appears before the heavenly lights in the narrative sequence. A literal chronological interpretation conflicts with the scientific understanding that the sun predates plants on Earth; nonliteral readings need not make that chronological claim.",
+    "explanationTranslations": {
+      "fr": "La végétation apparaît avant les astres lumineux dans l’ordre du récit. Une interprétation chronologique littérale contredit le fait scientifique que le Soleil précède les plantes terrestres ; les lectures non littérales n’impliquent pas nécessairement cette chronologie."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:3",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "An-Naml",
+    "reference": "An-Naml (27:18-19)",
+    "summary": "Reports an ant warning other ants about Solomon’s army and Solomon understanding its words.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 27:18–19",
+        "https://quran.com/27/18-19"
+      ],
+      [
+        "Arabic Corpus - 27:18 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=27&verse=18"
+      ]
+    ],
+    "ranges": [
+      [
+        27,
+        18,
+        19
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu’une fourmi avertit les autres de l’armée de Salomon et que celui-ci comprend ses paroles."
+    },
+    "explanation": "Ants communicate with one another, but the extraordinary element is Solomon understanding an ant’s specific warning about his army. The account is framed as a special ability, not an ordinary human capacity.",
+    "explanationTranslations": {
+      "fr": "Les fourmis communiquent entre elles, mais l’élément extraordinaire est que Salomon comprend l’avertissement précis d’une fourmi au sujet de son armée. Le récit présente cette faculté comme exceptionnelle, non comme une capacité humaine ordinaire."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:4",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Qamar",
+    "reference": "Al-Qamar (54:1-2)",
+    "summary": "Describes the moon splitting; commonly interpreted as a miracle, though some readings associate it with the future.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 54:1–2",
+        "https://quran.com/54/1-2"
+      ],
+      [
+        "Arabic Corpus - 54:1 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=54&verse=1"
+      ],
+      [
+        "quran.com",
+        "https://quran.com/en/al-qamar/1/tafsirs"
+      ]
+    ],
+    "ranges": [
+      [
+        54,
+        1,
+        2
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit la lune se fendant ; généralement interprété comme un miracle, mais certaines lectures l’associent à l’avenir."
+    },
+    "explanation": "The text describes the moon splitting. A literal physical division of the moon would be an extraordinary astronomical event; many interpretations treat it as a miracle, while others read it as a future sign.",
+    "explanationTranslations": {
+      "fr": "Le texte décrit la lune se fendant. Une division physique littérale de la Lune constituerait un événement astronomique extraordinaire ; de nombreuses interprétations y voient un miracle, tandis que d’autres y voient un signe futur."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:7",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Kahf",
+    "reference": "Al-Kahf (18:86)",
+    "summary": "Describes the sun setting in a spring from a traveler’s viewpoint; a literal astronomical reading conflicts with science.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 18:86",
+        "https://quran.com/18/86"
+      ],
+      [
+        "Arabic Corpus - 18:86 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=18&verse=86"
+      ]
+    ],
+    "ranges": [
+      [
+        18,
+        86,
+        86
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit le soleil se couchant dans une source du point de vue d’un voyageur ; une lecture astronomique littérale contredit la science."
+    },
+    "explanation": "The traveler encounters the sun as though it sets in a spring. A literal physical reading conflicts with astronomy, whereas a description of its apparent position from his viewpoint does not require the sun to enter the spring.",
+    "explanationTranslations": {
+      "fr": "Le voyageur voit le soleil comme s’il se couchait dans une source. Une lecture physique littérale contredit l’astronomie, tandis qu’une description de sa position apparente depuis ce point de vue n’implique pas que le soleil entre dans la source."
     }
   }
 ]
