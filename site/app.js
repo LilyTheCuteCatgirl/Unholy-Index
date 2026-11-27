@@ -103,12 +103,11 @@ const BIBLE_BOOKS = [
   'Jude', 'Revelation',
 ];
 
-function frenchBibleURL(e) {
+function frenchBibleURL(e, chapter = e.ranges?.[0]?.[0]) {
   const name = e.book === 'Psalm' ? 'Psalms' : e.book;
   const book = BIBLE_BOOKS.indexOf(name) + 1;
   if (!book || !e.ranges?.length)
     return null;
-  const [chapter] = e.ranges[0];
   return `https://api.getbible.net/v2/ls1910/${book}/${chapter}.json`;
 }
 
@@ -131,29 +130,29 @@ function formatBibleVerses(verses, chapter, start, end) {
 }
 
 async function readBible(e, language) {
-  const [chapter, start, end] = e.ranges[0];
-  if (language === 'fr') {
-    const url = frenchBibleURL(e);
-    if (!url)
-      throw Error('French Bible reference not supported');
-    const data = await getJSON(url);
-    const book = BIBLE_BOOKS.indexOf(e.book === 'Psalm' ? 'Psalms' : e.book) + 1;
-    if (data.abbreviation !== 'ls1910' || data.lang !== 'fr' ||
-        data.book_nr !== book || data.chapter !== chapter)
-      throw Error('Mismatched French Bible chapter');
-    const verses = data.verses?.filter(v => v.verse >= start && v.verse <= end);
-    return {
-      edition: 'Louis Segond (1910) - GetBible',
-      language: 'fr',
-      verses: formatBibleVerses(verses, chapter, start, end),
-    };
+  const verses = [];
+  let edition = language === 'fr' ? 'Louis Segond (1910) - GetBible' : 'World English Bible';
+  for (const [chapter, start, end] of e.ranges) {
+    if (language === 'fr') {
+      const url = frenchBibleURL(e, chapter);
+      if (!url)
+        throw Error('French Bible reference not supported');
+      const data = await getJSON(url);
+      const book = BIBLE_BOOKS.indexOf(e.book === 'Psalm' ? 'Psalms' : e.book) + 1;
+      if (data.abbreviation !== 'ls1910' || data.lang !== 'fr' ||
+          data.book_nr !== book || data.chapter !== chapter)
+        throw Error('Mismatched French Bible chapter');
+      const selected = data.verses?.filter(v => v.verse >= start && v.verse <= end);
+      verses.push(...formatBibleVerses(selected, chapter, start, end));
+    } else {
+      const span = `${chapter}:${start}${start === end ? '' : `-${end}`}`;
+      const url = 'https://bible-api.com/' + encodeURIComponent(`${e.book} ${span}`) + '?translation=web';
+      const data = await getJSON(url);
+      edition = data.translation_name || edition;
+      verses.push(...formatBibleVerses(data.verses, chapter, start, end));
+    }
   }
-  const data = await getJSON('https://bible-api.com/' + encodeURIComponent(e.reference) + '?translation=web');
-  return {
-    edition: data.translation_name || 'World English Bible',
-    language: 'en',
-    verses: formatBibleVerses(data.verses, chapter, start, end),
-  };
+  return { edition, language, verses };
 }
 
 async function readHadith(e, url, language) {
@@ -169,7 +168,7 @@ async function readHadith(e, url, language) {
   };
 }
 
-async function read(e, language = LANG) {
+async function readOnline(e, language) {
   if (e.kind === 'bible')
     return readBible(e, language);
   if (e.kind === 'quran') {
@@ -209,6 +208,87 @@ async function read(e, language = LANG) {
   }
   return null;
 }
+// Reference-based identity is independent of Markdown line numbers and theme order.
+const passageKey = e => JSON.stringify([e.religion, e.collection, e.reference]);
+let localTextsPromise;
+let localSearchData = {};
+
+function localTexts() {
+  localTextsPromise ??= getJSON('./generated/texts.json').catch(() => ({})).then(data => {
+    localSearchData = data ?? {};
+    return localSearchData;
+  });
+  return localTextsPromise;
+}
+
+async function read(e, language = LANG) {
+  if (e.kind === 'bible' || e.kind === 'quran') {
+    const database = await localTexts();
+    const result = database?.[passageKey(e)]?.[language];
+    const expected = (e.ranges ?? []).flatMap(([c, a, b]) =>
+      Array.from({ length: b - a + 1 }, (_, i) => `${c}:${a + i}`),
+    );
+    if (result?.language === language && typeof result.edition === 'string' &&
+        /^https:\/\//.test(result.source) && expected.length &&
+        Array.isArray(result.verses) && result.verses.length === expected.length &&
+        result.verses.every((v, i) => v.number === expected[i] &&
+          typeof v.text === 'string' && v.text.trim())) {
+      return result;
+    }
+  }
+  return readOnline(e, language);
+}
+
+function passageURL(e) {
+  const url = new URL(window.location.href);
+  url.search = new URLSearchParams({
+    religion: e.religion,
+    book: e.collection,
+    ref: e.reference,
+    lang: LANG,
+  }).toString();
+  url.hash = '';
+  return url.href;
+}
+
+async function copyText(text) {
+  // Clipboard API needs HTTPS; use a selection fallback on local HTTP/LAN.
+  try {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch {
+    // Continue with the fallback if clipboard permission was denied.
+  }
+  const field = el('textarea', 'clipboard-fallback');
+  field.value = text;
+  field.setAttribute('readonly', '');
+  const previous = document.activeElement;
+  document.body.append(field);
+  field.select();
+  field.setSelectionRange(0, text.length);
+  let copied = false;
+  try {
+    copied = document.execCommand('copy');
+  } catch {
+    // A manual selection dialog remains available on restricted browsers.
+  } finally {
+    field.remove();
+    previous?.focus();
+  }
+  if (!copied)
+    window.prompt(tr('Copy manually:'), text);
+  return copied;
+}
+
+function passageText(e, result) {
+  const text = Array.isArray(result.verses)
+    ? result.verses.map(verse => verse.text.trim()).join('\n')
+    : result.text.trim();
+  return [trRef(e), text, passageURL(e)].join('\n');
+}
+
 function displayPassage(target, result) {
   if (!Array.isArray(result.verses)) {
     target.textContent = result.text;
@@ -226,6 +306,7 @@ function displayPassage(target, result) {
 
 function entry(e) {
   const d = el('details', 'entry');
+  d.dataset.passageKey = passageKey(e);
   const s = el('summary');
   s.append(el('strong', '', trRef(e)), el('span', 'description', LANG === 'fr' ? (e.translations?.fr || e.summary) : e.summary));
   if (LANG === 'fr' && !e.translations?.fr)
@@ -236,7 +317,8 @@ function entry(e) {
   const verse = el('div', 'verse');
   verse.setAttribute('aria-live', 'polite');
   const sources = el('ul', 'sources');
-  for (const [name, url] of localizedSources(e)) {
+  const sourceLinks = localizedSources(e);
+  for (const [name, url] of sourceLinks) {
     const li = el('li');
     li.append(link(name, url));
     sources.append(li);
@@ -245,17 +327,44 @@ function entry(e) {
     sources.append(el('li', 'muted', tr('No source configured.')));
   const retry = el('button', '', tr('Retry'));
   retry.hidden = true;
-  panel.append(edition, verse, el('strong', '', tr('Sources')), sources, retry);
+  const actions = el('div', 'passage-actions');
+  const shareButton = el('button', '', tr('Copy link'));
+  const copyButton = el('button', '', tr('Copy passage'));
+  copyButton.disabled = true;
+  const status = el('span', 'muted');
+  status.setAttribute('role', 'status');
+  actions.append(shareButton, copyButton, status);
+  let currentResult = null;
+  shareButton.onclick = async () => {
+    status.textContent = await copyText(passageURL(e)) ? tr('Link copied') : '';
+  };
+  copyButton.onclick = async () => {
+    if (!currentResult)
+      return;
+    const copied = await copyText(passageText(e, currentResult));
+    status.textContent = copied ? tr('Passage copied') : '';
+  };
+  panel.append(edition, verse, el('strong', '', tr('Sources')), sources, retry, actions);
   d.append(panel);
   let loaded = false;
   async function load() {
     loaded = true;
     retry.hidden = true;
+    copyButton.disabled = true;
+    currentResult = null;
     edition.textContent = '';
     verse.textContent = tr('Loading...');
     try {
       const result = await read(e);
       if (result) {
+        currentResult = result;
+        if (result.source && !sourceLinks.some(([, url]) => url === result.source)) {
+          const localSource = [result.edition, result.source];
+          sourceLinks.unshift(localSource);
+          const li = el('li');
+          li.append(link(...localSource));
+          sources.prepend(li);
+        }
         edition.textContent = (LANG === 'fr' && result.language === 'en' ? tr('French unavailable; English text shown') + ' - ' : '') + result.edition;
         verse.lang = result.language;
         displayPassage(verse, result);
@@ -267,6 +376,8 @@ function entry(e) {
     catch (err) {
       verse.textContent = tr('Full text unavailable. Use a source link below if available.');
       retry.hidden = false;
+    } finally {
+      copyButton.disabled = !currentResult;
     }
   }
   retry.onclick = load;
@@ -300,6 +411,9 @@ function matchesSearch(entry, terms) {
     ...Object.values(entry.translations ?? {}),
     ...categories,
     ...categories.map(value => FR[value] ?? value),
+    ...Object.values(localSearchData[passageKey(entry)] ?? {}).flatMap(result =>
+      result.verses?.map(verse => verse.text) ?? [],
+    ),
   ];
   const haystack = normalizeSearch(fields.join(' '));
   return terms.every(term => {
@@ -400,7 +514,28 @@ async function init() {
     if (!response.ok)
       throw Error('HTTP ' + response.status);
     DATA = await response.json();
+    const params = new URLSearchParams(window.location.search);
+    const requestedLanguage = params.get('lang');
+    if (requestedLanguage === 'en' || requestedLanguage === 'fr')
+      LANG = requestedLanguage;
     localize();
+    localTexts().then(() => {
+      if ($('search').value.trim())
+        render();
+    });
+    const reference = params.get('ref');
+    if (reference) {
+      const match = DATA.find(e => e.reference === reference &&
+        e.religion === params.get('religion') && e.collection === params.get('book'));
+      const target = match && [...$('results').querySelectorAll('details.entry')]
+        .find(node => node.dataset.passageKey === passageKey(match));
+      if (target) {
+        target.open = true;
+        requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
+      } else {
+        $('results').prepend(el('p', 'muted', tr('Shared passage not found.')));
+      }
+    }
   }
   catch (err) {
     $('count').textContent = tr('Could not load entries. Check that the database has been built and the site is served over HTTP.');

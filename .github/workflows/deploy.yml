@@ -1,6 +1,6 @@
 name: Deploy Unholy Index
 
-# Deliberately manual: pushing to a private repository does not publish a site.
+# Deploy automatically on main, with an optional manual run.
 on:
   push:
     branches:
@@ -30,10 +30,10 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build website
         run: |
-          python tools/build.py
+          python tools/texts.py
           mkdir -p dist/generated
           cp -R site/. dist/
-          cp generated/entries.json dist/generated/entries.json
+          cp generated/entries.json generated/texts.json dist/generated/
           touch dist/.nojekyll
       - name: Upload website
         uses: actions/upload-pages-artifact@v4

@@ -27,8 +27,9 @@ class Handler(SimpleHTTPRequestHandler):
     """Serve only site assets and the generated entry database."""
 
     def translate_path(self, path):
-        if urlsplit(path).path == "/generated/entries.json":
-            return str(ROOT / "generated" / "entries.json")
+        requested = urlsplit(path).path
+        if requested in ("/generated/entries.json", "/generated/texts.json"):
+            return str(ROOT / "generated" / requested.rsplit("/", 1)[-1])
         return super().translate_path(path)
 
     def end_headers(self):
@@ -43,6 +44,8 @@ class Handler(SimpleHTTPRequestHandler):
 def main():
     """Rebuild the database and run the development server."""
     build()
+    if not (ROOT / "generated" / "texts.json").exists():
+        print("Optional local texts: run python tools/texts.py once.", flush=True)
     handler = partial(Handler, directory=str(ROOT / "site"))
     try:
         with ThreadingHTTPServer(("0.0.0.0", PORT), handler) as server:

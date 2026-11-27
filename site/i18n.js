@@ -112,6 +112,13 @@ const FR = {
   'Sources': 'Sources',
   'No source configured.': 'Aucune source configurée.',
   'Retry': 'Réessayer',
+  'Copy link': 'Copier le lien',
+  'Copy passage': 'Copier le passage',
+  'Link copied': 'Lien copié',
+  'Passage copied': 'Passage copié',
+  'Copy manually:': 'Copiez le texte manuellement :',
+  'Full text not available here; see sources.': 'Texte intégral indisponible ici ; consultez les sources.',
+  'Shared passage not found.': 'Passage partagé introuvable.',
   'Full text is available at the linked source. Inline text is not configured for this reference.': 'Le texte intégral est disponible via la source. L’affichage intégré n’est pas configuré pour cette référence.',
   'Full text and source links have not been added for this reference.': 'Le texte intégral et les liens sources n’ont pas été ajoutés pour cette référence.',
   'Full text unavailable. Use a source link below if available.': 'Texte intégral indisponible. Consultez un lien source ci-dessous, si disponible.',
@@ -131,8 +138,8 @@ const FR = {
   'Shia Library - chapter': 'Shia Library - chapitre',
   'Thaqalayn - reference': 'Thaqalayn - référence',
 };
-const footEN = 'Summaries are from the recovered reference collection and are not all independently verified. Bible text uses the World English Bible; Quran text uses Pickthall’s translation. Selected Sunni hadith use an alternate English edition; compare the linked original reference. Other hadith link to the source directly. Full text requires internet; source links remain available if loading fails. Opening an entry sends its reference to an external provider.';
-const footFR = 'Les résumés français traduisent la collection anglaise récupérée ; les références n’ont pas toutes été vérifiées indépendamment. La Bible utilise Louis Segond (1910) via GetBible ; la numérotation peut varier selon les éditions. Le Coran utilise la traduction française de Muhammad Hamidullah. Certains hadiths sunnites utilisent une édition française dont le traducteur n’est pas identifié ; si elle est indisponible, le texte anglais est signalé. Les autres renvoient à leur source. Le texte intégral nécessite Internet. Les liens restent disponibles si le chargement échoue. Ouvrir un passage transmet sa référence à un fournisseur externe.';
+const footEN = 'Summaries are from the recovered reference collection and are not all independently verified. Bible text uses the World English Bible and Quran text uses Marmaduke Pickthall’s translation. Indexed Bible and Quran passages are loaded locally when available (eBible.org and Al Quran Cloud); otherwise the site uses online sources. Selected Sunni hadith use an alternate English edition; compare the linked original reference. Other hadith link to the source directly. Uncached full text requires internet; source links remain available if loading fails. Online loading sends the reference to an external provider.';
+const footFR = 'Les résumés français traduisent la collection anglaise récupérée ; les références n’ont pas toutes été vérifiées indépendamment. La Bible utilise Louis Segond (1910) ; la numérotation peut varier selon les éditions. Les passages bibliques et coraniques sont chargés localement si disponibles (eBible.org et Al Quran Cloud), sinon via les sources en ligne. Le Coran utilise la traduction française de Muhammad Hamidullah. Certains hadiths sunnites utilisent une édition française dont le traducteur n’est pas identifié ; si elle est indisponible, le texte anglais est signalé. Les autres renvoient à leur source. Les textes non stockés localement nécessitent Internet. Les liens restent disponibles si le chargement échoue. Le chargement en ligne transmet la référence à un fournisseur externe.';
 let LANG = 'en';
 try {
   LANG = localStorage.getItem('unholy-language') === 'fr' ? 'fr' : 'en';

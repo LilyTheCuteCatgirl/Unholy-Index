@@ -954,7 +954,7 @@
     "kind": "bible",
     "religion": "Christianity",
     "collection": "Bible",
-    "book": "Genesis 6:5-7,",
+    "book": "Genesis",
     "reference": "Genesis 6:5-7, 7:21-23",
     "summary": "God destroys nearly all land-dwelling humans and animals in the flood.",
     "themes": [
@@ -972,11 +972,20 @@
         "https://www.biblegateway.com/passage/?search=Genesis%206%3A5-7%2C%207%3A21-23&version=WEB"
       ],
       [
-        "Bible API - WEB",
-        "https://bible-api.com/Genesis%206%3A5-7%2C%207%3A21-23?translation=web"
+        "Bible API - WEB (6:5-7)",
+        "https://bible-api.com/Genesis%206%3A5-7?translation=web"
+      ],
+      [
+        "Bible API - WEB (7:21-23)",
+        "https://bible-api.com/Genesis%207%3A21-23?translation=web"
       ]
     ],
     "ranges": [
+      [
+        6,
+        5,
+        7
+      ],
       [
         7,
         21,

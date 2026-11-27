@@ -50,21 +50,25 @@ def display_name(name):
 
 def enrich_bible(entry):
     ref = entry["reference"]
-    match = re.fullmatch(r"(.+?) (\d+):(\d+)(?:-(\d+))?", ref)
+    match = re.fullmatch(r"(.+?) (\d+:\d+(?:-\d+)?(?:,\s*\d+:\d+(?:-\d+)?)*)", ref)
     if not match:
         return
-    book, chapter, start, end = match.groups()
-    entry.update(
-        kind="bible",
-        book=book,
-        ranges=[[int(chapter), int(start), int(end or start)]],
-    )
+    book, raw = match.groups()
+    ranges = []
+    for segment in raw.split(","):
+        chapter, start, end = re.fullmatch(r"(\d+):(\d+)(?:-(\d+))?", segment.strip()).groups()
+        ranges.append([int(chapter), int(start), int(end or start)])
+    entry.update(kind="bible", book=book, ranges=ranges)
     base = "https://www.biblegateway.com/passage/?search=" + quote(ref)
     entry["sources"] = [
         ["Bible Gateway - NRSVUE", base + "&version=NRSVUE"],
         ["Bible Gateway - WEB", base + "&version=WEB"],
-        ["Bible API - WEB", "https://bible-api.com/" + quote(ref) + "?translation=web"],
     ]
+    for chapter, start, end in ranges:
+        span = f"{chapter}:{start}" + (f"-{end}" if start != end else "")
+        url = "https://bible-api.com/" + quote(f"{book} {span}") + "?translation=web"
+        label = "Bible API - WEB" if len(ranges) == 1 else f"Bible API - WEB ({span})"
+        entry["sources"].append([label, url])
 
 
 def enrich_quran(entry):

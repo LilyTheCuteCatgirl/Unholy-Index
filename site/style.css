@@ -379,3 +379,37 @@ select {
     padding: 12px;
   }
 }
+
+/* Keep passage actions compact and avoid obscuring linked entries under the header. */
+details.entry {
+  scroll-margin-top: 145px;
+}
+
+.passage-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.passage-actions button {
+  font-size: 13px;
+  padding: 7px 10px;
+  min-height: 36px;
+}
+
+.passage-actions button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.clipboard-fallback {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+  pointer-events: none;
+}
