@@ -39,7 +39,7 @@
 - Sahih Muslim 1691a - Rapporte la lapidation d'adultères mariés par Muhammad et la défense de ce châtiment par Omar.
 - Sahih al-Bukhari 6814 - Rapporte que Muhammad ordonne la lapidation d'un homme marié pour adultère.
 - Sahih Muslim 1695a - Rapporte la lapidation d'une femme pour adultère après son accouchement et un délai pour s'occuper de l'enfant.
-- Sahih Muslim 1676a - Rapporte de graves mutilations et châtiments infligés à des hommes accusés de meurtre et de vol.
+- Sahih Muslim 1671a - Rapporte de graves mutilations et châtiments infligés à des hommes accusés de meurtre et de vol.
 
 # Sunni - Warfare
 

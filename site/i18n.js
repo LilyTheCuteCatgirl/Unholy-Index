@@ -179,6 +179,15 @@ function localizedSources(e) {
   const base = e.sources.map(([name, url]) => [tr(name), url]);
   if (LANG !== 'fr')
     return base;
+  // The bundled LDS French text is unofficial; provide the published
+  // French edition beside it for direct comparison, not local redistribution.
+  if (['Book Of Mormon', 'Doctrine And Covenants'].includes(e.collection)) {
+    for (const [, url] of e.sources) {
+      const match = /^https:\/\/www\.churchofjesuschrist\.org\/study\/scriptures\/(?:bofm|dc-testament)\/[^?]+\?lang=eng$/.test(url);
+      if (match)
+        base.unshift(['Édition officielle française - Église de Jésus-Christ des Saints des Derniers Jours', url.replace('?lang=eng', '?lang=fra')]);
+    }
+  }
   if (e.kind === 'bible') {
     base.unshift(['Bible Gateway - Louis Segond (français)', 'https://www.biblegateway.com/passage/?search=' + encodeURIComponent(e.reference) + '&version=LSG']);
     const url = frenchBibleURL(e);

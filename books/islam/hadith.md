@@ -39,7 +39,7 @@
 - Sahih Muslim 1691a - Reports Muhammad's stoning of married adulterers and Umar's defense of that punishment.
 - Sahih al-Bukhari 6814 - Reports Muhammad ordering a married man stoned for adultery.
 - Sahih Muslim 1695a - Reports stoning a woman for adultery after childbirth and a delay to provide childcare.
-- Sahih Muslim 1676a - Reports severe mutilation and punishment of men accused of murder and theft.
+- Sahih Muslim 1671a - Reports severe mutilation and punishment of men accused of murder and theft.
 
 # Sunni - Warfare
 

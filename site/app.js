@@ -169,6 +169,43 @@ async function readHadith(e, url, language) {
   };
 }
 
+// Explicitly checked source-edition IDs, not Sunnah.com's reference numbers.
+// Arabic numbers use .01 for suffix a; each response must match both IDs.
+const HADITH_BASE = 'https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/';
+const MUSLIM_IDS = Object.freeze({
+  '21a': [125, '21.01'],
+  '510a': [1137, '510.01'],
+  '1438a': [3544, '1438.01'],
+  '1456a': [3608, '1456.01'],
+  '1468a': [3647, '1468.01'],
+  '1572': [4020, '1572'],
+  '1671a': [4353, '1671.01'],
+  '1691a': [4418, '1691.01'],
+  '1695a': [4431, '1695.01'],
+  '1767a': [4594, '1767.01'],
+  '2240a': [5846, '2240.01'],
+});
+
+async function muslimRecord(e, language) {
+  const identity = MUSLIM_IDS[e.hadithNumber];
+  if (!identity)
+    return null;
+  const [id, reference] = identity;
+  const code = language === 'fr' ? 'fra' : 'eng';
+  const url = `${HADITH_BASE}${code}-muslim/${id}.json`;
+  const translation = await getJSON(url);
+  const translated = translation.hadiths?.filter(h => h.hadithnumber === id &&
+    String(h.arabicnumber) === reference && typeof h.text === 'string' && h.text.trim());
+  if (translated?.length !== 1)
+    throw Error('Sahih Muslim translation reference is missing or ambiguous');
+  return {
+    edition: tr(language === 'fr' ? 'French hadith edition' : 'English hadith edition'),
+    language,
+    source: url,
+    text: translated[0].text,
+  };
+}
+
 async function readOnline(e, language) {
   if (e.kind === 'bible')
     return readBible(e, language);
@@ -192,6 +229,19 @@ async function readOnline(e, language) {
       language,
       verses: parts,
     };
+  }
+  if (e.kind === 'hadith' && e.slug === 'muslim') {
+    if (!MUSLIM_IDS[e.hadithNumber])
+      return null;
+    if (language === 'fr') {
+      try {
+        return await muslimRecord(e, 'fr');
+      }
+      catch {
+        // Fall back to labeled English only after an exact reference match.
+      }
+    }
+    return muslimRecord(e, 'en');
   }
   if (e.hadithAPI) {
     if (language === 'fr') {
@@ -867,7 +917,10 @@ async function init() {
       if ($('search').value.trim())
         render();
     });
-    const reference = params.get('ref');
+    let reference = params.get('ref');
+    // Preserve old shared URLs after correcting the misidentified narration.
+    if (params.get('religion') === 'Islam' && params.get('book') === 'Hadith' && reference === 'Sahih Muslim 1676a')
+      reference = 'Sahih Muslim 1671a';
     if (reference) {
       const match = DATA.find(e => e.reference === reference &&
         e.religion === params.get('religion') && e.collection === params.get('book'));

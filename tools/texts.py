@@ -10,6 +10,7 @@ from urllib.request import Request, urlopen
 
 from build import build
 from extra_texts import import_extra
+from priority_texts import read_lds
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "generated" / "texts.json"
@@ -173,7 +174,12 @@ def generate(entries):
             }
             count += 1
         print(f"Imported {count}/{len(relevant)} entries from {edition}", flush=True)
-    records.update(import_extra(entries, lambda url: download(url, timeout=20, attempts=2), passage_key))
+    # Read the bundled LDS excerpts first and skip fragile online imports for
+    # these exact references. New references still use the generic importer.
+    bundled = read_lds(passage_key, entries)
+    remaining = [entry for entry in entries if passage_key(entry) not in bundled]
+    records.update(import_extra(remaining, lambda url: download(url, timeout=20, attempts=2), passage_key))
+    records.update(bundled)
     return records
 
 
