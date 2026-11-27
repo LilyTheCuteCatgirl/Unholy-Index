@@ -6,3 +6,22 @@
 # Scientific tensions
 
 - Genesis 1:11-19 - Place la végétation avant la création du soleil ; une lecture chronologique littérale contredit l’histoire naturelle. | Explanation: La végétation apparaît avant les astres lumineux dans l’ordre du récit. Une interprétation chronologique littérale contredit le fait scientifique que le Soleil précède les plantes terrestres ; les lectures non littérales n’impliquent pas nécessairement cette chronologie.
+
+# Extraordinary claims
+
+- Genesis 19:26 - Rapporte que la femme de Lot devient une statue de sel après s'être retournée. | Explanation: Le récit décrit un corps humain se transformant soudainement en sel. Ce n'est pas une transformation biologique ordinaire ; l'histoire l'inscrit dans un jugement divin.
+- Exodus 14:21-22 - Rapporte que la mer se divise et que les Israélites passent à sec entre des murailles d'eau. | Explanation: Le récit présente un passage à travers la mer créé par un vent dirigé par Dieu. Des explications naturalistes ont été proposées, mais le passage décrit entre des murailles d'eau demeure extraordinaire.
+- Exodus 7:10-12 - Rapporte que des bâtons deviennent des serpents et que celui d'Aaron avale les autres. | Explanation: Le récit décrit des bâtons en bois devenant des animaux vivants. La transformation est présentée comme un affrontement surnaturel, non comme un processus biologique connu.
+- 2 Kings 2:11 - Rapporte qu'Élie monte au ciel dans un tourbillon tandis qu'apparaissent des chevaux et un char de feu. | Explanation: Le récit décrit Élie emporté dans un tourbillon sans mort ordinaire. Son caractère extraordinaire fait partie du récit prophétique.
+- 2 Kings 6:5-7 - Rapporte qu'Élisée fait flotter un fer de hache perdu après avoir jeté du bois dans l'eau. | Explanation: Le fer coule normalement dans l'eau sauf s'il est soutenu ou associé à une structure flottante. Le récit présente la récupération du fer comme un acte extraordinaire du prophète.
+- 2 Kings 13:20-21 - Rapporte qu'un mort revient à la vie après avoir touché les ossements d'Élisée. | Explanation: L'histoire attribue le retour à la vie au contact des restes d'un prophète décédé. Un tel contact n'est pas un mécanisme connu permettant d'inverser la mort ; le récit décrit un miracle.
+- Matthew 12:40 - Jésus évoque Jonas passant trois jours et trois nuits dans un grand poisson. | Explanation: La respiration et la survie humaines ordinaires ne seraient pas possibles pendant des jours dans l'appareil digestif d'un poisson. Jésus utilise cette histoire comme signe de sa propre mise au tombeau ; la référence peut être lue au sens figuré.
+- Matthew 14:25-33 - Rapporte que Jésus et, brièvement, Pierre marchent à la surface de l'eau. | Explanation: Un corps humain sans support ne peut normalement marcher sur de l'eau liquide. Le récit présente cet événement comme surnaturel plutôt que comme une capacité physique ordinaire.
+- John 2:7-11 - Rapporte que Jésus transforme de l'eau en vin lors de noces. | Explanation: Le vin nécessite normalement des ingrédients organiques et une fermentation. Le récit rapporte une transformation immédiate et la présente explicitement comme un signe.
+- Matthew 27:51-53 - Rapporte l'ouverture de tombeaux et l'apparition de saints décédés à de nombreuses personnes après la résurrection de Jésus. | Explanation: Le récit décrit plusieurs morts revenant à la vie et entrant dans la ville sainte. Il s'agit d'un récit extraordinaire de résurrection, non d'un processus biologique établi.
+
+# Scientific tensions
+
+- Genesis 5:25-27 - Attribue à Mathusalem une durée de vie de 969 ans. | Explanation: Cette durée dépasse largement la longévité humaine vérifiée. La tension apparaît si l'âge est lu en années chronologiques ordinaires ; les interprétations symboliques ou schématiques n'exigent pas une affirmation biologique.
+- Genesis 7:19-24 - Décrit des eaux recouvrant toutes les hautes montagnes et détruisant les animaux terrestres hors de l'arche. | Explanation: Un déluge mondial récent recouvrant toutes les montagnes au sens littéral contredit les données géologiques et biologiques. Les interprétations locales ou littéraires n'exigent pas un tel événement mondial.
+- Leviticus 11:6 - Classe le lièvre parmi les animaux qui ruminent mais n'ont pas le sabot fendu. | Explanation: Les lièvres pratiquent la cæcotrophie, réingérant des boulettes fécales particulières, plutôt que la véritable rumination. La classification alimentaire ancienne peut décrire un comportement observable plutôt que les catégories zoologiques modernes.

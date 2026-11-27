@@ -5,3 +5,20 @@
 # Scientific tensions
 
 - Al-Kahf (18:86) - Décrit le soleil se couchant dans une source du point de vue d’un voyageur ; une lecture astronomique littérale contredit la science. | Explanation: Le voyageur voit le soleil comme s’il se couchait dans une source. Une lecture physique littérale contredit l’astronomie, tandis qu’une description de sa position apparente depuis ce point de vue n’implique pas que le soleil entre dans la source.
+
+# Extraordinary claims
+
+- Al-Baqarah (2:260) - Rapporte qu'Abraham reçoit une démonstration de la résurrection impliquant quatre oiseaux. | Explanation: Selon l'interprétation courante, les oiseaux sont pris et leurs parties déposées sur des collines, puis ils viennent à l'appel d'Abraham. Il s'agit d'une démonstration divine de la résurrection ; les interprétations de l'instruction varient.
+- Al-Baqarah (2:259) - Rapporte qu'un homme reste mort cent ans avant d'être rendu à la vie. | Explanation: Le récit oppose le passage d'un siècle à la perception d'un bref intervalle par l'homme et décrit la reconstitution des os. Il présente une résurrection divine, non un mécanisme ordinaire de survie humaine.
+- Ali 'Imran (3:49) - Rapporte que Jésus façonne un oiseau d'argile et lui donne vie avec la permission de Dieu. | Explanation: Le texte présente de l'argile inanimée devenant un oiseau vivant. Ce signe miraculeux est explicitement attribué à la permission divine plutôt qu'à un processus biologique.
+- Maryam (19:29-33) - Rapporte que Jésus parle de manière intelligible alors qu'il est encore au berceau. | Explanation: Le nourrisson prononce une déclaration élaborée sur son rôle prophétique. Une telle parole dépasse le développement linguistique normal du nourrisson ; le récit présente un signe extraordinaire.
+- Al-Anbiya (21:68-70) - Rapporte qu'un feu devient frais et inoffensif pour Abraham sur ordre de Dieu. | Explanation: Le récit décrit une protection contre le feu par un ordre divin direct. Il s'agit d'une intervention extraordinaire plutôt que d'une exposition ordinaire à la chaleur.
+- An-Naml (27:38-40) - Rapporte que le trône de la reine de Saba est apporté à Salomon avant le retour de son regard. | Explanation: Le récit décrit le transport extraordinairement rapide d'un trône par une personne possédant une connaissance du Livre. Le texte ne donne aucun mécanisme physique ordinaire pour cet exploit.
+- Ash-Shu'ara (26:63-66) - Rapporte que Moïse frappe la mer de son bâton et qu'elle se fend en parties imposantes. | Explanation: Le récit présente une traversée rendue possible par une intervention divine. La division décrite en masses d'eau semblables à des montagnes est un événement extraordinaire.
+- Al-Kahf (18:25-26) - Associe les dormants de la caverne à un séjour de 300 ans auxquels s'ajoutent neuf ans. | Explanation: La durée du récit dépasse largement la survie humaine ordinaire sans alimentation ni activité normales. Le passage attribue également à Dieu la connaissance ultime de la durée ; les interprétations du nombre indiqué varient.
+- Al-Qasas (28:31) - Rapporte que le bâton de Moïse s'agite comme un serpent, le faisant fuir. | Explanation: Le bâton se comporte comme un serpent vivant après avoir été jeté. Le récit présente cela comme un signe divin ; ce n'est pas une propriété ordinaire du bois.
+
+# Scientific tensions
+
+- At-Tariq (86:5-7) - Décrit l'origine humaine à partir d'un liquide jaillissant entre le dos et les côtes dans des traductions courantes. | Explanation: Si elle désigne l'origine anatomique du sperme, la description diffère de l'anatomie reproductive moderne. Les interprétations varient quant au liquide et aux termes anatomiques arabes ; la question dépend donc de la traduction.
+- Al-Mulk (67:5) - Décrit des luminaires célestes et leur utilisation comme projectiles contre les démons. | Explanation: L'identification littérale de ces luminaires à des étoiles utilisées comme projectiles contredit l'astronomie. Des interprétations traditionnelles distinguent étoiles et météores ou décrivent un événement spirituel invisible plutôt qu'un mécanisme astronomique.

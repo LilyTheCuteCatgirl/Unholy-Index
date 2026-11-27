@@ -21332,6 +21332,1267 @@
     }
   },
   {
+    "id": "contradictions/christianity/bible.md:11",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "2 Kings 8:26 + 2 Chronicles 22:2",
+    "summary": "Ahaziah's age at accession differs between manuscript traditions.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [
+      [
+        "openwordbible.org",
+        "https://openwordbible.org/variants/"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:11",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Kings",
+        "reference": "2 Kings 8:26",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Kings%208%3A26&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Kings%208%3A26&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Kings%208%3A26?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            8,
+            26,
+            26
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:11",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Chronicles",
+        "reference": "2 Chronicles 22:2",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Chronicles%2022%3A2&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Chronicles%2022%3A2&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Chronicles%2022%3A2?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            22,
+            2,
+            2
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "L'âge d'Achazia à son accession au trône varie selon les traditions manuscrites."
+    },
+    "explanation": "Kings gives 22 years; the received Hebrew text of Chronicles gives 42. Some translations follow ancient versions reading 22, so the discrepancy is edition-dependent.",
+    "explanationTranslations": {
+      "fr": "Les Rois indiquent 22 ans ; le texte hébreu reçu des Chroniques en indique 42. Certaines traductions suivent des versions anciennes indiquant 22 ans : l'écart dépend donc de l'édition."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:12",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "2 Kings 24:8 + 2 Chronicles 36:9",
+    "summary": "Jehoiachin's age at accession differs between manuscripts and translations.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [
+      [
+        "openwordbible.org",
+        "https://openwordbible.org/variants/"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:12",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Kings",
+        "reference": "2 Kings 24:8",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Kings%2024%3A8&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Kings%2024%3A8&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Kings%2024%3A8?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            24,
+            8,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:12",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Chronicles",
+        "reference": "2 Chronicles 36:9",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Chronicles%2036%3A9&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Chronicles%2036%3A9&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Chronicles%2036%3A9?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            36,
+            9,
+            9
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "L'âge de Jojakin à son accession au trône varie selon les manuscrits et les traductions."
+    },
+    "explanation": "Kings gives 18 years; the received Hebrew text of Chronicles gives eight. Some witnesses and translations give 18 in Chronicles as well, suggesting a transmission problem.",
+    "explanationTranslations": {
+      "fr": "Les Rois indiquent 18 ans ; le texte hébreu reçu des Chroniques en indique huit. Certains témoins et traductions donnent aussi 18 ans dans les Chroniques, ce qui suggère un problème de transmission."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:13",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Ezra 2:6 + Nehemiah 7:11",
+    "summary": "Parallel lists give different numbers of descendants of Pahath-Moab.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:13",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Ezra",
+        "reference": "Ezra 2:6",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Ezra%202%3A6&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Ezra%202%3A6&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Ezra%202%3A6?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            6,
+            6
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:13",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Nehemiah",
+        "reference": "Nehemiah 7:11",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Nehemiah%207%3A11&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Nehemiah%207%3A11&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Nehemiah%207%3A11?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            7,
+            11,
+            11
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Deux listes parallèles donnent des nombres différents pour les descendants de Pachath-Moab."
+    },
+    "explanation": "Ezra gives 2,812 people, while Nehemiah gives 2,818. The lists may reflect different records or a copying discrepancy.",
+    "explanationTranslations": {
+      "fr": "Esdras indique 2 812 personnes, tandis que Néhémie en indique 2 818. Les listes peuvent refléter des documents différents ou un écart de copie."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:14",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Genesis 46:27 + Acts 7:14",
+    "summary": "Jacob's family totals 70 or 75 people in the accounts of migration to Egypt.",
+    "themes": [
+      "Numerical discrepancies"
+    ],
+    "originalTheme": "Numerical discrepancies",
+    "tradition": "",
+    "sources": [
+      [
+        "www.biblegateway.com",
+        "https://www.biblegateway.com/passage/?search=Genesis+46%3A27%2CActs+7%3A14&version=NET"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:14",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Genesis",
+        "reference": "Genesis 46:27",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Genesis%2046%3A27&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Genesis%2046%3A27&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Genesis%2046%3A27?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            46,
+            27,
+            27
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:14",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Acts",
+        "reference": "Acts 7:14",
+        "summary": "",
+        "themes": [
+          "Numerical discrepancies"
+        ],
+        "originalTheme": "Numerical discrepancies",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Acts%207%3A14&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Acts%207%3A14&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Acts%207%3A14?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            7,
+            14,
+            14
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "La famille de Jacob compte 70 ou 75 personnes dans les récits de migration en Égypte."
+    },
+    "explanation": "Genesis in the Hebrew tradition gives 70, while Stephen's speech in Acts gives 75. The Greek Septuagint also gives 75, explaining the difference between textual traditions.",
+    "explanationTranslations": {
+      "fr": "La Genèse dans la tradition hébraïque indique 70 personnes, tandis que le discours d'Étienne dans les Actes en indique 75. La Septante grecque en indique également 75, ce qui explique l'écart entre traditions textuelles."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:18",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "2 Samuel 24:1 + 1 Chronicles 21:1",
+    "summary": "David's census is prompted by the Lord in Samuel and by Satan in Chronicles.",
+    "themes": [
+      "Conflicting accounts"
+    ],
+    "originalTheme": "Conflicting accounts",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:18",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Samuel",
+        "reference": "2 Samuel 24:1",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2024%3A1&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2024%3A1&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Samuel%2024%3A1?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            24,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:18",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "1 Chronicles",
+        "reference": "1 Chronicles 21:1",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2021%3A1&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2021%3A1&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/1%20Chronicles%2021%3A1?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            21,
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Le recensement de David est suscité par Dieu dans Samuel et par Satan dans les Chroniques."
+    },
+    "explanation": "The parallel narratives attribute the incitement to different agents. A theological harmonization can distinguish ultimate divine permission from an intermediary's action, but the passages themselves emphasize different agents.",
+    "explanationTranslations": {
+      "fr": "Les récits parallèles attribuent l'incitation à des agents différents. Une harmonisation théologique peut distinguer la permission divine ultime de l'action d'un intermédiaire, mais les textes mettent l'accent sur des agents différents."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:19",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "1 Samuel 17:49-51 + 2 Samuel 21:19 + 1 Chronicles 20:5",
+    "summary": "David and Elhanan are credited with killing Goliath in different textual accounts.",
+    "themes": [
+      "Conflicting accounts"
+    ],
+    "originalTheme": "Conflicting accounts",
+    "tradition": "",
+    "sources": [
+      [
+        "www.biblegateway.com",
+        "https://www.biblegateway.com/passage/?search=2+Samuel+21%3A19&version=NET"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:19",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "1 Samuel",
+        "reference": "1 Samuel 17:49-51",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=1%20Samuel%2017%3A49-51&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=1%20Samuel%2017%3A49-51&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/1%20Samuel%2017%3A49-51?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            17,
+            49,
+            51
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:19",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "2 Samuel",
+        "reference": "2 Samuel 21:19",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2021%3A19&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=2%20Samuel%2021%3A19&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/2%20Samuel%2021%3A19?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            21,
+            19,
+            19
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:19",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "1 Chronicles",
+        "reference": "1 Chronicles 20:5",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2020%3A5&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=1%20Chronicles%2020%3A5&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/1%20Chronicles%2020%3A5?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            20,
+            5,
+            5
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "David et Elhanan sont présentés comme les vainqueurs de Goliath dans différents récits textuels."
+    },
+    "explanation": "David kills Goliath in 1 Samuel; the received Hebrew text of 2 Samuel names Elhanan. Chronicles names Goliath's brother instead. Some translations of 2 Samuel adopt the latter reading.",
+    "explanationTranslations": {
+      "fr": "David tue Goliath dans le premier livre de Samuel ; le texte hébreu reçu du second nomme Elhanan. Les Chroniques parlent plutôt du frère de Goliath. Certaines traductions de Samuel adoptent cette dernière lecture."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:20",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Matthew 1:6-16 + Luke 3:23-31",
+    "summary": "Jesus' genealogies give Joseph different fathers and trace Davidic descent through different sons.",
+    "themes": [
+      "Conflicting accounts"
+    ],
+    "originalTheme": "Conflicting accounts",
+    "tradition": "",
+    "sources": [
+      [
+        "bible.org",
+        "https://bible.org/book/export/html/6313"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:20",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Matthew",
+        "reference": "Matthew 1:6-16",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Matthew%201%3A6-16&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Matthew%201%3A6-16&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Matthew%201%3A6-16?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            1,
+            6,
+            16
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:20",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Luke",
+        "reference": "Luke 3:23-31",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Luke%203%3A23-31&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Luke%203%3A23-31&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Luke%203%3A23-31?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            3,
+            23,
+            31
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Les généalogies de Jésus donnent à Joseph des pères différents et passent par différents fils de David."
+    },
+    "explanation": "Matthew names Jacob as Joseph's father and traces the line through Solomon. Luke names Heli and traces it through Nathan. Legal versus biological ancestry or Mary's lineage are proposed reconciliations, not explicit in the passages.",
+    "explanationTranslations": {
+      "fr": "Matthieu nomme Jacob comme père de Joseph et passe par Salomon. Luc nomme Héli et passe par Nathan. Une filiation légale plutôt que biologique ou la lignée de Marie sont des harmonisations proposées, mais non explicites dans les textes."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:21",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Matthew 28:1-8 + Mark 16:1-8 + Luke 24:1-10",
+    "summary": "The empty-tomb narratives differ in visitors, messengers and the women's reported reactions.",
+    "themes": [
+      "Conflicting accounts"
+    ],
+    "originalTheme": "Conflicting accounts",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:21",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Matthew",
+        "reference": "Matthew 28:1-8",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Matthew%2028%3A1-8&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Matthew%2028%3A1-8&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Matthew%2028%3A1-8?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            28,
+            1,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:21",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Mark",
+        "reference": "Mark 16:1-8",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Mark%2016%3A1-8&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Mark%2016%3A1-8&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Mark%2016%3A1-8?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            16,
+            1,
+            8
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:21",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Luke",
+        "reference": "Luke 24:1-10",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Luke%2024%3A1-10&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Luke%2024%3A1-10&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Luke%2024%3A1-10?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            24,
+            1,
+            10
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Les récits du tombeau vide diffèrent quant aux visiteuses, aux messagers et aux réactions des femmes."
+    },
+    "explanation": "Matthew describes an angel and two named women; Mark describes a young man and three women; Luke describes two men and several women. Selective reporting could explain some differences, but the narrative details are not identical.",
+    "explanationTranslations": {
+      "fr": "Matthieu décrit un ange et deux femmes nommées ; Marc, un jeune homme et trois femmes ; Luc, deux hommes et plusieurs femmes. Une narration sélective peut expliquer certains écarts, mais les détails ne sont pas identiques."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:22",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Matthew 2:13-23 + Luke 2:22-39",
+    "summary": "Jesus' infancy narratives describe flight to Egypt versus a return to Nazareth after temple rites.",
+    "themes": [
+      "Conflicting accounts"
+    ],
+    "originalTheme": "Conflicting accounts",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:22",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Matthew",
+        "reference": "Matthew 2:13-23",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Matthew%202%3A13-23&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Matthew%202%3A13-23&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Matthew%202%3A13-23?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            13,
+            23
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:22",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Luke",
+        "reference": "Luke 2:22-39",
+        "summary": "",
+        "themes": [
+          "Conflicting accounts"
+        ],
+        "originalTheme": "Conflicting accounts",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Luke%202%3A22-39&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Luke%202%3A22-39&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Luke%202%3A22-39?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            22,
+            39
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Les récits de l'enfance de Jésus décrivent une fuite en Égypte ou un retour à Nazareth après les rites du Temple."
+    },
+    "explanation": "Matthew narrates a flight to Egypt before settling in Nazareth. Luke reports temple rites followed by a return to Nazareth. A combined chronology requires events omitted by one or both accounts.",
+    "explanationTranslations": {
+      "fr": "Matthieu raconte une fuite en Égypte avant l'installation à Nazareth. Luc rapporte les rites du Temple puis le retour à Nazareth. Une chronologie combinée suppose des événements omis par un récit ou par les deux."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:26",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Exodus 33:11 + Exodus 33:20-23",
+    "summary": "Moses speaks with God face to face, yet cannot see God's face and live.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:26",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Exodus",
+        "reference": "Exodus 33:11",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Exodus%2033%3A11&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Exodus%2033%3A11&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Exodus%2033%3A11?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            33,
+            11,
+            11
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:26",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Exodus",
+        "reference": "Exodus 33:20-23",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Exodus%2033%3A20-23&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Exodus%2033%3A20-23&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Exodus%2033%3A20-23?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            33,
+            20,
+            23
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Moïse parle à Dieu face à face, mais ne peut voir son visage et vivre."
+    },
+    "explanation": "The earlier verse describes direct conversation; the later verses deny the possibility of seeing God's face and surviving. The expression face to face may describe intimacy rather than literal sight.",
+    "explanationTranslations": {
+      "fr": "Le premier verset décrit une conversation directe ; les suivants affirment qu'on ne peut voir le visage de Dieu et survivre. L'expression face à face peut désigner la proximité plutôt qu'une vision littérale."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:27",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "James 2:24 + Romans 3:28",
+    "summary": "James emphasizes works in justification, while Paul emphasizes faith apart from works of the law.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:27",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "James",
+        "reference": "James 2:24",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=James%202%3A24&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=James%202%3A24&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/James%202%3A24?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            24,
+            24
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:27",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Romans",
+        "reference": "Romans 3:28",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Romans%203%3A28&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Romans%203%3A28&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Romans%203%3A28?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            3,
+            28,
+            28
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Jacques insiste sur les œuvres dans la justification, tandis que Paul insiste sur la foi sans les œuvres de la Loi."
+    },
+    "explanation": "James rejects justification by faith alone, while Paul contrasts faith with works of the law. Different meanings of works, faith and justification are central to proposed theological reconciliations.",
+    "explanationTranslations": {
+      "fr": "Jacques rejette la justification par la foi seule, tandis que Paul oppose la foi aux œuvres de la Loi. Les harmonisations théologiques reposent notamment sur les différents sens des œuvres, de la foi et de la justification."
+    }
+  },
+  {
+    "id": "contradictions/christianity/bible.md:28",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Passage comparisons",
+    "reference": "Proverbs 26:4 + Proverbs 26:5",
+    "summary": "Adjacent proverbs advise both answering and not answering a fool according to his folly.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/christianity/bible.md:28",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Proverbs",
+        "reference": "Proverbs 26:4",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Proverbs%2026%3A4&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Proverbs%2026%3A4&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Proverbs%2026%3A4?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            26,
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/christianity/bible.md:28",
+        "section": "contradictions",
+        "kind": "bible",
+        "religion": "Christianity",
+        "collection": "Bible",
+        "book": "Proverbs",
+        "reference": "Proverbs 26:5",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Bible Gateway - NRSVUE",
+            "https://www.biblegateway.com/passage/?search=Proverbs%2026%3A5&version=NRSVUE"
+          ],
+          [
+            "Bible Gateway - WEB",
+            "https://www.biblegateway.com/passage/?search=Proverbs%2026%3A5&version=WEB"
+          ],
+          [
+            "Bible API - WEB",
+            "https://bible-api.com/Proverbs%2026%3A5?translation=web"
+          ]
+        ],
+        "ranges": [
+          [
+            26,
+            5,
+            5
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Deux proverbes consécutifs conseillent de répondre et de ne pas répondre à l'insensé selon sa folie."
+    },
+    "explanation": "The two sayings prescribe opposite responses for different stated reasons. Read as situational wisdom, they can complement each other rather than constitute universal contradictory rules.",
+    "explanationTranslations": {
+      "fr": "Les deux maximes prescrivent des réponses opposées pour des raisons différentes. Lues comme des conseils circonstanciels, elles peuvent se compléter plutôt que constituer des règles universelles contradictoires."
+    }
+  },
+  {
     "id": "contradictions/islam/quran.md:3",
     "section": "contradictions",
     "kind": "comparison",
@@ -21524,6 +22785,634 @@
     }
   },
   {
+    "id": "contradictions/islam/quran.md:10",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "An-Nisa (4:78) + An-Nisa (4:79)",
+    "summary": "Successive verses attribute misfortunes to God and to the individual.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:10",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "An-Nisa",
+        "reference": "An-Nisa (4:78)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 4:78",
+            "https://quran.com/4/78"
+          ],
+          [
+            "Arabic Corpus - 4:78 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=4&verse=78"
+          ]
+        ],
+        "ranges": [
+          [
+            4,
+            78,
+            78
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:10",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "An-Nisa",
+        "reference": "An-Nisa (4:79)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 4:79",
+            "https://quran.com/4/79"
+          ],
+          [
+            "Arabic Corpus - 4:79 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=4&verse=79"
+          ]
+        ],
+        "ranges": [
+          [
+            4,
+            79,
+            79
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Deux versets consécutifs attribuent les malheurs à Dieu et à l'individu."
+    },
+    "explanation": "The first says that all things are from God; the second attributes good to God and evil to oneself. Commentators can distinguish divine causation from human responsibility.",
+    "explanationTranslations": {
+      "fr": "Le premier affirme que tout vient de Dieu ; le second attribue le bien à Dieu et le mal à soi-même. Les commentateurs peuvent distinguer la causalité divine de la responsabilité humaine."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:11",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-An'am (6:164) + An-Nahl (16:25)",
+    "summary": "No soul bears another's burden, yet misleaders bear burdens of those they mislead.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:11",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-An'am",
+        "reference": "Al-An'am (6:164)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 6:164",
+            "https://quran.com/6/164"
+          ],
+          [
+            "Arabic Corpus - 6:164 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=6&verse=164"
+          ]
+        ],
+        "ranges": [
+          [
+            6,
+            164,
+            164
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:11",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "An-Nahl",
+        "reference": "An-Nahl (16:25)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 16:25",
+            "https://quran.com/16/25"
+          ],
+          [
+            "Arabic Corpus - 16:25 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=16&verse=25"
+          ]
+        ],
+        "ranges": [
+          [
+            16,
+            25,
+            25
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Nul ne porte le fardeau d'autrui, mais ceux qui égarent portent aussi des fardeaux de leurs victimes."
+    },
+    "explanation": "The first verse states individual responsibility; the second assigns additional burdens to those who lead others astray. These can be reconciled if the additional burden is punishment for the misleader's own conduct.",
+    "explanationTranslations": {
+      "fr": "Le premier verset affirme la responsabilité individuelle ; le second impose des fardeaux supplémentaires à ceux qui égarent autrui. Les deux peuvent être conciliés si ce fardeau sanctionne la conduite du responsable de l'égarement."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:12",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-Baqarah (2:256) + At-Tawbah (9:4-6)",
+    "summary": "The prohibition of religious compulsion sits alongside a command to fight specified polytheists.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:12",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Baqarah",
+        "reference": "Al-Baqarah (2:256)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 2:256",
+            "https://quran.com/2/256"
+          ],
+          [
+            "Arabic Corpus - 2:256 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=2&verse=256"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            256,
+            256
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:12",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "At-Tawbah",
+        "reference": "At-Tawbah (9:4-6)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 9:4–6",
+            "https://quran.com/9/4-6"
+          ],
+          [
+            "Arabic Corpus - 9:4 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=9&verse=4"
+          ]
+        ],
+        "ranges": [
+          [
+            9,
+            4,
+            6
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "L'interdiction de la contrainte religieuse côtoie un ordre de combattre certains polythéistes."
+    },
+    "explanation": "The first prohibits compulsion in religion; the latter addresses hostilities after sacred months, exempts treaty-keepers and requires protection for those seeking refuge. The scope of warfare and conversion determines whether a tension remains.",
+    "explanationTranslations": {
+      "fr": "Le premier interdit la contrainte en religion ; le second traite des hostilités après les mois sacrés, exempte ceux qui respectent leurs traités et prévoit une protection pour ceux qui demandent refuge. La tension dépend de la portée du combat et de la conversion."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:13",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-Baqarah (2:29) + An-Nazi'at (79:27-33)",
+    "summary": "The sequence of heaven and Earth's preparation appears to differ between creation accounts.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "previous.quran.com",
+        "https://previous.quran.com/2%3A29/tafsirs/en-tafisr-ibn-kathir?locale=en"
+      ]
+    ],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:13",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Baqarah",
+        "reference": "Al-Baqarah (2:29)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 2:29",
+            "https://quran.com/2/29"
+          ],
+          [
+            "Arabic Corpus - 2:29 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=2&verse=29"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            29,
+            29
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:13",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "An-Nazi'at",
+        "reference": "An-Nazi'at (79:27-33)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 79:27–33",
+            "https://quran.com/79/27-33"
+          ],
+          [
+            "Arabic Corpus - 79:27 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=79&verse=27"
+          ]
+        ],
+        "ranges": [
+          [
+            79,
+            27,
+            33
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "L'ordre de la formation du ciel et de l'aménagement de la Terre semble varier entre les récits de création."
+    },
+    "explanation": "The first passage describes earthly creation before formation of the heavens; the second describes heaven before spreading Earth and producing its resources. Classical exegesis distinguishes initial creation from later spreading.",
+    "explanationTranslations": {
+      "fr": "Le premier décrit la création terrestre avant la formation des cieux ; le second décrit le ciel avant l'étalement de la Terre et la production de ses ressources. L'exégèse classique distingue la création initiale de l'étalement ultérieur."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:14",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-Anfal (8:65) + Al-Anfal (8:66)",
+    "summary": "The expected ratio of victorious believers to opponents changes from one-to-ten to one-to-two.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:14",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Anfal",
+        "reference": "Al-Anfal (8:65)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 8:65",
+            "https://quran.com/8/65"
+          ],
+          [
+            "Arabic Corpus - 8:65 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=8&verse=65"
+          ]
+        ],
+        "ranges": [
+          [
+            8,
+            65,
+            65
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:14",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Anfal",
+        "reference": "Al-Anfal (8:66)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 8:66",
+            "https://quran.com/8/66"
+          ],
+          [
+            "Arabic Corpus - 8:66 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=8&verse=66"
+          ]
+        ],
+        "ranges": [
+          [
+            8,
+            66,
+            66
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Le rapport attendu entre croyants victorieux et adversaires passe de un contre dix à un contre deux."
+    },
+    "explanation": "The first promises victory to 20 steadfast believers over 200; the next gives 100 over 200 and explicitly says God has lightened the burden. The text presents a change in obligation, not an unexplained arithmetic contradiction.",
+    "explanationTranslations": {
+      "fr": "Le premier promet la victoire de 20 croyants patients sur 200 ; le suivant indique 100 contre 200 et précise que Dieu a allégé la charge. Le texte présente un changement d'obligation, non une contradiction arithmétique inexpliquée."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:15",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "Al-Baqarah (2:106) + Al-An'am (6:115)",
+    "summary": "The replacement of revelations raises a tension with the assertion that God's words cannot be changed.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:15",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Baqarah",
+        "reference": "Al-Baqarah (2:106)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 2:106",
+            "https://quran.com/2/106"
+          ],
+          [
+            "Arabic Corpus - 2:106 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=2&verse=106"
+          ]
+        ],
+        "ranges": [
+          [
+            2,
+            106,
+            106
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:15",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-An'am",
+        "reference": "Al-An'am (6:115)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 6:115",
+            "https://quran.com/6/115"
+          ],
+          [
+            "Arabic Corpus - 6:115 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=6&verse=115"
+          ]
+        ],
+        "ranges": [
+          [
+            6,
+            115,
+            115
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "Le remplacement de révélations soulève une tension avec l'affirmation que nul ne peut modifier les paroles de Dieu."
+    },
+    "explanation": "The first permits abrogating or causing a sign to be forgotten and replacing it; the second says none can change God's words. Divine replacement and unauthorized alteration can be distinguished.",
+    "explanationTranslations": {
+      "fr": "Le premier permet d'abroger ou de faire oublier un signe et de le remplacer ; le second affirme que nul ne peut modifier les paroles de Dieu. On peut distinguer le remplacement divin de la modification non autorisée."
+    }
+  },
+  {
+    "id": "contradictions/islam/quran.md:16",
+    "section": "contradictions",
+    "kind": "comparison",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Passage comparisons",
+    "reference": "As-Sajdah (32:5) + Al-Ma'arij (70:4)",
+    "summary": "Divine or angelic ascent is associated with days of one thousand and fifty thousand years.",
+    "themes": [
+      "Contextual tensions"
+    ],
+    "originalTheme": "Contextual tensions",
+    "tradition": "",
+    "sources": [],
+    "passages": [
+      {
+        "id": "contradictions/islam/quran.md:16",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "As-Sajdah",
+        "reference": "As-Sajdah (32:5)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 32:5",
+            "https://quran.com/32/5"
+          ],
+          [
+            "Arabic Corpus - 32:5 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=32&verse=5"
+          ]
+        ],
+        "ranges": [
+          [
+            32,
+            5,
+            5
+          ]
+        ]
+      },
+      {
+        "id": "contradictions/islam/quran.md:16",
+        "section": "contradictions",
+        "kind": "quran",
+        "religion": "Islam",
+        "collection": "Quran",
+        "book": "Al-Ma'arij",
+        "reference": "Al-Ma'arij (70:4)",
+        "summary": "",
+        "themes": [
+          "Contextual tensions"
+        ],
+        "originalTheme": "Contextual tensions",
+        "tradition": "",
+        "sources": [
+          [
+            "Quran.com - 70:4",
+            "https://quran.com/70/4"
+          ],
+          [
+            "Arabic Corpus - 70:4 (compare translations)",
+            "https://corpus.quran.com/translation.jsp?chapter=70&verse=4"
+          ]
+        ],
+        "ranges": [
+          [
+            70,
+            4,
+            4
+          ]
+        ]
+      }
+    ],
+    "translations": {
+      "fr": "L'ascension d'une affaire divine ou des anges est associée à des jours de mille et de cinquante mille ans."
+    },
+    "explanation": "The first describes an affair ascending in a day measured as 1,000 years; the second describes angels and the Spirit ascending in a day measured as 50,000 years. They may refer to distinct events or symbolic durations.",
+    "explanationTranslations": {
+      "fr": "Le premier décrit une affaire montant en un jour équivalant à 1 000 ans ; le second décrit l'ascension des anges et de l'Esprit en un jour équivalant à 50 000 ans. Il peut s'agir d'événements distincts ou de durées symboliques."
+    }
+  },
+  {
     "id": "absurdities/christianity/bible.md:3",
     "section": "absurdities",
     "kind": "bible",
@@ -21696,6 +23585,565 @@
     }
   },
   {
+    "id": "absurdities/christianity/bible.md:12",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Genesis",
+    "reference": "Genesis 19:26",
+    "summary": "Reports Lot's wife becoming a pillar of salt after looking back.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Genesis%2019%3A26&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Genesis%2019%3A26&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Genesis%2019%3A26?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        19,
+        26,
+        26
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que la femme de Lot devient une statue de sel après s'être retournée."
+    },
+    "explanation": "The narrative depicts a human body suddenly turning into salt. This is not an ordinary biological transformation; the story presents it within divine judgment.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit un corps humain se transformant soudainement en sel. Ce n'est pas une transformation biologique ordinaire ; l'histoire l'inscrit dans un jugement divin."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:13",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Exodus",
+    "reference": "Exodus 14:21-22",
+    "summary": "Reports the sea dividing so Israelites cross on dry ground between walls of water.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Exodus%2014%3A21-22&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Exodus%2014%3A21-22&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Exodus%2014%3A21-22?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        14,
+        21,
+        22
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que la mer se divise et que les Israélites passent à sec entre des murailles d'eau."
+    },
+    "explanation": "The narrative presents a passage through the sea created by a divinely directed wind. Naturalistic proposals exist, but the described crossing between walls of water is an extraordinary event.",
+    "explanationTranslations": {
+      "fr": "Le récit présente un passage à travers la mer créé par un vent dirigé par Dieu. Des explications naturalistes ont été proposées, mais le passage décrit entre des murailles d'eau demeure extraordinaire."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:14",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Exodus",
+    "reference": "Exodus 7:10-12",
+    "summary": "Reports staffs transforming into serpents, with Aaron's staff swallowing the others.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Exodus%207%3A10-12&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Exodus%207%3A10-12&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Exodus%207%3A10-12?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        7,
+        10,
+        12
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que des bâtons deviennent des serpents et que celui d'Aaron avale les autres."
+    },
+    "explanation": "The narrative depicts wooden staffs becoming living animals. The transformation is presented as a supernatural contest, not a process known to biology.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit des bâtons en bois devenant des animaux vivants. La transformation est présentée comme un affrontement surnaturel, non comme un processus biologique connu."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:15",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "2 Kings",
+    "reference": "2 Kings 2:11",
+    "summary": "Reports Elijah ascending into heaven in a whirlwind as fiery horses and a chariot appear.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=2%20Kings%202%3A11&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=2%20Kings%202%3A11&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/2%20Kings%202%3A11?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        2,
+        11,
+        11
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu'Élie monte au ciel dans un tourbillon tandis qu'apparaissent des chevaux et un char de feu."
+    },
+    "explanation": "The account describes Elijah being taken away in a whirlwind without an ordinary death. Its extraordinary character is part of the prophetic narrative.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit Élie emporté dans un tourbillon sans mort ordinaire. Son caractère extraordinaire fait partie du récit prophétique."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:16",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "2 Kings",
+    "reference": "2 Kings 6:5-7",
+    "summary": "Reports Elisha making a lost iron axe head float after throwing wood into water.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=2%20Kings%206%3A5-7&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=2%20Kings%206%3A5-7&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/2%20Kings%206%3A5-7?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        6,
+        5,
+        7
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu'Élisée fait flotter un fer de hache perdu après avoir jeté du bois dans l'eau."
+    },
+    "explanation": "Iron normally sinks in water unless supported or displaced by a buoyant structure. The narrative portrays the recovered axe head as an extraordinary act of the prophet.",
+    "explanationTranslations": {
+      "fr": "Le fer coule normalement dans l'eau sauf s'il est soutenu ou associé à une structure flottante. Le récit présente la récupération du fer comme un acte extraordinaire du prophète."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:17",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "2 Kings",
+    "reference": "2 Kings 13:20-21",
+    "summary": "Reports a dead man reviving after touching Elisha's bones.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=2%20Kings%2013%3A20-21&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=2%20Kings%2013%3A20-21&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/2%20Kings%2013%3A20-21?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        13,
+        20,
+        21
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu'un mort revient à la vie après avoir touché les ossements d'Élisée."
+    },
+    "explanation": "The story attributes renewed life to contact with a deceased prophet's remains. Such contact is not a known mechanism for reversing death; the narrative depicts a miracle.",
+    "explanationTranslations": {
+      "fr": "L'histoire attribue le retour à la vie au contact des restes d'un prophète décédé. Un tel contact n'est pas un mécanisme connu permettant d'inverser la mort ; le récit décrit un miracle."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:18",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Matthew",
+    "reference": "Matthew 12:40",
+    "summary": "Jesus refers to Jonah spending three days and nights inside a great fish.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Matthew%2012%3A40&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Matthew%2012%3A40&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Matthew%2012%3A40?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        12,
+        40,
+        40
+      ]
+    ],
+    "translations": {
+      "fr": "Jésus évoque Jonas passant trois jours et trois nuits dans un grand poisson."
+    },
+    "explanation": "Ordinary human respiration and survival would not be possible for days inside a fish's digestive system. Jesus uses the story as a sign of his own burial; the reference may be read figuratively.",
+    "explanationTranslations": {
+      "fr": "La respiration et la survie humaines ordinaires ne seraient pas possibles pendant des jours dans l'appareil digestif d'un poisson. Jésus utilise cette histoire comme signe de sa propre mise au tombeau ; la référence peut être lue au sens figuré."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:19",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Matthew",
+    "reference": "Matthew 14:25-33",
+    "summary": "Reports Jesus and briefly Peter walking on the surface of water.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Matthew%2014%3A25-33&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Matthew%2014%3A25-33&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Matthew%2014%3A25-33?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        14,
+        25,
+        33
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Jésus et, brièvement, Pierre marchent à la surface de l'eau."
+    },
+    "explanation": "Unsupported human bodies cannot ordinarily walk on liquid water. The narrative presents the event as supernatural rather than as an ordinary physical ability.",
+    "explanationTranslations": {
+      "fr": "Un corps humain sans support ne peut normalement marcher sur de l'eau liquide. Le récit présente cet événement comme surnaturel plutôt que comme une capacité physique ordinaire."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:20",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "John",
+    "reference": "John 2:7-11",
+    "summary": "Reports Jesus transforming water into wine at a wedding.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=John%202%3A7-11&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=John%202%3A7-11&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/John%202%3A7-11?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        2,
+        7,
+        11
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Jésus transforme de l'eau en vin lors de noces."
+    },
+    "explanation": "Wine normally requires organic ingredients and fermentation. The narrative reports an immediate transformation and explicitly identifies it as a sign.",
+    "explanationTranslations": {
+      "fr": "Le vin nécessite normalement des ingrédients organiques et une fermentation. Le récit rapporte une transformation immédiate et la présente explicitement comme un signe."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:21",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Matthew",
+    "reference": "Matthew 27:51-53",
+    "summary": "Reports tombs opening and deceased saints appearing to many after Jesus' resurrection.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Matthew%2027%3A51-53&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Matthew%2027%3A51-53&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Matthew%2027%3A51-53?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        27,
+        51,
+        53
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte l'ouverture de tombeaux et l'apparition de saints décédés à de nombreuses personnes après la résurrection de Jésus."
+    },
+    "explanation": "The account depicts multiple deceased people returning to life and entering the holy city. It is an extraordinary resurrection narrative rather than an established biological process.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit plusieurs morts revenant à la vie et entrant dans la ville sainte. Il s'agit d'un récit extraordinaire de résurrection, non d'un processus biologique établi."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:25",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Genesis",
+    "reference": "Genesis 5:25-27",
+    "summary": "Assigns Methuselah a lifespan of 969 years.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Genesis%205%3A25-27&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Genesis%205%3A25-27&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Genesis%205%3A25-27?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        5,
+        25,
+        27
+      ]
+    ],
+    "translations": {
+      "fr": "Attribue à Mathusalem une durée de vie de 969 ans."
+    },
+    "explanation": "This lifespan far exceeds verified human longevity. The tension arises if the age is read as ordinary chronological years; symbolic or schematic interpretations do not require a biological claim.",
+    "explanationTranslations": {
+      "fr": "Cette durée dépasse largement la longévité humaine vérifiée. La tension apparaît si l'âge est lu en années chronologiques ordinaires ; les interprétations symboliques ou schématiques n'exigent pas une affirmation biologique."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:26",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Genesis",
+    "reference": "Genesis 7:19-24",
+    "summary": "Describes floodwaters covering all high mountains and destroying land-dwelling animals outside the ark.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Genesis%207%3A19-24&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Genesis%207%3A19-24&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Genesis%207%3A19-24?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        7,
+        19,
+        24
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit des eaux recouvrant toutes les hautes montagnes et détruisant les animaux terrestres hors de l'arche."
+    },
+    "explanation": "A literal recent global flood covering every mountain conflicts with geological and biological evidence. Local-flood or literary interpretations do not require such a worldwide event.",
+    "explanationTranslations": {
+      "fr": "Un déluge mondial récent recouvrant toutes les montagnes au sens littéral contredit les données géologiques et biologiques. Les interprétations locales ou littéraires n'exigent pas un tel événement mondial."
+    }
+  },
+  {
+    "id": "absurdities/christianity/bible.md:27",
+    "section": "absurdities",
+    "kind": "bible",
+    "religion": "Christianity",
+    "collection": "Bible",
+    "book": "Leviticus",
+    "reference": "Leviticus 11:6",
+    "summary": "Classifies the hare as chewing the cud while lacking divided hooves.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Bible Gateway - NRSVUE",
+        "https://www.biblegateway.com/passage/?search=Leviticus%2011%3A6&version=NRSVUE"
+      ],
+      [
+        "Bible Gateway - WEB",
+        "https://www.biblegateway.com/passage/?search=Leviticus%2011%3A6&version=WEB"
+      ],
+      [
+        "Bible API - WEB",
+        "https://bible-api.com/Leviticus%2011%3A6?translation=web"
+      ]
+    ],
+    "ranges": [
+      [
+        11,
+        6,
+        6
+      ]
+    ],
+    "translations": {
+      "fr": "Classe le lièvre parmi les animaux qui ruminent mais n'ont pas le sabot fendu."
+    },
+    "explanation": "Hares practice cecotrophy, reingesting special fecal pellets, rather than true ruminant cud-chewing. The ancient dietary classification may describe observable behavior rather than modern zoological categories.",
+    "explanationTranslations": {
+      "fr": "Les lièvres pratiquent la cæcotrophie, réingérant des boulettes fécales particulières, plutôt que la véritable rumination. La classification alimentaire ancienne peut décrire un comportement observable plutôt que les catégories zoologiques modernes."
+    }
+  },
+  {
     "id": "absurdities/islam/quran.md:3",
     "section": "absurdities",
     "kind": "quran",
@@ -21814,6 +24262,443 @@
     "explanation": "The traveler encounters the sun as though it sets in a spring. A literal physical reading conflicts with astronomy, whereas a description of its apparent position from his viewpoint does not require the sun to enter the spring.",
     "explanationTranslations": {
       "fr": "Le voyageur voit le soleil comme s’il se couchait dans une source. Une lecture physique littérale contredit l’astronomie, tandis qu’une description de sa position apparente depuis ce point de vue n’implique pas que le soleil entre dans la source."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:11",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Baqarah",
+    "reference": "Al-Baqarah (2:260)",
+    "summary": "Reports Abraham receiving a demonstration of resurrection involving four birds.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 2:260",
+        "https://quran.com/2/260"
+      ],
+      [
+        "Arabic Corpus - 2:260 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=2&verse=260"
+      ]
+    ],
+    "ranges": [
+      [
+        2,
+        260,
+        260
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu'Abraham reçoit une démonstration de la résurrection impliquant quatre oiseaux."
+    },
+    "explanation": "The birds are taken and portions placed on hills, after which they come at Abraham's call in the common interpretation. This is presented as a divine demonstration of resurrection; interpretations of the instruction differ.",
+    "explanationTranslations": {
+      "fr": "Selon l'interprétation courante, les oiseaux sont pris et leurs parties déposées sur des collines, puis ils viennent à l'appel d'Abraham. Il s'agit d'une démonstration divine de la résurrection ; les interprétations de l'instruction varient."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:12",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Baqarah",
+    "reference": "Al-Baqarah (2:259)",
+    "summary": "Reports a man being dead for a hundred years before being restored to life.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 2:259",
+        "https://quran.com/2/259"
+      ],
+      [
+        "Arabic Corpus - 2:259 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=2&verse=259"
+      ]
+    ],
+    "ranges": [
+      [
+        2,
+        259,
+        259
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu'un homme reste mort cent ans avant d'être rendu à la vie."
+    },
+    "explanation": "The account contrasts the passage of a century with the man's perception of a short interval and describes restoration of bones. It presents divine resurrection, not an ordinary human survival mechanism.",
+    "explanationTranslations": {
+      "fr": "Le récit oppose le passage d'un siècle à la perception d'un bref intervalle par l'homme et décrit la reconstitution des os. Il présente une résurrection divine, non un mécanisme ordinaire de survie humaine."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:13",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Ali 'Imran",
+    "reference": "Ali 'Imran (3:49)",
+    "summary": "Reports Jesus fashioning a bird from clay and bringing it to life by God's permission.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 3:49",
+        "https://quran.com/3/49"
+      ],
+      [
+        "Arabic Corpus - 3:49 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=3&verse=49"
+      ]
+    ],
+    "ranges": [
+      [
+        3,
+        49,
+        49
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Jésus façonne un oiseau d'argile et lui donne vie avec la permission de Dieu."
+    },
+    "explanation": "The text presents inanimate clay becoming a living bird. This is a miraculous sign explicitly attributed to divine permission rather than a biological process.",
+    "explanationTranslations": {
+      "fr": "Le texte présente de l'argile inanimée devenant un oiseau vivant. Ce signe miraculeux est explicitement attribué à la permission divine plutôt qu'à un processus biologique."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:14",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Maryam",
+    "reference": "Maryam (19:29-33)",
+    "summary": "Reports Jesus speaking intelligibly while still in the cradle.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 19:29–33",
+        "https://quran.com/19/29-33"
+      ],
+      [
+        "Arabic Corpus - 19:29 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=19&verse=29"
+      ]
+    ],
+    "ranges": [
+      [
+        19,
+        29,
+        33
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Jésus parle de manière intelligible alors qu'il est encore au berceau."
+    },
+    "explanation": "The infant delivers a developed statement of his prophetic role. Such speech exceeds normal infant linguistic development; the narrative presents an extraordinary sign.",
+    "explanationTranslations": {
+      "fr": "Le nourrisson prononce une déclaration élaborée sur son rôle prophétique. Une telle parole dépasse le développement linguistique normal du nourrisson ; le récit présente un signe extraordinaire."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:15",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Anbiya",
+    "reference": "Al-Anbiya (21:68-70)",
+    "summary": "Reports a fire becoming cool and safe for Abraham at God's command.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 21:68–70",
+        "https://quran.com/21/68-70"
+      ],
+      [
+        "Arabic Corpus - 21:68 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=21&verse=68"
+      ]
+    ],
+    "ranges": [
+      [
+        21,
+        68,
+        70
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte qu'un feu devient frais et inoffensif pour Abraham sur ordre de Dieu."
+    },
+    "explanation": "The narrative depicts protection from fire through direct divine command. It is an extraordinary intervention rather than an account of ordinary heat exposure.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit une protection contre le feu par un ordre divin direct. Il s'agit d'une intervention extraordinaire plutôt que d'une exposition ordinaire à la chaleur."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:16",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "An-Naml",
+    "reference": "An-Naml (27:38-40)",
+    "summary": "Reports the Queen of Sheba's throne being brought to Solomon before his glance returns.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 27:38–40",
+        "https://quran.com/27/38-40"
+      ],
+      [
+        "Arabic Corpus - 27:38 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=27&verse=38"
+      ]
+    ],
+    "ranges": [
+      [
+        27,
+        38,
+        40
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que le trône de la reine de Saba est apporté à Salomon avant le retour de son regard."
+    },
+    "explanation": "The account describes extraordinarily rapid transportation of a throne by someone possessing knowledge of the Book. The text gives no ordinary physical mechanism for this feat.",
+    "explanationTranslations": {
+      "fr": "Le récit décrit le transport extraordinairement rapide d'un trône par une personne possédant une connaissance du Livre. Le texte ne donne aucun mécanisme physique ordinaire pour cet exploit."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:17",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Ash-Shu'ara",
+    "reference": "Ash-Shu'ara (26:63-66)",
+    "summary": "Reports Moses striking the sea with his staff and the sea splitting into towering parts.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 26:63–66",
+        "https://quran.com/26/63-66"
+      ],
+      [
+        "Arabic Corpus - 26:63 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=26&verse=63"
+      ]
+    ],
+    "ranges": [
+      [
+        26,
+        63,
+        66
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Moïse frappe la mer de son bâton et qu'elle se fend en parties imposantes."
+    },
+    "explanation": "The narrative presents a sea crossing made possible by divine intervention. The described division into mountain-like masses of water is an extraordinary event.",
+    "explanationTranslations": {
+      "fr": "Le récit présente une traversée rendue possible par une intervention divine. La division décrite en masses d'eau semblables à des montagnes est un événement extraordinaire."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:18",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Kahf",
+    "reference": "Al-Kahf (18:25-26)",
+    "summary": "Associates the sleepers in the cave with a stay of 300 years plus nine.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 18:25–26",
+        "https://quran.com/18/25-26"
+      ],
+      [
+        "Arabic Corpus - 18:25 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=18&verse=25"
+      ]
+    ],
+    "ranges": [
+      [
+        18,
+        25,
+        26
+      ]
+    ],
+    "translations": {
+      "fr": "Associe les dormants de la caverne à un séjour de 300 ans auxquels s'ajoutent neuf ans."
+    },
+    "explanation": "The narrative's duration far exceeds ordinary human survival without normal nourishment and activity. The passage also assigns ultimate knowledge of the duration to God; interpretations of the reported number differ.",
+    "explanationTranslations": {
+      "fr": "La durée du récit dépasse largement la survie humaine ordinaire sans alimentation ni activité normales. Le passage attribue également à Dieu la connaissance ultime de la durée ; les interprétations du nombre indiqué varient."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:19",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Qasas",
+    "reference": "Al-Qasas (28:31)",
+    "summary": "Reports Moses' staff moving like a snake, causing him to flee.",
+    "themes": [
+      "Extraordinary claims"
+    ],
+    "originalTheme": "Extraordinary claims",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 28:31",
+        "https://quran.com/28/31"
+      ],
+      [
+        "Arabic Corpus - 28:31 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=28&verse=31"
+      ]
+    ],
+    "ranges": [
+      [
+        28,
+        31,
+        31
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que le bâton de Moïse s'agite comme un serpent, le faisant fuir."
+    },
+    "explanation": "The staff behaves like a living serpent after being thrown down. The narrative presents this as a divine sign; it is not an ordinary property of wood.",
+    "explanationTranslations": {
+      "fr": "Le bâton se comporte comme un serpent vivant après avoir été jeté. Le récit présente cela comme un signe divin ; ce n'est pas une propriété ordinaire du bois."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:23",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "At-Tariq",
+    "reference": "At-Tariq (86:5-7)",
+    "summary": "Describes human origin from gushing fluid emerging from between the backbone and ribs in common translations.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 86:5–7",
+        "https://quran.com/86/5-7"
+      ],
+      [
+        "Arabic Corpus - 86:5 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=86&verse=5"
+      ],
+      [
+        "quran.com",
+        "https://quran.com/86%3A7/tafsirs/en-tafisr-ibn-kathir"
+      ]
+    ],
+    "ranges": [
+      [
+        86,
+        5,
+        7
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit l'origine humaine à partir d'un liquide jaillissant entre le dos et les côtes dans des traductions courantes."
+    },
+    "explanation": "If read as the anatomical origin of semen, the description differs from modern reproductive anatomy. Interpretations vary over the referent of the fluid and the Arabic anatomical terms, so the issue is translation-sensitive.",
+    "explanationTranslations": {
+      "fr": "Si elle désigne l'origine anatomique du sperme, la description diffère de l'anatomie reproductive moderne. Les interprétations varient quant au liquide et aux termes anatomiques arabes ; la question dépend donc de la traduction."
+    }
+  },
+  {
+    "id": "absurdities/islam/quran.md:24",
+    "section": "absurdities",
+    "kind": "quran",
+    "religion": "Islam",
+    "collection": "Quran",
+    "book": "Al-Mulk",
+    "reference": "Al-Mulk (67:5)",
+    "summary": "Describes heavenly lamps and their use as missiles against devils.",
+    "themes": [
+      "Scientific tensions"
+    ],
+    "originalTheme": "Scientific tensions",
+    "tradition": "",
+    "sources": [
+      [
+        "Quran.com - 67:5",
+        "https://quran.com/67/5"
+      ],
+      [
+        "Arabic Corpus - 67:5 (compare translations)",
+        "https://corpus.quran.com/translation.jsp?chapter=67&verse=5"
+      ],
+      [
+        "quran.com",
+        "https://quran.com/fr/al-mulk/5/tafsirs"
+      ]
+    ],
+    "ranges": [
+      [
+        67,
+        5,
+        5
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit des luminaires célestes et leur utilisation comme projectiles contre les démons."
+    },
+    "explanation": "A literal identification of the heavenly lamps with stars used as projectiles conflicts with astronomy. Traditional interpretations can distinguish stars from meteors or describe an unseen spiritual event rather than an astronomical mechanism.",
+    "explanationTranslations": {
+      "fr": "L'identification littérale de ces luminaires à des étoiles utilisées comme projectiles contredit l'astronomie. Des interprétations traditionnelles distinguent étoiles et météores ou décrivent un événement spirituel invisible plutôt qu'un mécanisme astronomique."
     }
   }
 ]
