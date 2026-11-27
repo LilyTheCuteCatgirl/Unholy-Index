@@ -1,4 +1,14 @@
 const FR = {
+  'Translation license': 'Licence de traduction',
+  'Edition source': "Source de l’édition",
+  'Jainism': 'Jaïnisme',
+  'Zoroastrianism': 'Zoroastrisme',
+  'Sutta Pitaka': 'Sutta Pitaka',
+  'Vinaya Pitaka': 'Vinaya Pitaka',
+  'Book Of Mormon': 'Livre de Mormon',
+  'Doctrine And Covenants': 'Doctrine et Alliances',
+  'Mishnah': 'Mishna',
+  'Mishneh Torah': 'Mishné Torah',
   'Themes': 'Thèmes',
   'Percentages are shares of all theme assignments. A passage can belong to multiple themes.': 'Les pourcentages représentent les parts de toutes les attributions de thèmes. Un passage peut appartenir à plusieurs thèmes.',
   'Bars use a shared count scale across religions.': 'Les barres utilisent une échelle commune de comptage pour toutes les religions.',
@@ -155,8 +165,8 @@ const FR = {
   'Shia Library - chapter': 'Shia Library - chapitre',
   'Thaqalayn - reference': 'Thaqalayn - référence',
 };
-const footEN = 'Summaries are from the recovered reference collection and are not all independently verified. Bible text uses the World English Bible and Quran text uses Marmaduke Pickthall’s translation. Indexed Bible and Quran passages are loaded locally when available (eBible.org and Al Quran Cloud); otherwise the site uses online sources. Selected Sunni hadith use an alternate English edition; compare the linked original reference. Other hadith link to the source directly. Uncached full text requires internet; source links remain available if loading fails. Online loading sends the reference to an external provider.';
-const footFR = 'Les résumés français traduisent la collection anglaise récupérée ; les références n’ont pas toutes été vérifiées indépendamment. La Bible utilise Louis Segond (1910) ; la numérotation peut varier selon les éditions. Les passages bibliques et coraniques sont chargés localement si disponibles (eBible.org et Al Quran Cloud), sinon via les sources en ligne. Le Coran utilise la traduction française de Muhammad Hamidullah. Certains hadiths sunnites utilisent une édition française dont le traducteur n’est pas identifié ; si elle est indisponible, le texte anglais est signalé. Les autres renvoient à leur source. Les textes non stockés localement nécessitent Internet. Les liens restent disponibles si le chargement échoue. Le chargement en ligne transmet la référence à un fournisseur externe.';
+const footEN = 'Summaries are from the recovered reference collection and are not all independently verified. Bible text uses the World English Bible and Quran text uses Marmaduke Pickthall’s translation. Indexed Bible and Quran passages are loaded locally when available (eBible.org and Al Quran Cloud); otherwise the site uses online sources. Other collections use separately attributed historical or openly licensed editions when available; missing translations or texts retain their source links. Selected Sunni hadith use an alternate English edition; compare the linked original reference. Other hadith link to the source directly. Uncached full text requires internet; source links remain available if loading fails. Online loading sends the reference to an external provider.';
+const footFR = 'Les résumés français traduisent la collection anglaise récupérée ; les références n’ont pas toutes été vérifiées indépendamment. La Bible utilise Louis Segond (1910) ; la numérotation peut varier selon les éditions. Les passages bibliques et coraniques sont chargés localement si disponibles (eBible.org et Al Quran Cloud), sinon via les sources en ligne. Les autres collections utilisent des éditions historiques ou sous licence ouverte lorsqu’elles sont disponibles, avec leur attribution ; les liens sources restent disponibles en cas de texte manquant. Le Coran utilise la traduction française de Muhammad Hamidullah. Certains hadiths sunnites utilisent une édition française dont le traducteur n’est pas identifié ; si elle est indisponible, le texte anglais est signalé. Les autres renvoient à leur source. Les textes non stockés localement nécessitent Internet. Les liens restent disponibles si le chargement échoue. Le chargement en ligne transmet la référence à un fournisseur externe.';
 let LANG = 'en';
 try {
   LANG = localStorage.getItem('unholy-language') === 'fr' ? 'fr' : 'en';

@@ -237,6 +237,21 @@ async function read(e, language = LANG) {
       return result;
     }
   }
+  if (e.kind === 'generic') {
+    const database = await localTexts();
+    const versions = database?.[passageKey(e)];
+    for (const code of [...new Set([language, 'en'])]) {
+      const result = versions?.[code];
+      if (result?.language === code && typeof result.edition === 'string' &&
+          typeof result.source === 'string' && /^https:\/\//.test(result.source) &&
+          Array.isArray(result.verses) && result.verses.length &&
+          result.verses.every(v => typeof v.number === 'string' && v.number &&
+            typeof v.text === 'string' && v.text.trim()) &&
+          new Set(result.verses.map(v => v.number)).size === result.verses.length) {
+        return result;
+      }
+    }
+  }
   return readOnline(e, language);
 }
 
@@ -306,7 +321,9 @@ function displayPassage(target, result) {
 }
 
 // Context stays separate from the original passage and clipboard payload.
-function selectedVerse(e, number) {
+function selectedVerse(e, number, result) {
+  if (e.kind === 'generic')
+    return result?.selected?.includes(number) ?? false;
   const [chapter, verse] = number.split(':').map(Number);
   return e.ranges.some(([c, start, end]) => c === chapter && verse >= start && verse <= end);
 }
@@ -338,6 +355,16 @@ function contextForRanges(e, verses) {
 }
 
 async function readContext(e, result) {
+  if (e.kind === 'generic') {
+    const selected = result.verses.map(v => v.number);
+    const context = result.context;
+    if (!Array.isArray(context) || context.some(v => typeof v.number !== 'string' ||
+        typeof v.text !== 'string' || !v.text.trim()) ||
+        new Set(context.map(v => v.number)).size !== context.length ||
+        !result.verses.every(v => context.some(c => c.number === v.number && c.text === v.text)))
+      throw Error('Invalid local context');
+    return { edition: result.edition, language: result.language, verses: context, selected };
+  }
   if (Array.isArray(result.context)) {
     try {
       const local = contextForRanges(e, result.context);
@@ -392,10 +419,10 @@ function displayContext(target, e, result) {
   let previous;
   for (const verse of result.verses) {
     const [chapter, number] = verse.number.split(':').map(Number);
-    if (previous && (previous[0] !== chapter || previous[1] + 1 !== number))
+    if (e.kind !== 'generic' && previous && (previous[0] !== chapter || previous[1] + 1 !== number))
       target.append(el('div', 'muted context-gap', '…'));
     const line = el('div', 'verse-line context-line');
-    if (selectedVerse(e, verse.number)) {
+    if (selectedVerse(e, verse.number, result)) {
       line.classList.add('context-selected');
       line.append(el('span', 'sr-only', tr('Indexed verse:')));
     }
@@ -460,9 +487,9 @@ function entry(e) {
     contextBody.textContent = tr('Loading...');
     try {
       const result = await readContext(e, currentResult);
-      contextEdition.textContent = result.edition + ' · ' + tr('Indexed verses highlighted');
+      contextEdition.textContent = result.edition + ' - ' + tr('Indexed verses highlighted');
       contextBody.lang = result.language;
-      if (result.verses.every(v => selectedVerse(e, v.number)))
+      if (result.verses.every(v => selectedVerse(e, v.number, result)))
         contextBody.textContent = tr('No neighboring verses in this chapter.');
       else
         displayContext(contextBody, e, result);
@@ -480,7 +507,7 @@ function entry(e) {
     const copied = await copyText(passageText(e, currentResult));
     status.textContent = copied ? tr('Passage copied') : '';
   };
-  panel.append(edition, verse, contextButton, contextPanel, el('strong', '', tr('Sources')), sources, retry, actions);
+  panel.append(edition, verse, contextButton, contextPanel, el('strong', 'sources-heading', tr('Sources')), sources, retry, actions);
   d.append(panel);
   let loaded = false;
   async function load() {
@@ -494,13 +521,23 @@ function entry(e) {
       const result = await read(e);
       if (result) {
         currentResult = result;
-        contextButton.hidden = !['bible', 'quran'].includes(e.kind) || !Array.isArray(result.verses);
+        contextButton.hidden = !Array.isArray(result.verses) ||
+          (!['bible', 'quran'].includes(e.kind) &&
+            !(Array.isArray(result.context) && result.context.length > result.verses.length));
         if (result.source && !sourceLinks.some(([, url]) => url === result.source)) {
           const localSource = [result.edition, result.source];
           sourceLinks.unshift(localSource);
           const li = el('li');
           li.append(link(...localSource));
           sources.prepend(li);
+        }
+        for (const [label, url] of [[tr('Translation license'), result.licenseURL], [tr('Edition source'), result.versionSource]]) {
+          if (typeof url === 'string' && /^https:\/\//.test(url) && !sourceLinks.some(([, existing]) => existing === url)) {
+            sourceLinks.push([label, url]);
+            const li = el('li');
+            li.append(link(label, url));
+            sources.append(li);
+          }
         }
         edition.textContent = (LANG === 'fr' && result.language === 'en' ? tr('French unavailable; English text shown') + ' - ' : '') + result.edition;
         verse.lang = result.language;

@@ -1,5 +1,243 @@
 [
   {
+    "id": "buddhism/sutta-pitaka.md:3",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Sutta Pitaka",
+    "book": "Sutta Pitaka",
+    "reference": "Anguttara Nikaya 8.51",
+    "summary": "Subordinates nuns to monks and predicts women's ordination will shorten the teaching's survival.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "suttacentral.net",
+        "https://suttacentral.net/an8.51/en/sujato"
+      ]
+    ],
+    "translations": {
+      "fr": "Subordonne les nonnes aux moines et prédit que leur ordination raccourcira la durée de l'enseignement."
+    }
+  },
+  {
+    "id": "buddhism/sutta-pitaka.md:4",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Sutta Pitaka",
+    "book": "Sutta Pitaka",
+    "reference": "Majjhima Nikaya 115",
+    "summary": "States that women cannot become fully awakened Buddhas or universal monarchs in female form.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "suttacentral.net",
+        "https://suttacentral.net/mn115/en/sujato"
+      ]
+    ],
+    "translations": {
+      "fr": "Affirme que les femmes ne peuvent devenir des bouddhas pleinement éveillés ni des monarques universels sous forme féminine."
+    }
+  },
+  {
+    "id": "buddhism/sutta-pitaka.md:5",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Sutta Pitaka",
+    "book": "Sutta Pitaka",
+    "reference": "Anguttara Nikaya 5.229-230",
+    "summary": "Compares women to dangerous snakes and generalizes about their alleged negative qualities.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "find.dhamma.gift",
+        "https://find.dhamma.gift/bw/an/an5.229.html"
+      ],
+      [
+        "find.dhamma.gift",
+        "https://find.dhamma.gift/bw/an/an5.230.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Compare les femmes à des serpents dangereux et généralise leurs prétendus défauts."
+    }
+  },
+  {
+    "id": "buddhism/sutta-pitaka.md:9",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Sutta Pitaka",
+    "book": "Sutta Pitaka",
+    "reference": "Majjhima Nikaya 130",
+    "summary": "Describes prolonged hell torments resulting from bad deeds, ending when the relevant karma is exhausted.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "suttacentral.net",
+        "https://suttacentral.net/mn130/en/sujato"
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit des supplices infernaux prolongés dus aux mauvaises actions, jusqu'à épuisement du karma correspondant."
+    }
+  },
+  {
+    "id": "buddhism/vinaya-pitaka.md:3",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Vinaya Pitaka",
+    "book": "Vinaya Pitaka",
+    "reference": "Mahavagga I.47.1",
+    "summary": "Bars enslaved people from entering the monastic order while enslaved.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "www.dhammatalks.org",
+        "https://www.dhammatalks.org/vinaya/bmc/Section0054.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit aux personnes esclaves d'entrer dans l'ordre monastique tant qu'elles restent esclaves."
+    }
+  },
+  {
+    "id": "buddhism/vinaya-pitaka.md:7",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Vinaya Pitaka",
+    "book": "Vinaya Pitaka",
+    "reference": "Mahavagga I.39.7",
+    "summary": "Bars people with five specified diseases, including epilepsy, from monastic entry.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.dhammatalks.org",
+        "https://www.dhammatalks.org/vinaya/bmc/Section0054.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit l'entrée monastique aux personnes atteintes de cinq maladies précises, dont l'épilepsie."
+    }
+  },
+  {
+    "id": "buddhism/vinaya-pitaka.md:8",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Vinaya Pitaka",
+    "book": "Vinaya Pitaka",
+    "reference": "Mahavagga I.46.1",
+    "summary": "Bars debtors from entering the monastic order.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.dhammatalks.org",
+        "https://www.dhammatalks.org/vinaya/bmc/Section0054.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit aux personnes endettées d'entrer dans l'ordre monastique."
+    }
+  },
+  {
+    "id": "buddhism/vinaya-pitaka.md:12",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Vinaya Pitaka",
+    "book": "Vinaya Pitaka",
+    "reference": "Mahavagga I.61.2",
+    "summary": "Bars ordination of pandakas, an ancient sexual or gender category without an exact modern equivalent.",
+    "themes": [
+      "LGBT discrimination"
+    ],
+    "originalTheme": "LGBT discrimination",
+    "tradition": "",
+    "sources": [
+      [
+        "www.dhammatalks.org",
+        "https://www.dhammatalks.org/vinaya/bmc/Section0054.html"
+      ],
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/buddhism/book/vinaya-2-the-mahavagga/d/doc370054.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit l'ordination des pandakas, catégorie sexuelle ou de genre ancienne sans équivalent moderne exact."
+    }
+  },
+  {
+    "id": "buddhism/vinaya-pitaka.md:13",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Vinaya Pitaka",
+    "book": "Vinaya Pitaka",
+    "reference": "Mahavagga I.68",
+    "summary": "Bars ordination of people described as having both sexual characteristics, requiring expulsion if ordained.",
+    "themes": [
+      "LGBT discrimination"
+    ],
+    "originalTheme": "LGBT discrimination",
+    "tradition": "",
+    "sources": [
+      [
+        "www.dhammatalks.org",
+        "https://www.dhammatalks.org/vinaya/bmc/Section0054.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit l'ordination des personnes décrites comme ayant les deux caractères sexuels et exige leur exclusion si ordonnées."
+    }
+  },
+  {
+    "id": "buddhism/vinaya-pitaka.md:17",
+    "kind": "generic",
+    "religion": "Buddhism",
+    "collection": "Vinaya Pitaka",
+    "book": "Vinaya Pitaka",
+    "reference": "Mahavagga I.62.3",
+    "summary": "Bars reordination of former monks who joined another religion while ordained.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.dhammatalks.org",
+        "https://www.dhammatalks.org/vinaya/bmc/Section0054.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit la réordination des anciens moines ayant rejoint une autre religion pendant leur ordination."
+    }
+  },
+  {
     "id": "christianity/bible.md:3",
     "kind": "bible",
     "religion": "Christianity",
@@ -8024,6 +8262,1675 @@
     ],
     "translations": {
       "fr": "Interdit de manger du porc et de toucher sa carcasse, considérés rituellement impurs."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:3",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "1 Nephi 4:10-18",
+    "summary": "Reports the Spirit instructing Nephi to kill Laban to secure sacred records, invoking national unbelief.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/4?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que l'Esprit ordonne à Néphi de tuer Laban pour obtenir les écrits sacrés, invoquant l'incroyance nationale."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:4",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "3 Nephi 9:2-13",
+    "summary": "Reports Christ attributing destruction of multiple cities and their inhabitants to wickedness and persecution of prophets.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que le Christ attribue la destruction de plusieurs villes et de leurs habitants à leur méchanceté et persécution des prophètes."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:5",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "Alma 14:8-11",
+    "summary": "Reports divine restraint preventing Alma from rescuing burning believers, explaining their deaths as grounds for future judgment.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/14?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que l'Esprit empêche Alma de sauver les croyants brûlés, justifiant leurs morts comme preuves pour le jugement futur."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:9",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "2 Nephi 5:20-24",
+    "summary": "Portrays darkened skin and descendants of intermarriage as cursed; the modern LDS Church rejects racial curse theories.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/5?lang=eng"
+      ],
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/race-and-the-priesthood?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Présente la peau foncée et les descendants d'unions mixtes comme maudits ; l'Église contemporaine rejette ces théories raciales."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:10",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "Alma 3:6-10",
+    "summary": "Links dark skin to an ancestral curse and describes intermarriage transmitting it; modern LDS teaching rejects racial curses.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/3?lang=eng"
+      ],
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/race-and-the-priesthood?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Lie la peau foncée à une malédiction ancestrale et sa transmission par unions mixtes ; l'Église contemporaine rejette ces malédictions."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:11",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "3 Nephi 2:14-16",
+    "summary": "Describes converted Lamanites becoming white after their curse is removed; modern LDS teaching rejects racial curse theories.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/2?lang=eng"
+      ],
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/race-and-the-priesthood?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit les Lamanites convertis devenant blancs après la levée de leur malédiction ; l'Église contemporaine rejette ces théories raciales."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:15",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "Alma 30:46-50",
+    "summary": "Reports God removing Korihor's ability to speak after he refuses belief without a sign.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Rapporte que Dieu prive Korihor de la parole après son refus de croire sans signe."
+    }
+  },
+  {
+    "id": "christianity/book-of-mormon.md:19",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Book Of Mormon",
+    "book": "Book Of Mormon",
+    "reference": "2 Nephi 9:15-16",
+    "summary": "Describes the condemned enduring endless torment in everlasting fire after judgment.",
+    "themes": [
+      "Hell and eternal punishment"
+    ],
+    "originalTheme": "Hell and eternal punishment",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/9?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit les condamnés subissant des tourments sans fin dans un feu éternel après le jugement."
+    }
+  },
+  {
+    "id": "christianity/doctrine-and-covenants.md:3",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Doctrine And Covenants",
+    "book": "Doctrine And Covenants",
+    "reference": "Doctrine and Covenants 132:37-39",
+    "summary": "Justifies divinely authorized plural wives and concubines; the contemporary LDS Church prohibits plural marriage.",
+    "themes": [
+      "Sexual slavery, forced marriage and sexual violence"
+    ],
+    "originalTheme": "Sexual slavery, forced marriage and sexual violence",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng"
+      ],
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/gs/marriage-marry?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Justifie les épouses multiples et concubines autorisées par Dieu ; l'Église contemporaine interdit le mariage plural."
+    }
+  },
+  {
+    "id": "christianity/doctrine-and-covenants.md:4",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Doctrine And Covenants",
+    "book": "Doctrine And Covenants",
+    "reference": "Doctrine and Covenants 132:52-55",
+    "summary": "Commands Emma Smith to accept Joseph's additional wives and threatens divine destruction for disobedience.",
+    "themes": [
+      "Sexual slavery, forced marriage and sexual violence"
+    ],
+    "originalTheme": "Sexual slavery, forced marriage and sexual violence",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng"
+      ],
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/gs/marriage-marry?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Ordonne à Emma Smith d'accepter les épouses supplémentaires de Joseph et menace de destruction divine en cas de désobéissance."
+    }
+  },
+  {
+    "id": "christianity/doctrine-and-covenants.md:5",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Doctrine And Covenants",
+    "book": "Doctrine And Covenants",
+    "reference": "Doctrine and Covenants 132:61-65",
+    "summary": "Authorizes plural wives and exempts husbands from first-wife consent when she rejects the law; threatens wives with destruction.",
+    "themes": [
+      "Sexual slavery, forced marriage and sexual violence"
+    ],
+    "originalTheme": "Sexual slavery, forced marriage and sexual violence",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng"
+      ],
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/gs/marriage-marry?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise plusieurs épouses, dispense du consentement de la première si elle rejette la loi et menace les épouses de destruction."
+    }
+  },
+  {
+    "id": "christianity/doctrine-and-covenants.md:9",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Doctrine And Covenants",
+    "book": "Doctrine And Covenants",
+    "reference": "Doctrine and Covenants 132:36",
+    "summary": "Praises Abraham's obedience to the command to sacrifice Isaac despite the prohibition on killing.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Loue l'obéissance d'Abraham à l'ordre de sacrifier Isaac malgré l'interdiction de tuer."
+    }
+  },
+  {
+    "id": "christianity/doctrine-and-covenants.md:10",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Doctrine And Covenants",
+    "book": "Doctrine And Covenants",
+    "reference": "Doctrine and Covenants 64:23-25",
+    "summary": "Promises those who pay tithing protection from burning at the Lord's coming.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/64?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Promet à ceux qui paient la dîme d'être épargnés du feu lors de la venue du Seigneur."
+    }
+  },
+  {
+    "id": "christianity/doctrine-and-covenants.md:14",
+    "kind": "generic",
+    "religion": "Christianity",
+    "collection": "Doctrine And Covenants",
+    "book": "Doctrine And Covenants",
+    "reference": "Doctrine and Covenants 84:92-97",
+    "summary": "Pronounces woes and plagues against places rejecting the missionaries' testimony.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.churchofjesuschrist.org",
+        "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng"
+      ]
+    ],
+    "translations": {
+      "fr": "Prononce des malheurs et des fléaux contre les lieux rejetant le témoignage des missionnaires."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:3",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 10.39-44",
+    "summary": "Assigns different privileged means of acquiring property to different social classes.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116310.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Attribue aux différentes classes sociales des modes privilégiés distincts d'acquisition des biens."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:4",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 10.50-59",
+    "summary": "Assigns Shudras service to higher classes and consumption of their leftovers and discarded goods.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116310.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Assigne aux shudras le service des classes supérieures et l'usage de leurs restes et objets usagés."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:5",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 10.61-66",
+    "summary": "Requires Shudras to support impoverished masters, and all people to serve higher classes.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116310.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige des shudras qu'ils entretiennent leurs maîtres appauvris et de tous qu'ils servent les classes supérieures."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:6",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 12.8-14",
+    "summary": "Sets unequal fines for insults by caste, exempting Brahmins from fines for insulting Shudras.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116312.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Fixe des amendes inégales selon la caste et dispense les brahmanes d'amende pour injure envers les shudras."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:7",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 12.46-47",
+    "summary": "Exempts Brahmins from corporal punishment, while permitting public denunciation, exile and branding.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116312.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Dispense les brahmanes des châtiments corporels, tout en autorisant la dénonciation publique, l'exil et le marquage au fer."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:8",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 18.24-27",
+    "summary": "Allows taking money by force or deceit from Shudras or specified ritual neglecters for religious expenses.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116318.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise à prendre de l'argent par force ou ruse aux shudras ou à certains négligents rituels pour des dépenses religieuses."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:9",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 4.16-21",
+    "summary": "Classifies children of inter-caste unions according to their parents' caste and the direction of the union.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116304.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Classe les enfants d'unions entre castes selon la caste de leurs parents et le sens de l'union."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:10",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 4.25-28",
+    "summary": "Excludes specified mixed-caste descendants from sacred law and describes one group as especially impure.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116304.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Exclut certains descendants d'unions entre castes de la loi sacrée et décrit un groupe comme particulièrement impur."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:11",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 9.10-11",
+    "summary": "Forbids sipping water offered by a Shudra or someone considered impure.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116309.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit de boire de l'eau offerte par un shudra ou une personne considérée comme impure."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:12",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 9.16-18",
+    "summary": "Forbids conversing with people classified as outsiders or impure, prescribing corrective acts after contact.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116309.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit de parler aux personnes classées comme étrangères ou impures et prescrit des actes correctifs après contact."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:16",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 12.1",
+    "summary": "Prescribes mutilation for a Shudra who criminally insults or assaults a twice-born man.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116312.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit une mutilation pour un shudra qui insulte gravement ou agresse un homme des trois classes supérieures."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:17",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 12.2-3",
+    "summary": "Prescribes genital mutilation, confiscation and, under specified conditions, execution for a Shudra's prohibited sexual relations.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116312.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit la mutilation génitale, la confiscation et, sous conditions, l'exécution d'un shudra pour des rapports sexuels interdits."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:18",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 12.4-6",
+    "summary": "Prescribes molten substances in the ears, tongue removal or death for Shudras learning Vedic texts.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116312.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit des substances fondues dans les oreilles, l'ablation de la langue ou la mort aux shudras étudiant les Védas."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:19",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 12.7",
+    "summary": "Prescribes corporal punishment for a Shudra claiming equal social position with twice-born men.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116312.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit un châtiment corporel au shudra qui revendique une position sociale égale aux hommes des trois classes supérieures."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:20",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 23.1-2",
+    "summary": "Prescribes a fatal punishment for deliberate alcohol consumption by a Brahmin, but a lesser penance for accidental drinking.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116323.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit une peine mortelle au brahmane consommant délibérément de l'alcool, mais une pénitence moindre en cas d'ingestion accidentelle."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:21",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 23.8-11",
+    "summary": "Prescribes lethal penance for sexual violation of a teacher's bed.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116323.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit une pénitence mortelle pour violation sexuelle du lit du maître spirituel."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:22",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 23.14-16",
+    "summary": "Prescribes a brutal execution for a woman committing adultery with a lower-caste man, also punishing him.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116323.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit une exécution brutale pour une femme adultère avec un homme de caste inférieure, également puni."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:26",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 18.1-3",
+    "summary": "Denies wives independent religious practice and requires obedience to marital duties.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116318.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Refuse aux épouses l'autonomie religieuse et exige le respect de leurs devoirs conjugaux."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:27",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 18.4-8",
+    "summary": "Restricts a widow seeking children to prescribed partners, permission requirements and at most two sons.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116318.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Limite les partenaires d'une veuve désirant des enfants, exige une autorisation et fixe un maximum de deux fils."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:28",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 18.15-17",
+    "summary": "Requires wives of absent husbands to wait for prescribed periods or abstain if husbands renounce domestic life.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116318.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Impose aux épouses de maris absents des délais d'attente ou l'abstinence si ceux-ci renoncent à la vie domestique."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:32",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 18.20-23",
+    "summary": "Prescribes marrying girls before puberty; records an even earlier opinion, while allowing later self-choice under conditions.",
+    "themes": [
+      "Children's rights"
+    ],
+    "originalTheme": "Children's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116318.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit le mariage des filles avant la puberté, rapporte un avis encore plus précoce et autorise ensuite un choix sous conditions."
+    }
+  },
+  {
+    "id": "hinduism/gautama-dharmasutra.md:36",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Gautama Dharmasutra",
+    "book": "Gautama Dharmasutra",
+    "reference": "Gautama Dharmasutra 23.29-31",
+    "summary": "Treats lying to a spiritual teacher as destroying the offender, seven ancestors and seven descendants.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/gautama-dharmasutra/d/doc116323.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Considère le mensonge au maître spirituel comme détruisant le fautif, sept ancêtres et sept descendants."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:3",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.410-414",
+    "summary": "Assigns compulsory service to Shudras, even after emancipation.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ],
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/manusmriti-with-the-commentary-of-medhatithi/d/doc201348.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Impose aux Shudras un service obligatoire, même après leur affranchissement."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:4",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.415",
+    "summary": "Recognizes seven forms of enslavement, including capture, purchase, inheritance and punishment.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Reconnaît sept formes d'esclavage, notamment la capture, l'achat, l'héritage et la punition."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:5",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.417",
+    "summary": "Allows Brahmins to appropriate their enslaved Shudras' possessions.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise les brahmanes à confisquer les biens de leurs esclaves shudras."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:9",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.147-149",
+    "summary": "Denies women independence throughout life and requires male guardianship.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Refuse aux femmes toute indépendance et les soumet à une tutelle masculine."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:10",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.151-152",
+    "summary": "Requires obedience to a husband chosen by a father or authorized brother.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige l'obéissance au mari choisi par le père ou le frère autorisé."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:11",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.154",
+    "summary": "Requires a faithful wife to revere even a morally deficient or unfaithful husband.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige qu'une épouse fidèle vénère même un mari immoral ou infidèle."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:12",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.155-156",
+    "summary": "Restricts independent female religious observance and requires avoiding displeasing husbands.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Restreint les pratiques religieuses indépendantes des femmes et exige de ne pas déplaire au mari."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:13",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.157-162",
+    "summary": "Prescribes lifelong chastity for widows and rejects remarriage for virtuous women.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit la chasteté à vie des veuves et rejette le remariage des femmes vertueuses."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:14",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.164",
+    "summary": "Threatens disobedient wives with disgrace, animal rebirth and illness.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Menace les épouses désobéissantes de disgrâce, de réincarnation animale et de maladies."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:15",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 5.168",
+    "summary": "Allows widowers to remarry, unlike the prescribed ideal for widows.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-v/"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise le remariage des veufs, contrairement à l'idéal prescrit aux veuves."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:16",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.416",
+    "summary": "Denies independent ownership of earnings to wives, sons and slaves.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Refuse aux épouses, fils et esclaves la propriété indépendante de leurs gains."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:17",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.13-17",
+    "summary": "Portrays women as naturally unfaithful and deceitful, requiring close supervision.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Présente les femmes comme naturellement infidèles et trompeuses, nécessitant une surveillance étroite."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:18",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.18",
+    "summary": "Excludes women from specified Vedic rites and associates them with impurity.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Exclut les femmes de certains rites védiques et les associe à l'impureté."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:19",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.77-79",
+    "summary": "Allows confiscating wives' property for hostility or disrespect, with specified exceptions.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise la confiscation des biens des épouses hostiles ou irrespectueuses, avec certaines exceptions."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:20",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.80-82",
+    "summary": "Allows taking another wife for infertility, daughters only, illness or other conditions, with exceptions.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise une autre épouse pour infertilité, naissance exclusive de filles, maladie ou autres motifs, avec exceptions."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:21",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.83-84",
+    "summary": "Permits confining or repudiating a replaced wife who leaves angrily, and fines forbidden outings.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise l'enfermement ou la répudiation d'une épouse remplacée qui part, et sanctionne certaines sorties interdites."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:22",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.85",
+    "summary": "Ranks a man's wives by their caste.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Classe les épouses d'un homme selon leur caste."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:26",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.88",
+    "summary": "Recommends giving a daughter to a suitable same-caste suitor before marriageable age.",
+    "themes": [
+      "Children's rights"
+    ],
+    "originalTheme": "Children's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ]
+    ],
+    "translations": {
+      "fr": "Recommande de donner une fille à un prétendant convenable de même caste avant l'âge matrimonial."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:27",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 9.94",
+    "summary": "Recommends marriage between men aged 30 and girls aged 12, or 24 and 8.",
+    "themes": [
+      "Children's rights"
+    ],
+    "originalTheme": "Children's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-ix/"
+      ],
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/manusmriti-with-the-commentary-of-medhatithi/d/doc201459.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Recommande des mariages entre hommes de 30 ans et filles de 12 ans, ou 24 et 8 ans."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:31",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.267-268",
+    "summary": "Sets unequal defamation penalties according to caste.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Fixe des sanctions inégales pour diffamation selon la caste."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:32",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.374-378",
+    "summary": "Sets caste-dependent penalties for intercourse, including death, mutilation or fines.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Fixe selon la caste des sanctions pour les rapports sexuels, dont la mort, la mutilation ou des amendes."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:33",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.379-381",
+    "summary": "Exempts Brahmins from execution, even for grave crimes.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Exempte les brahmanes de la peine de mort, même pour des crimes graves."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:34",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 10.46-50",
+    "summary": "Assigns stigmatized occupations and separate living areas to communities classified by ancestry.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-x/"
+      ]
+    ],
+    "translations": {
+      "fr": "Assigne des métiers stigmatisés et des lieux de résidence séparés à des communautés définies par leur ascendance."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:35",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 10.51-56",
+    "summary": "Requires segregation, restricted movement and stigmatized occupations for Chandalas and Svapakas.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-x/"
+      ]
+    ],
+    "translations": {
+      "fr": "Impose la ségrégation, des déplacements restreints et des métiers stigmatisés aux Chandalas et Svapakas."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:36",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 10.57-59",
+    "summary": "Attributes allegedly impure ancestry to inherent negative character traits.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-x/"
+      ]
+    ],
+    "translations": {
+      "fr": "Attribue des traits de caractère négatifs innés à une ascendance jugée impure."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:37",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 10.126-128",
+    "summary": "Restricts Shudras' access to sacraments and Vedic recitation.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-x/"
+      ]
+    ],
+    "translations": {
+      "fr": "Restreint l'accès des Shudras aux sacrements et à la récitation védique."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:38",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 10.129",
+    "summary": "Forbids Shudras from accumulating wealth, even when able to do so.",
+    "themes": [
+      "Other discriminatory rules"
+    ],
+    "originalTheme": "Other discriminatory rules",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-x/"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit aux Shudras d'accumuler des richesses, même lorsqu'ils en ont les moyens."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:42",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.270-272",
+    "summary": "Prescribes mutilation or scalding for Shudras insulting or arrogantly instructing higher castes.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ],
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/hinduism/book/manusmriti-with-the-commentary-of-medhatithi/d/doc201203.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit des mutilations ou brûlures aux Shudras insultant ou instruisant avec arrogance les castes supérieures."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:43",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.279-280",
+    "summary": "Prescribes amputation for lower-caste people assaulting members of higher castes.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit l'amputation aux personnes de caste inférieure agressant des membres de castes supérieures."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:44",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.281",
+    "summary": "Prescribes branding and banishment or mutilation for sharing a higher-caste person's seat.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit le marquage et le bannissement, ou la mutilation, pour avoir partagé le siège d'une caste supérieure."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:45",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.282-283",
+    "summary": "Prescribes mutilation for specified insults or physical contact against caste superiors.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit des mutilations pour certains outrages ou contacts physiques envers des personnes de caste supérieure."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:46",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.299-300",
+    "summary": "Permits beating wives, sons, slaves, pupils and younger brothers for faults.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise les coups envers épouses, fils, esclaves, élèves et frères cadets pour leurs fautes."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:47",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.371-372",
+    "summary": "Prescribes public execution of an adulterous wife and burning of the male offender.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit l'exécution publique d'une épouse adultère et la mise à mort par le feu de son partenaire."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:51",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.369-370",
+    "summary": "Prescribes fines, whipping or mutilation for sexual acts between females, depending on age.",
+    "themes": [
+      "LGBT discrimination"
+    ],
+    "originalTheme": "LGBT discrimination",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit amendes, coups ou mutilations pour des actes sexuels entre femmes, selon leur âge."
+    }
+  },
+  {
+    "id": "hinduism/manusmriti.md:55",
+    "kind": "generic",
+    "religion": "Hinduism",
+    "collection": "Manusmriti",
+    "book": "Manusmriti",
+    "reference": "Manusmriti 8.378",
+    "summary": "Prescribes only a fine for a Brahmin raping a guarded Brahmin woman.",
+    "themes": [
+      "Sexual slavery, forced marriage and sexual violence"
+    ],
+    "originalTheme": "Sexual slavery, forced marriage and sexual violence",
+    "tradition": "",
+    "sources": [
+      [
+        "hinduismfacts.org",
+        "https://hinduismfacts.org/hindu-scriptures-and-holy-books/manusmriti/chapter-viii/"
+      ]
+    ],
+    "translations": {
+      "fr": "Ne prescrit qu'une amende au brahmane violant une femme brahmane placée sous protection."
     }
   },
   {
@@ -17498,6 +19405,1019 @@
     ],
     "translations": {
       "fr": "Énumère les catégories d'esclaves temporairement ou définitivement interdites de rapports avec leurs maîtres."
+    }
+  },
+  {
+    "id": "jainism/uttaradhyayana-sutra.md:3",
+    "kind": "generic",
+    "religion": "Jainism",
+    "collection": "Uttaradhyayana Sutra",
+    "book": "Uttaradhyayana Sutra",
+    "reference": "Uttaradhyayana Sutra 8.18-19",
+    "summary": "Portrays women as deceptive demonic beings and instructs homeless monks to avoid them.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/jainism/book/uttaradhyayana-sutra/d/doc424218.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Présente les femmes comme des êtres démoniaques trompeurs et enjoint aux moines sans foyer de les éviter."
+    }
+  },
+  {
+    "id": "jainism/uttaradhyayana-sutra.md:4",
+    "kind": "generic",
+    "religion": "Jainism",
+    "collection": "Uttaradhyayana Sutra",
+    "book": "Uttaradhyayana Sutra",
+    "reference": "Uttaradhyayana Sutra 32.13-16",
+    "summary": "Compares monks living near women to mice near cats, recommending avoidance of women's appearance and company.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/jainism/book/uttaradhyayana-sutra/d/doc424242.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Compare les moines proches des femmes à des souris près de chats et recommande d'éviter leur apparence et compagnie."
+    }
+  },
+  {
+    "id": "jainism/uttaradhyayana-sutra.md:5",
+    "kind": "generic",
+    "religion": "Jainism",
+    "collection": "Uttaradhyayana Sutra",
+    "book": "Uttaradhyayana Sutra",
+    "reference": "Uttaradhyayana Sutra 32.17-18",
+    "summary": "Depicts attachment to women as the greatest obstacle for men seeking spiritual liberation.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.wisdomlib.org",
+        "https://www.wisdomlib.org/jainism/book/uttaradhyayana-sutra/d/doc424242.html"
+      ]
+    ],
+    "translations": {
+      "fr": "Présente l'attachement aux femmes comme le plus grand obstacle pour les hommes recherchant la libération spirituelle."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:3",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Kiddushin 1:2",
+    "summary": "Regulates acquiring Hebrew slaves and their release, including extended service by ear piercing.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Kiddushin.1.2?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Réglemente l'acquisition et la libération des esclaves hébreux, notamment le service prolongé par perçage de l'oreille."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:4",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Kiddushin 1:3",
+    "summary": "Regulates purchase, possession and emancipation of non-Jewish slaves termed Canaanite slaves.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Kiddushin.1.3?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Réglemente l'achat, la possession et l'affranchissement des esclaves non juifs dits cananéens."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:8",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Ketubot 4:4",
+    "summary": "Gives fathers authority over daughters' betrothal, earnings and annulment of vows.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Ketubot.4.4?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Donne aux pères autorité sur les fiançailles, les gains et l'annulation des voeux de leurs filles."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:9",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Ketubot 4:5",
+    "summary": "Describes transfer of a daughter from paternal authority to her husband's authority.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Ketubot.4.5?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Décrit le transfert d'une fille de l'autorité paternelle à celle de son mari."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:10",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sotah 1:5",
+    "summary": "Prescribes public humiliation of wives suspected of adultery, with disagreement over limits.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sotah.1.5?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit l'humiliation publique des épouses soupçonnées d'adultère, avec désaccord sur ses limites."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:11",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sotah 3:4",
+    "summary": "Rabbi Eliezer condemns teaching daughters Torah; Ben Azzai argues for teaching them.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sotah.3.4?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Rabbi Eliezer condamne l'enseignement de la Torah aux filles ; Ben Azzai le défend."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:15",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Niddah 5:4",
+    "summary": "Recognizes betrothal through intercourse with girls aged three years and one day; later restrictions exist.",
+    "themes": [
+      "Children's rights"
+    ],
+    "originalTheme": "Children's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Niddah.5.4?lang=en"
+      ],
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Kiddushin.41a?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Reconnaît les fiançailles par rapport sexuel avec une fille de trois ans et un jour ; restrictions ultérieures."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:16",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 8:1-5",
+    "summary": "Regulates executing rebellious sons under narrow conditions, anticipating future wrongdoing; later rabbis disputed applicability.",
+    "themes": [
+      "Children's rights"
+    ],
+    "originalTheme": "Children's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.8.1-5?lang=en"
+      ],
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Sanhedrin.71a?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Réglemente l'exécution des fils rebelles sous conditions strictes, anticipant leurs fautes futures ; applicabilité contestée ultérieurement."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:20",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 7:4",
+    "summary": "Lists male same-sex intercourse among offenses punishable by stoning.",
+    "themes": [
+      "LGBT discrimination"
+    ],
+    "originalTheme": "LGBT discrimination",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.7.4?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Classe les rapports sexuels entre hommes parmi les actes punis de lapidation."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:24",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 7:5",
+    "summary": "Specifies evidentiary conditions for a capital prosecution for blasphemy.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.7.5?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Précise les conditions de preuve pour une condamnation à mort pour blasphème."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:25",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 7:6",
+    "summary": "Defines forms of idol worship punishable by death.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.7.6?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Définit les formes d'idolâtrie passibles de la peine de mort."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:26",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 7:10",
+    "summary": "Permits concealed witnesses to obtain evidence against an inciter to idol worship.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.7.10?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise des témoins cachés à recueillir des preuves contre une personne incitant à l'idolâtrie."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:30",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 10:4-5",
+    "summary": "Regulates execution of idolaters and destruction of their city's property; applicability is disputed in later discussions.",
+    "themes": [
+      "Warfare and mass killing"
+    ],
+    "originalTheme": "Warfare and mass killing",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.10.4-5?lang=en"
+      ],
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Sanhedrin.71a?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Réglemente l'exécution des idolâtres et la destruction des biens de leur ville ; applicabilité contestée ultérieurement."
+    }
+  },
+  {
+    "id": "judaism/mishnah.md:34",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishnah",
+    "book": "Mishnah",
+    "reference": "Mishnah Sanhedrin 7:1-3",
+    "summary": "Defines four judicial execution methods, including stoning and burning.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Sanhedrin.7.1-3?lang=en"
+      ],
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishnah_Makkot.1.10?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Définit quatre méthodes d'exécution judiciaire, dont la lapidation et le supplice du feu."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:3",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Testimony 9:2",
+    "summary": "Disqualifies women from ordinary judicial testimony under the stated scriptural interpretation.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Testimony.9.2?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Exclut les femmes du témoignage judiciaire ordinaire selon l'interprétation scripturaire énoncée."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:4",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Sanctification of the New Month 2",
+    "summary": "Restricts qualifying testimony for the new moon to eligible male witnesses.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Sanctification_of_the_New_Month.2?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Réserve le témoignage recevable sur la nouvelle lune aux témoins masculins admissibles."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:5",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Marriage 21:10",
+    "summary": "Assigns wives household labor including cooking, washing, childcare and tending their husbands' animals.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Marriage.21.10?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Assigne aux épouses les tâches domestiques, notamment la cuisine, le lavage, les soins aux enfants et aux animaux du mari."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:9",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Slaves 9:1",
+    "summary": "Recognizes slave sales authorized by non-Jewish rulers, including captives and people unable to pay taxes.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Slaves.9.1?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Reconnaît les ventes d'esclaves autorisées par des souverains non juifs, notamment des captifs et des personnes incapables de payer l'impôt."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:10",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Slaves 9:8",
+    "summary": "Permits harsh labor for Canaanite slaves but advocates compassion and humane treatment.",
+    "themes": [
+      "Slavery"
+    ],
+    "originalTheme": "Slavery",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Slaves.9.8?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Autorise les travaux pénibles pour les esclaves cananéens, mais recommande la compassion et un traitement humain."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:14",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Kings and Wars 9:14",
+    "summary": "Prescribes execution for violation of the seven Noahide commandments, with different procedural requirements.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Kings_and_Wars.9.14?lang=en"
+      ],
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Kings_and_Wars.9.14?with=TANAKH"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit l'exécution pour violation des sept lois noachides, selon des règles procédurales différentes."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:18",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Kings and Wars 10:9",
+    "summary": "Prescribes punishment for non-Jews studying Torah beyond Noahide laws or establishing new religious practices, but not execution.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Kings_and_Wars.10.9?lang=en"
+      ],
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Kings_and_Wars.10.9?with=Commentary"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit de punir les non-Juifs étudiant la Torah au-delà des lois noachides ou créant de nouvelles pratiques religieuses, sans exécution."
+    }
+  },
+  {
+    "id": "judaism/mishneh-torah.md:22",
+    "kind": "generic",
+    "religion": "Judaism",
+    "collection": "Mishneh Torah",
+    "book": "Mishneh Torah",
+    "reference": "Mishneh Torah, Kings and Wars 6:4",
+    "summary": "Requires war after rejected peace terms; distinguishes ordinary wars from specified wars where no inhabitants are spared.",
+    "themes": [
+      "Warfare and mass killing"
+    ],
+    "originalTheme": "Warfare and mass killing",
+    "tradition": "",
+    "sources": [
+      [
+        "www.sefaria.org",
+        "https://www.sefaria.org/Mishneh_Torah%2C_Kings_and_Wars.6.4?lang=en"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige la guerre après le rejet des conditions de paix ; distingue les guerres ordinaires de certaines guerres sans épargner les habitants."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:3",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 4.5-10",
+    "summary": "Extends responsibility for broken contracts to the offender's relatives for centuries.",
+    "themes": [
+      "Collective punishment and divine cruelty"
+    ],
+    "originalTheme": "Collective punishment and divine cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd4sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Étend pendant des siècles la responsabilité des contrats rompus aux proches du fautif."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:7",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 4.11-16",
+    "summary": "Prescribes hundreds of lashes for breaking contracts, increasing with their value.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd4sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit des centaines de coups de fouet pour rupture de contrat, selon sa valeur."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:8",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 14.1-4",
+    "summary": "Prescribes an exceptionally severe flogging penalty and extensive ritual offerings for killing an otter.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd14sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit une flagellation exceptionnellement sévère et d'importantes offrandes rituelles pour avoir tué une loutre."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:9",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 16.13-16",
+    "summary": "Prescribes flogging for suppressing menstrual discharge or repeatedly touching a menstruating woman sexually.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd16sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit la flagellation pour avoir supprimé le flux menstruel ou touché sexuellement à plusieurs reprises une femme menstruée."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:10",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 18.74-76",
+    "summary": "Prescribes two thousand lashes and threatens a dark afterlife for failure to complete the prescribed atonement.",
+    "themes": [
+      "Cruel and disproportionate punishments"
+    ],
+    "originalTheme": "Cruel and disproportionate punishments",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd18sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit deux mille coups de fouet et menace d'un au-delà obscur en cas d'expiation incomplète."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:14",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 7.36-40",
+    "summary": "Requires aspiring surgeons to demonstrate competence on non-Mazda worshippers before treating Mazda worshippers.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd7sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige des apprentis chirurgiens de prouver leur compétence sur des non-mazdéens avant de traiter les mazdéens."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:15",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 15.1-2",
+    "summary": "Classifies knowingly leading a Mazda worshipper into another faith as a serious punishable offense.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd15sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Classe le fait d'amener sciemment un mazdéen à une autre foi parmi les fautes graves punissables."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:16",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 18.8-10",
+    "summary": "Associates teaching another religion with death and condemns releasing the imprisoned offender, in Darmesteter's reading.",
+    "themes": [
+      "Religious intolerance"
+    ],
+    "originalTheme": "Religious intolerance",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd18sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Associe l'enseignement d'une autre religion à la mort et condamne la libération du fautif emprisonné, selon Darmesteter."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:20",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 7.60-64",
+    "summary": "Requires secluding a woman after stillbirth, away from sacred elements and other worshippers.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd7sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Impose d'isoler une femme après une mortinaissance, loin des éléments sacrés et des fidèles."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:21",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 7.65-72",
+    "summary": "Prescribes ritual drinks and restricts water after stillbirth; permits lifesaving water but imposes a penalty.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd7sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Prescrit des boissons rituelles après une mortinaissance et limite l'eau ; autorise l'eau vitale mais impose une peine."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:22",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 15.9-12",
+    "summary": "Prohibits abortion motivated by shame and assigns the deliberate-murder penalty to both parents.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd15sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Interdit l'avortement motivé par la honte et inflige aux deux parents la peine du meurtre volontaire."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:23",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 15.13-14",
+    "summary": "Assigns guilt to a pregnant woman, the father and the midwife in a described induced abortion.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd15sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Attribue la faute à la femme enceinte, au père et à la sage-femme dans un avortement provoqué."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:24",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 16.1-7",
+    "summary": "Isolates menstruating women from sacred elements and people, and prescribes purification after contact.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd16sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Isole les femmes menstruées des éléments sacrés et des personnes, et prescrit une purification après contact."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:25",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 16.8-12",
+    "summary": "Attributes prolonged bleeding to demons and prescribes ritual washing and animal killing.",
+    "themes": [
+      "Women's rights"
+    ],
+    "originalTheme": "Women's rights",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd16sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Attribue les saignements prolongés aux démons et prescrit des ablutions rituelles et la mise à mort d'animaux."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:29",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 8.27-30",
+    "summary": "Treats consensual male same-sex intercourse as irredeemable for adherents, while allowing converts atonement under conditions.",
+    "themes": [
+      "LGBT discrimination"
+    ],
+    "originalTheme": "LGBT discrimination",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd8sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Considère les rapports homosexuels masculins consentis comme inexpiables pour les fidèles, mais permet l'expiation aux convertis sous conditions."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:30",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 8.31-32",
+    "summary": "Identifies men engaging in male same-sex intercourse with demonic beings.",
+    "themes": [
+      "LGBT discrimination"
+    ],
+    "originalTheme": "LGBT discrimination",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd8sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Assimile les hommes ayant des rapports homosexuels à des êtres démoniaques."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:34",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 14.5-6",
+    "summary": "Requires killing tens of thousands of designated animals and insects to expiate killing an otter.",
+    "themes": [
+      "Animal cruelty"
+    ],
+    "originalTheme": "Animal cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd14sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige de tuer des dizaines de milliers d'animaux et d'insectes désignés pour expier la mort d'une loutre."
+    }
+  },
+  {
+    "id": "zoroastrianism/vendidad.md:35",
+    "kind": "generic",
+    "religion": "Zoroastrianism",
+    "collection": "Vendidad",
+    "book": "Vendidad",
+    "reference": "Vendidad 18.70-73",
+    "summary": "Requires extensive animal slaughter and offerings as atonement for intercourse during menstruation.",
+    "themes": [
+      "Animal cruelty"
+    ],
+    "originalTheme": "Animal cruelty",
+    "tradition": "",
+    "sources": [
+      [
+        "www.avesta.org",
+        "https://www.avesta.org/vendidad/vd18sbe.htm"
+      ]
+    ],
+    "translations": {
+      "fr": "Exige de nombreux abattages d'animaux et des offrandes pour expier des rapports pendant les règles."
     }
   }
 ]

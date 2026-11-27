@@ -646,3 +646,8 @@ details.entry {
     width: min(72%, 190px);
   }
 }
+
+/* Sources always starts on its own line, even with context collapsed. */
+.sources-heading {
+  display: block;
+}

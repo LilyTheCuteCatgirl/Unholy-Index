@@ -9,6 +9,7 @@ from pathlib import Path
 from urllib.request import Request, urlopen
 
 from build import build
+from extra_texts import import_extra
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "generated" / "texts.json"
@@ -38,18 +39,18 @@ EDITIONS = {
 }
 
 
-def download(url):
+def download(url, timeout=30, attempts=2):
     """Fetch a complete edition with bounded retries and response size."""
-    for attempt in range(2):
+    for attempt in range(attempts):
         try:
             request = Request(url, headers={"User-Agent": "Unholy-Index/1.0 (text import)"})
-            with urlopen(request, timeout=30) as response:
+            with urlopen(request, timeout=timeout) as response:
                 data = response.read(40_000_001)
             if len(data) > 40_000_000:
                 raise ValueError("Edition exceeds download limit")
             return data
         except (OSError, ValueError):
-            if attempt:
+            if attempt == attempts - 1:
                 raise
             time.sleep(2)
 
@@ -166,6 +167,7 @@ def generate(entries):
             }
             count += 1
         print(f"Imported {count}/{len(relevant)} entries from {edition}", flush=True)
+    records.update(import_extra(entries, lambda url: download(url, timeout=12, attempts=1), passage_key))
     return records
 
 
@@ -176,7 +178,7 @@ def main():
     if OUTPUT.exists():
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
-            valid = {passage_key(entry) for entry in entries if entry["kind"] in ("bible", "quran")}
+            valid = {passage_key(entry) for entry in entries if entry["kind"] in ("bible", "quran", "generic")}
             for key in valid:
                 for language, result in previous.get(key, {}).items():
                     if language in ("en", "fr") and isinstance(result, dict):
