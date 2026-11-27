@@ -119,6 +119,21 @@ def select_verses(entry, index):
     return verses or None
 
 
+def select_context(entry, index):
+    """Include up to three neighboring verses on either side, within each chapter."""
+    book = BIBLE_BOOKS.get(entry["book"])
+    numbers = set()
+    for chapter, start, end in entry["ranges"]:
+        numbers.update((chapter, verse) for verse in range(max(1, start - 3), end + 4))
+    context = []
+    for chapter, verse in sorted(numbers):
+        key = (book, chapter, verse) if entry["kind"] == "bible" else (chapter, verse)
+        text = index.get(key)
+        if isinstance(text, str) and text.strip():
+            context.append({"number": f"{chapter}:{verse}", "text": text})
+    return context
+
+
 def generate(entries):
     """Import available licensed editions and retain only indexed passages."""
     records = {}
@@ -147,6 +162,7 @@ def generate(entries):
                 "language": language,
                 "source": source,
                 "verses": verses,
+                "context": select_context(entry, index),
             }
             count += 1
         print(f"Imported {count}/{len(relevant)} entries from {edition}", flush=True)

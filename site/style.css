@@ -413,3 +413,143 @@ details.entry {
   opacity: 0;
   pointer-events: none;
 }
+
+/* Overview and context use the existing dark palette. */
+.home-button {
+  width: 100%;
+  text-align: left;
+  min-height: 44px;
+}
+
+.overview-intro {
+  margin: 4px 0 18px;
+}
+
+.overview-intro p {
+  margin: 4px 0 0;
+}
+
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 12px;
+}
+
+.religion-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 18px;
+  background: var(--panel);
+  border-color: var(--line);
+  border-radius: 9px;
+  min-width: 0;
+}
+
+.religion-card:hover {
+  background: #222;
+  border-color: #646464;
+}
+
+.overview-title {
+  font-size: 21px;
+  font-weight: 650;
+}
+
+.overview-count {
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.overview-chart {
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.theme-stat {
+  display: grid;
+  gap: 5px;
+}
+
+.theme-stat-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+
+.theme-count {
+  font-variant-numeric: tabular-nums;
+  color: var(--muted);
+}
+
+.theme-track {
+  display: block;
+  background: #303030;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.theme-bar {
+  display: block;
+  height: 100%;
+  background: #9cabc1;
+  border-radius: 3px;
+}
+
+.overview-open {
+  margin-top: auto;
+  color: #b3c9eb;
+  font-size: 14px;
+}
+
+.overview-note {
+  margin-top: 16px;
+}
+
+.expanded > button[aria-expanded] {
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.context-panel {
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 14px;
+}
+
+.context-body {
+  margin-bottom: 0;
+}
+
+.context-line {
+  padding: 3px 6px;
+  border-left: 2px solid transparent;
+}
+
+.context-selected {
+  background: #262d38;
+  border-left-color: #9cabc1;
+}
+
+.context-gap {
+  padding-left: 6px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

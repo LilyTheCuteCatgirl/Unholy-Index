@@ -1,4 +1,5 @@
 let DATA = [];
+let VIEW = 'home';
 const $ = id => document.getElementById(id);
 const el = (tag, cls, text) => {
   const n = document.createElement(tag);
@@ -304,6 +305,106 @@ function displayPassage(target, result) {
   }));
 }
 
+// Context stays separate from the original passage and clipboard payload.
+function selectedVerse(e, number) {
+  const [chapter, verse] = number.split(':').map(Number);
+  return e.ranges.some(([c, start, end]) => c === chapter && verse >= start && verse <= end);
+}
+
+function contextForRanges(e, verses) {
+  const byNumber = new Map(verses.filter(v =>
+    /^\d+:\d+$/.test(v?.number) && typeof v.text === 'string' && v.text.trim(),
+  ).map(v => [v.number, v]));
+  const result = [];
+  const seen = new Set();
+  for (const [chapter, start, end] of e.ranges) {
+    for (let n = start; n <= end; n++) {
+      if (!byNumber.has(`${chapter}:${n}`))
+        throw Error('Context missing selected verse');
+    }
+    for (let n = Math.max(1, start - 3); n <= end + 3; n++) {
+      const number = `${chapter}:${n}`;
+      if (byNumber.has(number) && !seen.has(number)) {
+        result.push(byNumber.get(number));
+        seen.add(number);
+      }
+    }
+  }
+  return result.sort((a, b) => {
+    const [ac, av] = a.number.split(':').map(Number);
+    const [bc, bv] = b.number.split(':').map(Number);
+    return ac - bc || av - bv;
+  });
+}
+
+async function readContext(e, result) {
+  if (Array.isArray(result.context)) {
+    try {
+      const local = contextForRanges(e, result.context);
+      const byNumber = new Map(local.map(v => [v.number, v.text.trim()]));
+      if (result.verses.every(v => byNumber.get(v.number) === v.text.trim()))
+        return { edition: result.edition, language: result.language, verses: local };
+    } catch {
+      // A stale or incomplete context cache must not replace the original text.
+    }
+  }
+  // Old caches and unavailable local editions can use the existing online providers.
+  const chapters = [...new Set(e.ranges.map(([chapter]) => chapter))];
+  const verses = [];
+  let edition;
+  for (const chapter of chapters) {
+    if (e.kind === 'quran') {
+      const code = result.language === 'fr' ? 'fr.hamidullah' : 'en.pickthall';
+      const data = await getJSON(`https://api.alquran.cloud/v1/surah/${chapter}/${code}`);
+      const ayahs = data.data?.ayahs;
+      if (data.data?.number !== chapter || data.data?.edition?.identifier !== code ||
+          !Array.isArray(ayahs) || ayahs.length !== data.data.numberOfAyahs ||
+          ayahs.some((v, i) => v.numberInSurah !== i + 1 || typeof v.text !== 'string' || !v.text.trim()))
+        throw Error('Invalid context chapter');
+      verses.push(...ayahs.map(v => ({ number: `${chapter}:${v.numberInSurah}`, text: v.text.trim() })));
+      edition = result.language === 'fr' ? 'Muhammad Hamidullah - Al Quran Cloud' : 'Pickthall - Al Quran Cloud';
+    } else {
+      let data;
+      if (result.language === 'fr') {
+        const url = frenchBibleURL(e, chapter);
+        if (!url)
+          throw Error('Unknown Bible book');
+        data = await getJSON(url);
+        const book = BIBLE_BOOKS.indexOf(e.book === 'Psalm' ? 'Psalms' : e.book) + 1;
+        if (data.abbreviation !== 'ls1910' || data.lang !== 'fr' || data.book_nr !== book || data.chapter !== chapter)
+          throw Error('Invalid context chapter');
+        edition = 'Louis Segond (1910) - GetBible';
+      } else {
+        const url = 'https://bible-api.com/' + encodeURIComponent(`${e.book} ${chapter}`) + '?translation=web';
+        data = await getJSON(url);
+        edition = data.translation_name || 'World English Bible';
+      }
+      if (!data.verses?.length)
+        throw Error('Empty context chapter');
+      verses.push(...formatBibleVerses(data.verses, chapter, 1, data.verses.length));
+    }
+  }
+  return { edition, language: result.language, verses: contextForRanges(e, verses) };
+}
+
+function displayContext(target, e, result) {
+  target.replaceChildren();
+  let previous;
+  for (const verse of result.verses) {
+    const [chapter, number] = verse.number.split(':').map(Number);
+    if (previous && (previous[0] !== chapter || previous[1] + 1 !== number))
+      target.append(el('div', 'muted context-gap', '…'));
+    const line = el('div', 'verse-line context-line');
+    if (selectedVerse(e, verse.number)) {
+      line.classList.add('context-selected');
+      line.append(el('span', 'sr-only', tr('Indexed verse:')));
+    }
+    line.append(el('span', 'verse-number', verse.number), el('span', 'verse-text', verse.text));
+    target.append(line);
+    previous = [chapter, number];
+  }
+}
+
 function entry(e) {
   const d = el('details', 'entry');
   d.dataset.passageKey = passageKey(e);
@@ -335,6 +436,41 @@ function entry(e) {
   status.setAttribute('role', 'status');
   actions.append(shareButton, copyButton, status);
   let currentResult = null;
+  const contextButton = el('button', '', tr('Show surrounding context'));
+  contextButton.type = 'button';
+  contextButton.hidden = true;
+  contextButton.setAttribute('aria-expanded', 'false');
+  const contextPanel = el('div', 'context-panel');
+  contextPanel.hidden = true;
+  const contextEdition = el('div', 'muted');
+  const contextBody = el('div', 'verse context-body');
+  contextBody.setAttribute('aria-live', 'polite');
+  contextPanel.append(contextEdition, contextBody);
+  let contextLoaded = false;
+  contextButton.onclick = async () => {
+    if (!currentResult)
+      return;
+    const opening = contextPanel.hidden;
+    contextPanel.hidden = !opening;
+    contextButton.setAttribute('aria-expanded', String(opening));
+    contextButton.textContent = tr(opening ? 'Hide surrounding context' : 'Show surrounding context');
+    if (!opening || contextLoaded)
+      return;
+    contextLoaded = true;
+    contextBody.textContent = tr('Loading...');
+    try {
+      const result = await readContext(e, currentResult);
+      contextEdition.textContent = result.edition + ' · ' + tr('Indexed verses highlighted');
+      contextBody.lang = result.language;
+      if (result.verses.every(v => selectedVerse(e, v.number)))
+        contextBody.textContent = tr('No neighboring verses in this chapter.');
+      else
+        displayContext(contextBody, e, result);
+    } catch {
+      contextBody.textContent = tr('Context unavailable. See the source links below.');
+      contextLoaded = false;
+    }
+  };
   shareButton.onclick = async () => {
     status.textContent = await copyText(passageURL(e)) ? tr('Link copied') : '';
   };
@@ -344,7 +480,7 @@ function entry(e) {
     const copied = await copyText(passageText(e, currentResult));
     status.textContent = copied ? tr('Passage copied') : '';
   };
-  panel.append(edition, verse, el('strong', '', tr('Sources')), sources, retry, actions);
+  panel.append(edition, verse, contextButton, contextPanel, el('strong', '', tr('Sources')), sources, retry, actions);
   d.append(panel);
   let loaded = false;
   async function load() {
@@ -358,6 +494,7 @@ function entry(e) {
       const result = await read(e);
       if (result) {
         currentResult = result;
+        contextButton.hidden = !['bible', 'quran'].includes(e.kind) || !Array.isArray(result.verses);
         if (result.source && !sourceLinks.some(([, url]) => url === result.source)) {
           const localSource = [result.edition, result.source];
           sourceLinks.unshift(localSource);
@@ -428,7 +565,93 @@ function matchesSearch(entry, terms) {
   });
 }
 
+function religionStats(entries) {
+  const stats = new Map();
+  for (const entry of entries) {
+    if (!stats.has(entry.religion))
+      stats.set(entry.religion, { count: 0, themes: new Map() });
+    const group = stats.get(entry.religion);
+    group.count++;
+    for (const theme of new Set(entry.themes))
+      group.themes.set(theme, (group.themes.get(theme) ?? 0) + 1);
+  }
+  return [...stats].map(([religion, group]) => ({
+    religion,
+    count: group.count,
+    top: [...group.themes].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).slice(0, 3),
+  }));
+}
+
+function openReligion(religion) {
+  VIEW = 'browse';
+  $('search').value = '';
+  $('religion').value = religion;
+  $('book').value = '';
+  $('theme').value = '';
+  updateBooks();
+  updateThemes();
+  render();
+  window.scrollTo(0, 0);
+}
+
+function goHome() {
+  VIEW = 'home';
+  $('search').value = '';
+  $('religion').value = '';
+  $('book').value = '';
+  $('theme').value = '';
+  updateBooks();
+  updateThemes();
+  if (drawer.open)
+    drawer.close();
+  // Clear shared-passage parameters so a refresh stays on the overview.
+  const url = new URL(window.location.href);
+  for (const key of ['religion', 'book', 'ref'])
+    url.searchParams.delete(key);
+  window.history.replaceState(null, '', url);
+  render();
+  window.scrollTo(0, 0);
+}
+
+function renderHome(target) {
+  target.replaceChildren();
+  $('count').textContent = DATA.length + ' ' + tr('indexed passages');
+  $('active-filters').textContent = '';
+  const intro = el('div', 'overview-intro');
+  intro.append(el('h2', '', tr('Explore religions')), el('p', 'muted', tr('Select a religion to browse its indexed passages.')));
+  target.append(intro);
+  const grid = el('div', 'overview-grid');
+  for (const { religion, count, top } of religionStats(DATA)) {
+    const card = el('button', 'religion-card');
+    card.type = 'button';
+    const heading = el('span', 'overview-title', tr(religion));
+    card.append(heading, el('span', 'overview-count', `${count} ${tr(count === 1 ? 'indexed passage' : 'indexed passages')}`));
+    const chart = el('span', 'overview-chart');
+    chart.append(el('span', 'muted', tr('Top themes')));
+    for (const [theme, amount] of top) {
+      const row = el('span', 'theme-stat');
+      const label = el('span', 'theme-stat-label');
+      label.append(el('span', '', tr(theme)), el('span', 'theme-count', String(amount)));
+      const track = el('span', 'theme-track');
+      track.setAttribute('aria-hidden', 'true');
+      const bar = el('span', 'theme-bar');
+      bar.style.width = `${100 * amount / count}%`;
+      track.append(bar);
+      row.append(label, track);
+      chart.append(row);
+    }
+    card.append(chart, el('span', 'overview-open', tr('Browse passages') + ' '));
+    card.onclick = () => openReligion(religion);
+    grid.append(card);
+  }
+  target.append(grid, el('p', 'muted overview-note', tr('Counts describe this index, not entire religions. Entries can belong to multiple themes.')));
+}
+
 function render() {
+  if (VIEW === 'home') {
+    renderHome($('results'));
+    return;
+  }
   const theme = $('theme').value;
   const terms = normalizeSearch($('search').value).trim().split(/\s+/).filter(Boolean);
   const items = bookBase().filter(e =>
@@ -471,17 +694,27 @@ function render() {
     target.append(section);
   }
 }
+$('home').onclick = goHome;
 $('religion').onchange = () => {
+  VIEW = 'browse';
   updateBooks();
   updateThemes();
   render();
 };
 $('book').onchange = () => {
+  VIEW = 'browse';
   updateThemes();
   render();
 };
-$('theme').onchange = render;
-$('search').addEventListener('input', render);
+$('theme').onchange = () => {
+  VIEW = 'browse';
+  render();
+};
+$('search').addEventListener('input', () => {
+  if ($('search').value.trim())
+    VIEW = 'browse';
+  render();
+});
 function localize() {
   document.documentElement.lang = LANG;
   document.querySelectorAll('[data-i18n]').forEach(n => n.textContent = tr(n.dataset.i18n));
@@ -518,6 +751,8 @@ async function init() {
     const requestedLanguage = params.get('lang');
     if (requestedLanguage === 'en' || requestedLanguage === 'fr')
       LANG = requestedLanguage;
+    if (params.has('ref'))
+      VIEW = 'browse';
     localize();
     localTexts().then(() => {
       if ($('search').value.trim())
