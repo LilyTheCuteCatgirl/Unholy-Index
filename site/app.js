@@ -88,33 +88,118 @@ async function getJSON(url) {
     throw e;
   }
 }
-async function read(e) {
-  const language = LANG;
-  if (e.kind === 'bible') {
-    let d = await getJSON('https://bible-api.com/' + encodeURIComponent(e.reference) + '?translation=web');
-    let [c, a, b] = e.ranges[0];
-    if (!Array.isArray(d.verses) || d.verses.length !== b - a + 1 || d.verses.some((v, i) => v.chapter !== c || v.verse !== a + i))
-      throw Error('Incomplete or mismatched verse range');
-    return { edition: d.translation_name || 'World English Bible', text: d.verses.map(v => v.chapter + ':' + v.verse + '  ' + v.text.trim()).join('\n\n') };
+const BIBLE_BOOKS = [
+  'Genesis', 'Exodus', 'Leviticus', 'Numbers', 'Deuteronomy', 'Joshua',
+  'Judges', 'Ruth', '1 Samuel', '2 Samuel', '1 Kings', '2 Kings',
+  '1 Chronicles', '2 Chronicles', 'Ezra', 'Nehemiah', 'Esther', 'Job',
+  'Psalms', 'Proverbs', 'Ecclesiastes', 'Song of Solomon', 'Isaiah',
+  'Jeremiah', 'Lamentations', 'Ezekiel', 'Daniel', 'Hosea', 'Joel',
+  'Amos', 'Obadiah', 'Jonah', 'Micah', 'Nahum', 'Habakkuk', 'Zephaniah',
+  'Haggai', 'Zechariah', 'Malachi', 'Matthew', 'Mark', 'Luke', 'John',
+  'Acts', 'Romans', '1 Corinthians', '2 Corinthians', 'Galatians',
+  'Ephesians', 'Philippians', 'Colossians', '1 Thessalonians',
+  '2 Thessalonians', '1 Timothy', '2 Timothy', 'Titus', 'Philemon',
+  'Hebrews', 'James', '1 Peter', '2 Peter', '1 John', '2 John', '3 John',
+  'Jude', 'Revelation',
+];
+
+function frenchBibleURL(e) {
+  const name = e.book === 'Psalm' ? 'Psalms' : e.book;
+  const book = BIBLE_BOOKS.indexOf(name) + 1;
+  if (!book || !e.ranges?.length)
+    return null;
+  const [chapter] = e.ranges[0];
+  return `https://api.getbible.net/v2/ls1910/${book}/${chapter}.json`;
+}
+
+function frenchHadithURL(e) {
+  // Keep the existing conservative numbering restrictions from the builder.
+  if (!e.hadithAPI || !['bukhari', 'abudawud', 'nasai'].includes(e.slug))
+    return null;
+  return e.hadithAPI.replace('/eng-', '/fra-');
+}
+
+function formatBibleVerses(verses, chapter, start, end) {
+  if (!Array.isArray(verses) || verses.length !== end - start + 1 ||
+      verses.some((v, i) => v.chapter !== chapter || v.verse !== start + i ||
+        typeof v.text !== 'string' || !v.text.trim()))
+    throw Error('Incomplete or mismatched verse range');
+  return verses.map(v => `${v.chapter}:${v.verse}  ${v.text.trim()}`).join('\n\n');
+}
+
+async function readBible(e, language) {
+  const [chapter, start, end] = e.ranges[0];
+  if (language === 'fr') {
+    const url = frenchBibleURL(e);
+    if (!url)
+      throw Error('French Bible reference not supported');
+    const data = await getJSON(url);
+    const book = BIBLE_BOOKS.indexOf(e.book === 'Psalm' ? 'Psalms' : e.book) + 1;
+    if (data.abbreviation !== 'ls1910' || data.lang !== 'fr' ||
+        data.book_nr !== book || data.chapter !== chapter)
+      throw Error('Mismatched French Bible chapter');
+    const verses = data.verses?.filter(v => v.verse >= start && v.verse <= end);
+    return {
+      edition: 'Louis Segond (1910) - GetBible',
+      language: 'fr',
+      text: formatBibleVerses(verses, chapter, start, end),
+    };
   }
+  const data = await getJSON('https://bible-api.com/' + encodeURIComponent(e.reference) + '?translation=web');
+  return {
+    edition: data.translation_name || 'World English Bible',
+    language: 'en',
+    text: formatBibleVerses(data.verses, chapter, start, end),
+  };
+}
+
+async function readHadith(e, url, language) {
+  const data = await getJSON(url);
+  const number = Number(e.hadithNumber);
+  const hadith = data.hadiths?.find(h => Number(h.hadithnumber) === number && Number(h.arabicnumber) === number);
+  if (typeof hadith?.text !== 'string' || !hadith.text.trim())
+    throw Error('Numbering could not be matched or text missing');
+  return {
+    edition: tr(language === 'fr' ? 'French hadith edition' : 'English hadith edition'),
+    language,
+    text: hadith.text,
+  };
+}
+
+async function read(e, language = LANG) {
+  if (e.kind === 'bible')
+    return readBible(e, language);
   if (e.kind === 'quran') {
-    let parts = [];
-    for (let [c, a, b] of e.ranges) {
-      let d = await getJSON('https://api.alquran.cloud/v1/surah/' + c + (language === 'fr' ? '/fr.hamidullah' : '/en.pickthall'));
-      let verses = d.data?.ayahs?.filter(v => v.numberInSurah >= a && v.numberInSurah <= b);
-      if (d.data?.number !== c || !verses || verses.length !== b - a + 1)
+    const parts = [];
+    for (const [c, a, b] of e.ranges) {
+      const edition = language === 'fr' ? 'fr.hamidullah' : 'en.pickthall';
+      const data = await getJSON(`https://api.alquran.cloud/v1/surah/${c}/${edition}`);
+      const verses = data.data?.ayahs?.filter(v => v.numberInSurah >= a && v.numberInSurah <= b);
+      if (data.data?.number !== c || data.data?.edition?.identifier !== edition ||
+          !verses || verses.length !== b - a + 1 ||
+          verses.some((v, i) => v.numberInSurah !== a + i || typeof v.text !== 'string' || !v.text.trim()))
         throw Error('Incomplete or mismatched verse range');
       parts.push(...verses.map(v => c + ':' + v.numberInSurah + '  ' + v.text));
     }
-    return { edition: language === 'fr' ? 'Muhammad Hamidullah - Al Quran Cloud' : 'Pickthall - Al Quran Cloud', text: parts.join('\n\n') };
+    return {
+      edition: language === 'fr' ? 'Muhammad Hamidullah - Al Quran Cloud' : 'Pickthall - Al Quran Cloud',
+      language,
+      text: parts.join('\n\n'),
+    };
   }
   if (e.hadithAPI) {
-    let d = await getJSON(e.hadithAPI);
-    let n = Number(e.hadithNumber);
-    let h = d.hadiths?.find(x => Number(x.hadithnumber) === n && Number(x.arabicnumber) === n);
-    if (!h?.text)
-      throw Error('Numbering could not be matched');
-    return { edition: 'Hadith API - English edition (compare Sunnah.com)', text: h.text };
+    if (language === 'fr') {
+      const url = frenchHadithURL(e);
+      if (url) {
+        try {
+          return await readHadith(e, url, 'fr');
+        }
+        catch {
+          // An unavailable or mismatched French narration must never be mislabeled.
+        }
+      }
+    }
+    return readHadith(e, e.hadithAPI, 'en');
   }
   return null;
 }
@@ -150,7 +235,8 @@ function entry(e) {
     try {
       const result = await read(e);
       if (result) {
-        edition.textContent = (LANG === 'fr' && e.kind !== 'quran' ? tr('English full text') + ' - ' : '') + result.edition;
+        edition.textContent = (LANG === 'fr' && result.language === 'en' ? tr('French unavailable; English text shown') + ' - ' : '') + result.edition;
+        verse.lang = result.language;
         verse.textContent = result.text;
       }
       else {
